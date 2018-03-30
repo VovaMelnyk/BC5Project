@@ -11,7 +11,9 @@ $dark-blue: #052139;
 $footer: #202020;
 
 @function rem($px){
+  
     $result: $px/16;
+
     @return #{$result}rem;
   }
 
