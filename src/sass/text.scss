@@ -1,0 +1,121 @@
+.text {
+  font-family:$acrom;
+  font-size: rem(9);
+  color: $black;
+
+
+  &--center {
+    text-align: center;
+  }
+
+  &--black {
+    font-weight: 700;
+
+    &--counter:before {
+      content: "";
+      display: block;
+      background-image: url("../img/Rectangle 62@1X.png");
+      text-align: left;
+    }
+  }
+
+
+  &--orange {
+    color: $orange;
+    font-size: rem(10);
+
+    &--center {
+      text-align: center;
+    }
+
+    &--before:before {
+      display: block;
+      content:"/";
+      font-size: rem(18);
+    }
+  }
+
+  }
+
+
+@media (min-width: 480px) {
+
+  .text {
+    font-size: rem(13);
+
+    &--orange {
+      font-size: rem(14);
+
+      &--before:before {
+        display: block;
+        content:"/";
+        font-size: rem(21);
+      }
+
+    }
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .text {
+    font-size: rem(8);
+
+    &--orange {
+      font-size: rem(9);
+
+      &--before:before {
+        display: block;
+        content:"/";
+        font-size: rem(16);
+      }
+    }
+
+  }
+
+}
+
+
+@media (min-width: 960px) {
+
+  .text {
+    font-size: rem(10);
+
+    &--orange {
+      font-size: rem(12);
+
+    }
+
+
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .text {
+    font-size: rem(9);
+
+    &--orange {
+      font-size: rem(10);
+
+    }
+
+  }
+
+}
+
+@media (min-width: 1440px) {
+
+  .text {
+    font-size: rem(11);
+
+    &--orange {
+      font-size: rem(12);
+
+    }
+
+  }
+
+}
