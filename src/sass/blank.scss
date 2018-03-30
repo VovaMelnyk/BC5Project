@@ -1,0 +1,105 @@
+.blank {
+  font-family: $acrom;
+  font-size: rem(10);
+  font-weight: 600;
+  font-style: normal;  
+  color: $black;
+
+  &:before {
+    display: block;
+    content: "";
+    width: rem(3);
+    height: rem(14);
+    background: $black;
+  }
+}
+
+@media (min-width: 480px) {
+  .blank {
+    font-family: $acrom;
+    font-size: rem(12);
+    font-weight: 600;
+    font-style: normal;
+    color: $black;
+
+    &:before {
+      display: block;
+      content: "";
+      width: rem(4);
+      height: rem(25);
+      background: $black;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .blank {
+    font-family: $acrom;
+    font-size: rem(14);
+    font-weight: 600;
+    font-style: normal;    
+    color: $black;
+
+    &:before {
+      display: block;
+      content: "";
+      width: rem(5);
+      height: rem(29);
+      background: $black;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  .blank {
+    font-family: $acrom;
+    font-size: rem(16);
+    font-weight: 600;
+    font-style: normal;    
+    color: $black;
+  
+    &:before {
+      display: block;
+      content: "";
+      width: rem(5);
+      height: rem(36);
+      background: $black;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .blank {
+    font-family: $acrom;
+    font-size: rem(18);
+    font-weight: 600;
+    font-style: normal;    
+    color: $black;
+  
+    &:before {
+      display: block;
+      content: "";
+      width: rem(5);
+      height: rem(32);
+      background: $black;
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .blank {
+    font-family: $acrom;
+    font-size: rem(20);
+    font-weight: 600;
+    font-style: normal;    
+    color: $black;
+  
+    &:before {
+      display: block;
+      content: "";
+      width: rem(5);
+      height: rem(38);
+      background: $black;
+    }
+  }
+}
