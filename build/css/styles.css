@@ -1,0 +1,22 @@
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.blue {
+	color: #000;
+	background-color: #16ebfe;
+	font-family: "Acrom", sans-serif;
+	font-weight: 600;
+	font-size: 0.625rem;
+}
+
+.black {
+	color: #ffffff;
+	background-color: #000;
+	font-family: "Acrom", sans-serif;
+	font-weight: 600;
+	font-size: 0.625rem;
+}
+
