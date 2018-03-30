@@ -76,6 +76,8 @@ img {
 	width: 0.875rem;
 	height: 0.1875rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 1.25rem;
 }
 
 .text {
@@ -84,19 +86,8 @@ img {
 	color: #000;
 }
 
-.text--center {
-	text-align: center;
-}
-
 .text--black {
 	font-weight: 700;
-}
-
-.text--black--counter:before {
-	content: "";
-	display: block;
-	background-image: url("../img/Rectangle 62@1X.png");
-	text-align: left;
 }
 
 .text--orange {
@@ -109,9 +100,10 @@ img {
 }
 
 .text--orange--before:before {
-	display: block;
+	display: inline-block;
 	content: "/";
 	font-size: 1.125rem;
+	margin-right: 0.5rem;
 }
 
 .title {
@@ -158,6 +150,8 @@ img {
 	width: 1.5625rem;
 	height: 0.25rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 0.8125rem;
 }
 
 .text {
@@ -169,7 +163,7 @@ img {
 }
 
 .text--orange--before:before {
-	display: block;
+	display: inline-block;
 	content: "/";
 	font-size: 1.3125rem;
 }
@@ -209,6 +203,8 @@ img {
 	width: 1.8125rem;
 	height: 0.3125rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 1.125rem;
 }
 
 .text {
@@ -220,9 +216,10 @@ img {
 }
 
 .text--orange--before:before {
-	display: block;
+	display: inline-block;
 	content: "/";
 	font-size: 1rem;
+	margin-right: 1.25rem;
 }
 
 .title {
@@ -255,6 +252,8 @@ img {
 	width: 2.25rem;
 	height: 0.3125rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 1.375rem;
 }
 
 .text {
@@ -300,6 +299,8 @@ img {
 	width: 2rem;
 	height: 0.3125rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 1.375rem;
 }
 
 .text {
@@ -354,6 +355,8 @@ img {
 	width: 2.375rem;
 	height: 0.3125rem;
 	background: #000;
+	vertical-align: top;
+	margin-right: 1.375rem;
 }
 
 .text {
