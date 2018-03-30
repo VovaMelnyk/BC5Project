@@ -3,20 +3,8 @@
   font-size: rem(9);
   color: $black;
 
-
-  &--center {
-    text-align: center;
-  }
-
   &--black {
     font-weight: 700;
-
-    &--counter:before {
-      content: "";
-      display: block;
-      background-image: url("../img/Rectangle 62@1X.png");
-      text-align: left;
-    }
   }
 
 
@@ -29,9 +17,10 @@
     }
 
     &--before:before {
-      display: block;
+      display: inline-block;
       content:"/";
       font-size: rem(18);
+      margin-right: rem(8);
     }
   }
 
@@ -47,14 +36,13 @@
       font-size: rem(14);
 
       &--before:before {
-        display: block;
+        display: inline-block;
         content:"/";
         font-size: rem(21);
       }
 
     }
   }
-
 }
 
 @media (min-width: 768px) {
@@ -66,9 +54,10 @@
       font-size: rem(9);
 
       &--before:before {
-        display: block;
+        display: inline-block;
         content:"/";
         font-size: rem(16);
+        margin-right: rem(20);
       }
     }
 
