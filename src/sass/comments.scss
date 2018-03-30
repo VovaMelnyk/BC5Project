@@ -7,21 +7,29 @@
 }
 
 @media (min-width: 480px) {
-  font-size: rem(13.5);
-  line-height: rem(20);
+  .comments {
+    font-size: rem(13.5);
+    line-height: rem(20);
+  }
 }
 
 @media (min-width: 960px) {
-  font-size: rem(16.82);
-  line-height: rem(25);
+  .comments {
+    font-size: rem(16.82);
+    line-height: rem(25);
+  }
 }
 
 @media (min-width: 1200px) {
-  font-size: rem(15);
-  line-height: rem(22);
+  .comments {
+    font-size: rem(15);
+    line-height: rem(22);
+  }
 }
 
 @media (min-width: 1400px) {
-  font-size: rem(18);
-  line-height: rem(27);
+  .comments {
+    font-size: rem(18);
+    line-height: rem(27);
+  }
 }
