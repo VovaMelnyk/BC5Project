@@ -10,8 +10,6 @@ img {
 	height: auto;
 }
 
-<<<<<<< HEAD
-=======
 ul {
 	list-style: none;
 }
@@ -20,7 +18,6 @@ a {
 	text-decoration: none;
 }
 
->>>>>>> 41e384ac04225a5f67aebaa741aeb39de3f1a94a
 .container {
 	max-width: 53.4375rem;
 	min-width: 20rem;
@@ -160,7 +157,24 @@ a {
 	text-transform: uppercase;
 }
 
-<<<<<<< HEAD
+.counter {
+	font-family: "Acrom", sans-serif;
+	font-size: 0.625rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.counter:before {
+	position: absolute;
+	content: "";
+	width: 0.3125rem;
+	height: 0.3125rem;
+	background-color: #000;
+	top: 0.3125rem;
+	left: -0.625rem;
+}
+
 .start {
 	margin-top: 2.25rem;
 	display: flex;
@@ -225,27 +239,6 @@ a {
 	width: 58.4375%;
 	display: block;
 	margin: auto;
-}
-
-@media (min-width: 480px) {
-=======
-.counter {
-	font-family: "Acrom", sans-serif;
-	font-size: 0.625rem;
-	font-weight: 700;
-	text-transform: uppercase;
-	position: relative;
-}
->>>>>>> 41e384ac04225a5f67aebaa741aeb39de3f1a94a
-
-.counter:before {
-	position: absolute;
-	content: "";
-	width: 0.3125rem;
-	height: 0.3125rem;
-	background-color: #000;
-	top: 0.3125rem;
-	left: -0.625rem;
 }
 
 @media (min-width: 480px) {
