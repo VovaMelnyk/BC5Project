@@ -1,0 +1,80 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: rem(855);
+  min-width: rem(320);
+  padding: 0 rem(16);
+  margin: auto;
+}
+
+.action{
+  padding: rem(57) 0;
+}
+
+.action__slogan{
+  margin: 0 auto rem(28);
+  width: rem(147);
+}
+
+
+h2{
+  font-size: rem(12);
+  font-family: Acrom, sans-serif;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: rem(16);
+  margin: 0 0 rem(17);
+}
+
+.tekst1{
+  font-size: rem(9);
+  font-family: Acrom, sans-serif;
+  color: #000;
+  line-height: rem(13);
+  margin: 0 0 rem(22);
+}
+
+.tekst1--bold{
+  font-weight: bold;
+}
+
+.tekst1--orange{
+  text-align: right;
+  font-size: rem(9);
+  font-family: Acrom, sans-serif;
+  color: #ff6b08;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #ff6b08;
+  text-align: center;
+  font-family: Acrom, sans-serif;
+  font-size: rem(7);
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  padding: rem(10) rem(25);
+  text-transform: uppercase;
+}
+
+.postscrip{
+  width: rem(202);
+  margin: auto ;
+}
+
+.postscrip__ps{
+  font-family: Acrom, sans-serif;
+  font-size: rem(13.5);
+  font-weight: 700;
+  margin: 0 0 rem(10);
+  text-transform: uppercase;
+}

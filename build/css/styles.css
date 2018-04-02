@@ -4,6 +4,13 @@ img {
 	height: auto;
 }
 
+.container {
+	max-width: 53.4375rem;
+	min-width: 20rem;
+	padding: 0 1rem;
+	margin: auto;
+}
+
 @font-face {
 	font-family: 'Acrom';
 	src: url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff2") format("woff2"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff") format("woff"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.ttf") format("truetype");
@@ -124,6 +131,254 @@ img {
 	font-size: 0.5625rem;
 	line-height: 0.8125rem;
 	color: #000;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 53.4375rem;
+	min-width: 20rem;
+	padding: 0 1rem;
+	margin: auto;
+}
+
+.important {
+	padding: 2.5rem 0;
+}
+
+.important__info {
+	margin: 0 0 0.9375rem;
+}
+
+.info__title {
+	margin: 0 0 0.9375rem;
+	text-align: center;
+	font-size: 0.75rem;
+	font-family: Acrom, sans-serif;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.info__offer {
+	font-size: 0.625rem;
+	font-weight: bold;
+	font-family: Acrom, sans-serif;
+	width: 62.5%;
+	margin: auto;
+}
+
+.offer__text1 {
+	margin: 0 0 0.9375rem;
+	font-size: 0.625rem;
+	font-weight: 700;
+	font-family: Acrom, sans-serif;
+	line-height: 0.875rem;
+}
+
+.offer__text2 {
+	margin: 0 0 1.3125rem;
+	font-family: Acrom, sans-serif;
+	font-size: 0.5625rem;
+	line-height: 0.75rem;
+}
+
+.offer__text3 {
+	position: relative;
+	margin: 0 0 1.3125rem;
+	font-family: Acrom, sans-serif;
+	font-size: 0.625rem;
+	line-height: 0.875rem;
+	color: #ff6b08;
+}
+
+.offer__text3:before {
+	position: absolute;
+	display: inline-block;
+	content: "";
+	font-size: 1.125rem;
+	margin-right: 0.5rem;
+	color: #000;
+	border: 0.0625rem solid #000000;
+	width: 1.875rem;
+	top: 1.0625rem;
+	right: 11.0625rem;
+	-webkit-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+}
+
+.offer__btn {
+	background-color: #ff6b08;
+	text-align: center;
+	font-family: Acrom, sans-serif;
+	font-size: 0.4375rem;
+	font-weight: 700;
+	color: #ffffff;
+	border: none;
+	padding: 0.625rem 1.5625rem;
+}
+
+.important__value {
+	width: 15.625rem;
+	background-color: #052139;
+	color: #ffffff;
+	margin: auto;
+	padding: 3.125rem 3.125rem;
+}
+
+.cost {
+	display: flex;
+	justify-content: space-between;
+}
+
+.cost {
+	margin: 0 0 1.5rem;
+}
+
+.price {
+	display: flex;
+	justify-content: space-between;
+}
+
+.value__text1 {
+	position: relative;
+	flex-basis: 42%;
+	font-family: Acrom, sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 700;
+}
+
+.value__text1:after {
+	position: absolute;
+	display: inline-block;
+	content: " ";
+	border: 0.0625rem solid #ffffff;
+	width: 1.875rem;
+	top: 1.3125rem;
+	right: -2.3125rem;
+}
+
+.value__text2 {
+	flex-basis: 42%;
+	text-transform: capitalize;
+	font-family: Acrom, sans-serif;
+	font-size: 0.5625rem;
+	color: #052139;
+	font-weight: 700;
+	line-height: 1.125rem;
+}
+
+.value__text3 {
+	text-transform: uppercase;
+	font-family: Acrom, sans-serif;
+	font-size: 0.5625rem;
+	color: #ffffff;
+	font-weight: 700;
+	align-self: flex-end;
+}
+
+.value__span1 {
+	text-transform: uppercase;
+	font-family: Acrom, sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 700;
+	align-self: center;
+}
+
+.value__span {
+	text-transform: uppercase;
+	font-family: Acrom, sans-serif;
+	font-size: 1.25rem;
+	font-weight: 700;
+	align-self: flex-end;
+}
+
+.bgc--blue {
+	background-color: #16EBFE;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 53.4375rem;
+	min-width: 20rem;
+	padding: 0 1rem;
+	margin: auto;
+}
+
+.action {
+	padding: 3.5625rem 0;
+}
+
+.action__slogan {
+	margin: 0 auto 1.75rem;
+	width: 9.1875rem;
+}
+
+h2 {
+	font-size: 0.75rem;
+	font-family: Acrom, sans-serif;
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1rem;
+	margin: 0 0 1.0625rem;
+}
+
+.tekst1 {
+	font-size: 0.5625rem;
+	font-family: Acrom, sans-serif;
+	color: #000;
+	line-height: 0.8125rem;
+	margin: 0 0 1.375rem;
+}
+
+.tekst1--bold {
+	font-weight: bold;
+}
+
+.tekst1--orange {
+	text-align: right;
+	font-size: 0.5625rem;
+	font-family: Acrom, sans-serif;
+	color: #ff6b08;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.btn {
+	background-color: #ff6b08;
+	text-align: center;
+	font-family: Acrom, sans-serif;
+	font-size: 0.4375rem;
+	font-weight: 700;
+	color: #ffffff;
+	border: none;
+	padding: 0.625rem 1.5625rem;
+	text-transform: uppercase;
+}
+
+.postscrip {
+	width: 12.625rem;
+	margin: auto;
+}
+
+.postscrip__ps {
+	font-family: Acrom, sans-serif;
+	font-size: 0.84375rem;
+	font-weight: 700;
+	margin: 0 0 0.625rem;
+	text-transform: uppercase;
 }
 
 @media (min-width: 480px) {

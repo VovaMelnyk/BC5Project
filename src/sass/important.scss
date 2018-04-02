@@ -1,0 +1,177 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: rem(855);
+  min-width: rem(320);
+  padding: 0 rem(16);
+  margin: auto;
+}
+
+.important{
+  padding: rem(40) 0;
+}
+
+.important__info{
+  margin: 0 0 rem(15);
+}
+
+.info__title {
+  margin: 0 0 rem(15);
+  text-align: center;
+  font-size: rem(12);
+  font-family: Acrom, sans-serif;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+
+.info__offer{
+  font-size: rem(10);
+  font-weight: bold;
+  font-family: Acrom, sans-serif;
+  width: 62.5%;
+  margin: auto;
+
+}
+
+.offer__text1{
+  margin: 0 0 rem(15);
+  font-size: rem(10);
+  font-weight: 700;
+  font-family: Acrom, sans-serif;
+  line-height: rem(14);
+
+}
+
+.offer__text2{
+  margin: 0 0 rem(21);
+  font-family: Acrom, sans-serif;
+  font-size: rem(9);
+  line-height: rem(12);
+}
+
+.offer__text3 {
+  position: relative;
+  margin: 0 0 rem(21);
+  font-family: Acrom, sans-serif;
+  font-size: rem(10);
+  line-height: rem(14);
+  color: #ff6b08;
+}
+
+.offer__text3:before{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  font-size: rem(18);
+  margin-right: rem(8);
+  color: #000;
+  border: rem(1) solid #000000;
+  width: rem(30);
+  top: rem(17);
+  right: rem(177);
+  transform: rotate(-60deg);
+}
+
+
+.offer__btn{
+  background-color: #ff6b08;
+  text-align: center;
+  font-family: Acrom, sans-serif;
+  font-size: rem(7);
+  font-weight: 700;
+  color: #ffffff;
+  border: none;
+  padding: rem(10) rem(25);
+
+}
+
+
+.important__value {
+  width: rem(250);
+  background-color: #052139;
+  color: #ffffff;
+  margin: auto;
+  padding: rem(50) rem(50);
+
+}
+
+.cost{
+  display: flex;
+  justify-content: space-between;
+}
+
+.cost {
+  margin: 0 0 rem(24);
+}
+
+.price{
+  display: flex;
+  justify-content: space-between;
+  //align-items: flex-end;
+}
+
+.value__text1{
+  position: relative;
+  flex-basis: 42%;
+  font-family: Acrom, sans-serif;
+  font-size: rem(9);
+  font-weight: 700;
+}
+
+.value__text1:after{
+  position: absolute;
+  display: inline-block;
+  content: " ";
+  border: rem(1) solid #ffffff;
+  width: rem(30);
+  top: rem(21);
+  right: rem(-37);
+}
+
+.value__text2{
+  //display: inline-block;
+  flex-basis: 42%;
+  text-transform: capitalize;
+  font-family: Acrom, sans-serif;
+  font-size: rem(9);
+  color: #052139;
+  font-weight: 700;
+  line-height: rem(18);
+}
+
+.value__text3{
+  //display: inline-block;
+  text-transform: uppercase;
+  font-family: Acrom, sans-serif;
+  font-size: rem(9);
+  color: #ffffff;
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.value__span1{
+  text-transform: uppercase;
+  font-family: Acrom, sans-serif;
+  font-size: rem(9);
+  font-weight: 700;
+  align-self: center;
+}
+
+.value__span{
+  text-transform: uppercase;
+  font-family: Acrom, sans-serif;
+  font-size: rem(20);
+  font-weight: 700;
+  align-self: flex-end;
+}
+
+.bgc--blue{
+  background-color: #16EBFE;
+}
+
