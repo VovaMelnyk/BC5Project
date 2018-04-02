@@ -5,8 +5,6 @@
   text-transform: capitalize;
   counter-reset: qwerty;
 
-
-
   &:before {
     content: "";
     display: inline-block;
@@ -17,7 +15,6 @@
   }
 
   &--numb {
-
     &:before {
       content: "";
       display: inline-block;
@@ -26,7 +23,6 @@
       margin-right: rem(10);
       background-color: $blue;
     }
-
   }
 }
 
@@ -39,12 +35,10 @@
     }
 
     &--numb {
-
       &:before {
         margin-right: rem(18);
       }
     }
-
   }
 }
 
@@ -111,4 +105,3 @@
     }
   }
 }
-

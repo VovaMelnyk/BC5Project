@@ -1,8 +1,9 @@
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
+
 $white: #fff;
 $blue: #16ebfe;
 $black: #000;
@@ -12,17 +13,17 @@ $dark-blue: #052139;
 $footer: #202020;
 $white: #ffffff;
 
-@function rem($px){
-  
-    $result: $px/16;
+@function rem($px) {
+  $result: $px/16;
 
-    @return #{$result}rem;
-  }
+  @return #{$result}rem;
+}
 
 @function prc($element, $container) {
   $result: $element / $container * 100%;
+
   @return $result;
 }
 
-$acrom: 'Acrom', sans-serif;
-$gilroy: 'Gilroy',sans-serif;
+$acrom: "Acrom", sans-serif;
+$gilroy: "Gilroy", sans-serif;
