@@ -1,67 +1,28 @@
 .counter {
   font-family: $acrom;
-  font-size: rem(9);
-  font-weight: bold;
+  font-size: rem(10);
+  font-weight: 700;
   text-transform: uppercase;
-  counter-reset: qwerty;
-
-
+  position: relative;
 
   &:before {
+    position: absolute;
     content: "";
-    display: inline-block;
     width: rem(5);
     height: rem(5);
-    margin-right: rem(10);
     background-color: $black;
-    left: rem(-25);
+    top: rem(5);
+    left: rem(-10);
   }
 
-  &--numb {
-
-    &:before {
-      content: "";
-      display: inline-block;
-      width: rem(5);
-      height: rem(5);
-      margin-right: rem(10);
-      background-color: $blue;
-      position: absolute;
-      left: rem(-15);
-      top: rem(22.3);
-    }
-  }
 }
 
 @media (min-width: 480px) {
   .counter {
-    font-size: rem(13);
+    font-size: rem(12);
 
     &:before {
-      margin-right: rem(18);
-    }
-
-    &--numb {
-+
-      &:before {
-        margin-right: rem(18);
-      }
-    }
-  }
-}
-
-@media (min-width: 768px) {
-  .counter {
-    font-size: rem(9);
-
-    &:before {
-      margin-outside: rem(20);
-    }
-
-    &--numb {
-      &:before {
-        margin-right: rem(20);
-      }
+      top: rem(6);
     }
   }
 }
@@ -71,46 +32,10 @@
     font-size: rem(12);
 
     &:before {
-      margin-right: rem(27);
-    }
-
-    &--numb {
-      &:before {
-        margin-right: rem(27);
-      }
+      width: rem(10);
+      height: rem(10);
+      top: rem(3);
+      left: rem(-15);
     }
   }
 }
-
-@media (min-width: 1200px) {
-  .counter {
-    font-size: rem(12);
-
-    &:before {
-      margin-right: rem(24);
-    }
-
-    &--numb {
-      &:before {
-        margin-right: rem(24);
-      }
-    }
-  }
-}
-
-@media (min-width: 1440px) {
-  .counter {
-    font-size: rem(12);
-
-    &:before {
-      margin-right: rem(30);
-    }
-
-    &--numb {
-      &:before {
-        margin-right: rem(30);
-      }
-    }
-  }
-}
-
