@@ -1,9 +1,9 @@
 # BC5Project
 
+
+### .title
 ![title](http://joxi.ru/ZrJzVJYH14GLGr.jpg)
 ![title--white](http://dl3.joxi.net/drive/2018/04/02/0027/1470/1795518/18/4b04fe605c.jpg)
-![title--black]
-![title--center]
 ![text](http://joxi.ru/KAggKeoCg8BQVA.jpg)
 ![black](http://joxi.ru/p27a8K9i0wXlYr.jpg)
 ![blank](http://joxi.ru/82QBV0QU1BkYjA.jpg)
