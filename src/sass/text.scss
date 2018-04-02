@@ -12,10 +12,6 @@
     color: $orange;
     font-size: rem(10);
 
-    &--center {
-      text-align: center;
-    }
-
     &--before:before {
       display: inline-block;
       content:"/";

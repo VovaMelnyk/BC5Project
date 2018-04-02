@@ -1,9 +1,8 @@
 .blue {
-  color: $blue;
   background-color: $blue;
   font-family: $acrom;
   font-weight: 600;
-  font-size: rem(10);
+  font-size: rem(9);
 }
 
 @media (min-width: 480px) {
@@ -14,24 +13,24 @@
 
 @media (min-width: 768px) {
   .blue {
-    font-size: rem(13);
+    font-size: rem(8);
   }
 }
 
 @media (min-width: 960px) {
   .blue {
-    font-size: rem(13);
+    font-size: rem(10);
   }
 }
 
 @media (min-width: 1200px) {
   .blue {
-    font-size: rem(10);
+    font-size: rem(9);
   }
 }
 
 @media (min-width: 1440px) {
   .blue {
-    font-size: rem(12);
+    font-size: rem(11);
   }
 }
