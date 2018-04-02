@@ -4,114 +4,74 @@
   font-weight: 600;
   font-style: normal;
   color: $black;
+  position: relative;
 
   &:before {
-    display: inline-block;
+    display: block;
+    position: absolute;
     content: "";
     width: rem(14);
-    height: rem(3);
+    height: rem(5);
     background: $black;
-    vertical-align: top;
-    margin-right: rem(20);
+    left: rem(-20);
+    top: rem(5);
   }
 }
 
 @media (min-width: 480px) {
   .blank {
-    font-family: $acrom;
     font-size: rem(12);
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
 
     &:before {
-      display: inline-block;
-      content: "";
       width: rem(25);
-      height: rem(4);
-      background: $black;
-      vertical-align: top;
-      margin-right: rem(13);
+      left: rem(-30);
+      top: rem(5);
     }
   }
 }
 
 @media (min-width: 768px) {
   .blank {
-    font-family: $acrom;
     font-size: rem(14);
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
 
     &:before {
-      display: inline-block;
-      content: "";
       width: rem(29);
-      height: rem(5);
-      background: $black;
-      vertical-align: top;
-      margin-right: rem(18);
+      left: rem(-35);
+      top: rem(6);
     }
   }
 }
 
 @media (min-width: 960px) {
   .blank {
-    font-family: $acrom;
     font-size: rem(16);
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
 
     &:before {
-      display: inline-block;
-      content: "";
       width: rem(36);
-      height: rem(5);
-      background: $black;
-      vertical-align: top;
-      margin-right: rem(22);
+      left: rem(-45);
+      top: rem(7);
     }
   }
 }
 
 @media (min-width: 1200px) {
   .blank {
-    font-family: $acrom;
     font-size: rem(18);
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
 
     &:before {
-      display: block;
-      content: "";
       width: rem(32);
-      height: rem(5);
-      background: $black;
-      vertical-align: top;
-      margin-right: rem(22);
+      top: rem(9);
+
     }
   }
 }
 
 @media (min-width: 1440px) {
   .blank {
-    font-family: $acrom;
     font-size: rem(20);
-    font-weight: 600;
-    font-style: normal;
-    color: $black;
 
     &:before {
-      display: inline-block;
-      content: "";
       width: rem(38);
-      height: rem(5);
-      background: $black;
-      vertical-align: top;
-      margin-right: rem(22);
     }
   }
 }
