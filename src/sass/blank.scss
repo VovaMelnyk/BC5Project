@@ -10,10 +10,10 @@
     display: block;
     position: absolute;
     content: "";
-    width: rem(14);
+    width: rem(15);
     height: rem(5);
     background: $black;
-    left: rem(-20);
+    left: rem(-30);
     top: rem(5);
   }
 }
@@ -35,8 +35,8 @@
     font-size: rem(14);
 
     &:before {
-      width: rem(29);
-      left: rem(-35);
+      width: rem(30);
+      left: rem(-45);
       top: rem(6);
     }
   }
@@ -47,8 +47,6 @@
     font-size: rem(16);
 
     &:before {
-      width: rem(36);
-      left: rem(-45);
       top: rem(7);
     }
   }
@@ -59,7 +57,6 @@
     font-size: rem(18);
 
     &:before {
-      width: rem(32);
       top: rem(9);
 
     }
@@ -69,9 +66,5 @@
 @media (min-width: 1440px) {
   .blank {
     font-size: rem(20);
-
-    &:before {
-      width: rem(38);
-    }
   }
 }
