@@ -121,17 +121,18 @@
 
 @media (min-width: 768px)  {
   .warning {
+    padding: rem(40) 0;
     display: flex;
     justify-content: space-between;
 
 
     &__picture {
       display: block;
-      flex-basis: 35%;
+      flex-basis: 40%;
     }
 
     &__body {
-      flex-basis: 65%;
+      flex-basis: 60%;
     }
 
 
