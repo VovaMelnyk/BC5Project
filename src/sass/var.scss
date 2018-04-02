@@ -1,19 +1,24 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
-img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
+
 $white: #fff;
 $blue: #16ebfe;
 $black: #000;
@@ -23,12 +28,12 @@ $dark-blue: #052139;
 $footer: #202020;
 $white: #ffffff;
 
-@function rem($px){
-  
-    $result: $px/16;
+@function rem($px) {
 
-    @return #{$result}rem;
-  }
+  $result: $px/16;
+
+  @return #{$result}rem;
+}
 
 @function prc($element, $container) {
   $result: $element / $container * 100%;
@@ -36,4 +41,4 @@ $white: #ffffff;
 }
 
 $acrom: 'Acrom', sans-serif;
-$gilroy: 'Gilroy',sans-serif;
+$gilroy: 'Gilroy', sans-serif;
