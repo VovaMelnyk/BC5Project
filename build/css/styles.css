@@ -1,7 +1,14 @@
 img {
 	display: block;
-	max-width: 100%;
+	min-width: 100%;
 	height: auto;
+}
+
+.container {
+	max-width: 53.4375rem;
+	min-width: 20rem;
+	padding: 0 1rem;
+	margin: auto;
 }
 
 @font-face {
@@ -126,6 +133,49 @@ img {
 	color: #000;
 }
 
+.title {
+	width: 47%;
+	margin: auto;
+}
+
+.four-steps {
+	text-align: left;
+}
+
+.steps {
+	margin-top: 3.75rem;
+}
+
+.text--orange {
+	margin-top: 2.625rem;
+}
+
+.counter {
+	font-family: "Acrom", sans-serif;
+	font-size: 0.5625rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	counter-reset: qwerty;
+}
+
+.counter:before {
+	content: "";
+	display: inline-block;
+	width: 0.3125rem;
+	height: 0.3125rem;
+	margin-right: 0.625rem;
+	background-color: #000;
+}
+
+.counter--numb:before {
+	content: "";
+	display: inline-block;
+	width: 0.3125rem;
+	height: 0.3125rem;
+	margin-right: 0.625rem;
+	background-color: #16ebfe;
+}
+
 @media (min-width: 480px) {
 
 .blue {
@@ -177,6 +227,18 @@ img {
 	line-height: 1.25rem;
 }
 
+.counter {
+	font-size: 0.8125rem;
+}
+
+.counter:before {
+	margin-right: 1.125rem;
+}
+
+.counter--numb:before {
+	margin-right: 1.125rem;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -226,6 +288,18 @@ img {
 	font-size: 1.6825rem;
 }
 
+.counter {
+	font-size: 0.5625rem;
+}
+
+.counter:before {
+	margin-outside: 1.25rem;
+}
+
+.counter--numb:before {
+	margin-right: 1.25rem;
+}
+
 }
 
 @media (min-width: 960px) {
@@ -273,6 +347,18 @@ img {
 	line-height: 1.5625rem;
 }
 
+.counter {
+	font-size: 0.75rem;
+}
+
+.counter:before {
+	margin-right: 1.6875rem;
+}
+
+.counter--numb:before {
+	margin-right: 1.6875rem;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -318,6 +404,18 @@ img {
 .comments {
 	font-size: 0.9375rem;
 	line-height: 1.375rem;
+}
+
+.counter {
+	font-size: 0.75rem;
+}
+
+.counter:before {
+	margin-right: 1.5rem;
+}
+
+.counter--numb:before {
+	margin-right: 1.5rem;
 }
 
 }
@@ -369,6 +467,18 @@ img {
 
 .title {
 	font-size: 2.25rem;
+}
+
+.counter {
+	font-size: 0.75rem;
+}
+
+.counter:before {
+	margin-right: 1.875rem;
+}
+
+.counter--numb:before {
+	margin-right: 1.875rem;
 }
 
 }

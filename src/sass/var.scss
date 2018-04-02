@@ -1,6 +1,6 @@
 img {
     display: block;
-    max-width: 100%;
+    min-width: 100%;
     height: auto;
 }
 $white: #fff;
@@ -13,7 +13,7 @@ $footer: #202020;
 $white: #ffffff;
 
 @function rem($px){
-  
+
     $result: $px/16;
 
     @return #{$result}rem;
