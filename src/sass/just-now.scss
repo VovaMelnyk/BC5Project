@@ -1,0 +1,45 @@
+.just-now {
+  padding: rem(10) 0 rem(29);
+
+  &__header {
+    margin-bottom: rem(38);
+
+  }
+
+  &__body {
+    margin-top: rem(20);
+    padding: 0 rem(55);
+  }
+
+  &__item {
+    margin-bottom: rem(18);
+    //max-width: prc(180, 288);
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+
+}
+
+.just-now__img {
+  display: block;
+  position: relative;
+  width: prc(155, 288);
+  margin: 0 auto rem(30);
+
+  &:after {
+    position: absolute;
+    content: "IT";
+    font-size: rem(165);
+    line-height: rem(165);
+    transform: rotate(90deg);
+    color: #f7f7f7;
+    font-weight: 900;
+    font-family: $acrom;
+    top: 0;
+    right: rem(-60);
+    z-index: -1;
+  }
+}
+
