@@ -4,34 +4,12 @@
   font-family: $acrom;
   font-weight: 600;
   font-size: rem(10);
+  text-transform: uppercase;
 }
 
 @media (min-width: 480px) {
   .black {
-    font-size: rem(13);
-  }
-}
-
-@media (min-width: 768px) {
-  .black {
-    font-size: rem(13);
-  }
-}
-
-@media (min-width: 960px) {
-  .black {
-    font-size: rem(13);
-  }
-}
-
-@media (min-width: 1200px) {
-  .black {
-    font-size: rem(10);
-  }
-}
-
-@media (min-width: 1440px) {
-  .black {
     font-size: rem(12);
   }
 }
+
