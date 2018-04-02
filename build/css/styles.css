@@ -89,10 +89,10 @@ a {
 	display: block;
 	position: absolute;
 	content: "";
-	width: 0.875rem;
+	width: 0.9375rem;
 	height: 0.3125rem;
 	background: #000;
-	left: -1.25rem;
+	left: -1.875rem;
 	top: 0.3125rem;
 }
 
@@ -229,8 +229,8 @@ a {
 }
 
 .blank:before {
-	width: 1.8125rem;
-	left: -2.1875rem;
+	width: 1.875rem;
+	left: -2.8125rem;
 	top: 0.375rem;
 }
 
@@ -251,8 +251,6 @@ a {
 }
 
 .blank:before {
-	width: 2.25rem;
-	left: -2.8125rem;
 	top: 0.4375rem;
 }
 
@@ -289,7 +287,6 @@ a {
 }
 
 .blank:before {
-	width: 2rem;
 	top: 0.5625rem;
 }
 
@@ -317,10 +314,6 @@ a {
 
 .blank {
 	font-size: 1.25rem;
-}
-
-.blank:before {
-	width: 2.375rem;
 }
 
 .btn {
