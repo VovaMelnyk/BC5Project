@@ -32,15 +32,15 @@
   }
 
 
-  &__blank {
-    width: 55%;
-    margin: auto;
+&__blank {
+  width: 55%;
+  margin: auto;
 
-    &:before {
-      width: rem(20);
-      height: rem(3);
-    }
+  &:before {
+    width: rem(20);
+    height: rem(3);
   }
+}
 
 
 
