@@ -12,15 +12,8 @@
     text-transform: uppercase;
     margin: 0 auto rem(16);
     width: 65%;
-
-    //&--list {
-    //  font-family: $acrom;
-    //  color: $black;
-    //  font-size: rem(9);
-    //  line-height: rem(14);
-    //  text-transform: uppercase;
-    //}
   }
+
 
   &__list-item {
     margin: 0 auto rem(5);
@@ -32,15 +25,15 @@
   }
 
 
-&__blank {
-  width: 55%;
-  margin: auto;
+  &__blank {
+    width: 55%;
+    margin: auto;
 
-  &:before {
-    width: rem(20);
-    height: rem(3);
+    &:before {
+      width: rem(20);
+      height: rem(3);
+    }
   }
-}
 
 
 
@@ -121,24 +114,25 @@
 
 @media (min-width: 768px)  {
   .warning {
-    padding: rem(40) 0;
+    padding: rem(50) rem(30);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 
     &__picture {
       display: block;
-      flex-basis: 40%;
+      flex-basis: 48%;
     }
 
     &__body {
-      flex-basis: 60%;
+      flex-basis: 45%;
     }
 
 
     &__title {
       font-size: rem(26);
-      width: 70%;
+      margin: 0 0 rem(16);
+      width: 100%;
 
 
       //&--list {
@@ -152,16 +146,14 @@
 
     &__blank-container {
       margin: 0 auto rem(41);
-      width: 100%;
+      width: 95%;
     }
 
 
-    //&__blank {
-    //  font-size: rem(9);
-    //  line-height: rem(15);
-    //  font-weight: 700;
-    //  margin-left: rem(40);
-    //
+    &__blank {
+      width: 88%;
+      margin: 0 0 0 auto;
+    }
     //
     //  &:before {
     //    margin: 0;
@@ -176,6 +168,16 @@
       margin: auto ;
     }
 
+    &__list-item {
+      margin: 0 0 rem(18);
+      width: 100%;
+
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
 
   }
 }
@@ -183,10 +185,13 @@
 
 @media (min-width: 960px) {
   .warning {
+    padding: rem(70) rem(40);
+    justify-content: space-between;
+
 
     &__list {
 
-      width: 95%;
+      width: 94%;
       //min-width: rem(400);
     }
 
@@ -195,6 +200,20 @@
       font-size: rem(12);
       font-weight: 700;
       text-align: justify;
+      margin: auto;
+
+    }
+
+    &__blank-container {
+      width: 88%;
+    }
+
+    &__body {
+      flex-basis: 50%;
+    }
+
+    &__picture {
+      flex-basis: 44%;
     }
     //  &::before {
     //    margin: 0;
@@ -220,59 +239,74 @@
 
 @media (min-width: 1200px) {
   .warning {
-
+    padding: rem(60) rem(30);
+    justify-content: space-around;
     &__picture {
       display: block;
-      flex-basis: 35%;
+      flex-basis: 40%;
     }
-
+    //
     &__body {
 
-      flex-basis: 70%;
+      flex-basis: 50%;
     }
 
     &__blank {
       font-size: rem(10);
       font-weight: 700;
     }
-    //  &::before {
-    //    margin: 0;
-    //    top: rem(5);
-    //    height: rem(5);
-    //    width: rem(30);
-    //    left: rem(-40);
-    //  }
-    //}
-
-    &__title {
-
-      &--list {
-        font-size: rem(10);
-        font-weight: 900;
-      }
+    &::before {
+      margin: 0;
+      top: rem(5);
+      height: rem(5);
+      width: rem(30);
+      left: rem(-40);
     }
+  }
 
+  &__title {
+
+    &--list {
+      font-size: rem(10);
+      font-weight: 900;
+    }
   }
 
 }
 
+
+
 @media (min-width: 1440px) {
   .warning {
-
+    padding: rem(70) rem(40);
+    justify-content: space-between;
     &__title {
-      width: 80%;
+      width: 100%;
+    }
+
+    &__body {
+      flex-basis: 54%;
+    }
+
+    &__list {
+      width: 90%;
+    }
+
+    &__picture {
+      flex-basis: 45%;
     }
 
     &__blank {
       font-size: rem(12);
-      width: 55%;
+      width: 75%;
 
-      &-container {
-        width: 80%;
-        margin: 0 0 rem(26);
-      }
-
+    &-container {
+      width: 100%;
+      margin: 0 auto rem(54);
     }
+  }
+    //
+    //}
     //  &::before {
     //    margin: 0;
     //    top: rem(5);
@@ -282,23 +316,24 @@
     //  }
     //}
 
-    &__list {
-      width: 80%;
-      margin-left: 0;
-    }
-
-    &__list-item {
-      width: 70%;
-    }
-
-
-    &__title {
-      &--list {
-        font-size: rem(12);
-        margin-bottom: rem(5);
-
-      }
-    }
-
+    //  &__list {
+    //    width: 80%;
+    //    margin-left: 0;
+    //  }
+    //
+    //  &__list-item {
+    //    width: 70%;
+    //  }
+    //
+    //
+    //  &__title {
+    //    &--list {
+    //      font-size: rem(12);
+    //      margin-bottom: rem(5);
+    //
+    //    }
+    //  }
+    //
+    //}
   }
 }

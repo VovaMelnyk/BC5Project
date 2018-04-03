@@ -424,33 +424,48 @@ a {
 }
 
 .warning {
-	padding: 2.5rem 0;
+	padding: 3.125rem 1.875rem;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .warning__picture {
 	display: block;
-	flex-basis: 40%;
+	flex-basis: 48%;
 }
 
 .warning__body {
-	flex-basis: 60%;
+	flex-basis: 45%;
 }
 
 .warning__title {
 	font-size: 1.625rem;
-	width: 70%;
+	margin: 0 0 1rem;
+	width: 100%;
 }
 
 .warning__blank-container {
 	margin: 0 auto 2.5625rem;
-	width: 100%;
+	width: 95%;
+}
+
+.warning__blank {
+	width: 88%;
+	margin: 0 0 0 auto;
 }
 
 .warning__list {
 	width: 100%;
 	margin: auto;
+}
+
+.warning__list-item {
+	margin: 0 0 1.125rem;
+	width: 100%;
+}
+
+.warning__list-item:last-child {
+	margin-bottom: 0;
 }
 
 }
@@ -507,14 +522,32 @@ a {
 	font-size: 0.625rem;
 }
 
+.warning {
+	padding: 4.375rem 2.5rem;
+	justify-content: space-between;
+}
+
 .warning__list {
-	width: 95%;
+	width: 94%;
 }
 
 .warning__blank {
 	font-size: 0.75rem;
 	font-weight: 700;
 	text-align: justify;
+	margin: auto;
+}
+
+.warning__blank-container {
+	width: 88%;
+}
+
+.warning__body {
+	flex-basis: 50%;
+}
+
+.warning__picture {
+	flex-basis: 44%;
 }
 
 .warning__title--list {
@@ -565,13 +598,18 @@ a {
 	line-height: 0.875rem;
 }
 
+.warning {
+	padding: 3.75rem 1.875rem;
+	justify-content: space-around;
+}
+
 .warning__picture {
 	display: block;
-	flex-basis: 35%;
+	flex-basis: 40%;
 }
 
 .warning__body {
-	flex-basis: 70%;
+	flex-basis: 50%;
 }
 
 .warning__blank {
@@ -579,7 +617,15 @@ a {
 	font-weight: 700;
 }
 
-.warning__title--list {
+.warning::before {
+	margin: 0;
+	top: 0.3125rem;
+	height: 0.3125rem;
+	width: 1.875rem;
+	left: -2.5rem;
+}
+
+__title--list {
 	font-size: 0.625rem;
 	font-weight: 900;
 }
@@ -642,32 +688,35 @@ a {
 	font-size: 0.625rem;
 }
 
+.warning {
+	padding: 4.375rem 2.5rem;
+	justify-content: space-between;
+}
+
 .warning__title {
-	width: 80%;
+	width: 100%;
+}
+
+.warning__body {
+	flex-basis: 54%;
+}
+
+.warning__list {
+	width: 90%;
+}
+
+.warning__picture {
+	flex-basis: 45%;
 }
 
 .warning__blank {
 	font-size: 0.75rem;
-	width: 55%;
+	width: 75%;
 }
 
 .warning__blank-container {
-	width: 80%;
-	margin: 0 0 1.625rem;
-}
-
-.warning__list {
-	width: 80%;
-	margin-left: 0;
-}
-
-.warning__list-item {
-	width: 70%;
-}
-
-.warning__title--list {
-	font-size: 0.75rem;
-	margin-bottom: 0.3125rem;
+	width: 100%;
+	margin: 0 auto 3.375rem;
 }
 
 }
