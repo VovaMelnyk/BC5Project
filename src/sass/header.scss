@@ -1,6 +1,3 @@
-* {
-    color: $white;
-}
 .wrapper {
     background-color: $white;
     
@@ -24,6 +21,7 @@
 }
 .header {
     padding-bottom: rem(26);
+    color: $white;
     &__menu {
         display: flex;
         justify-content: space-between;
