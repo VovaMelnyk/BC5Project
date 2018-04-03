@@ -4,6 +4,13 @@ img {
 	height: auto;
 }
 
+.container {
+	max-width: 53.4375rem;
+	min-width: 20rem;
+	padding: 0 1rem;
+	margin: auto;
+}
+
 @font-face {
 	font-family: 'Acrom';
 	src: url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff2") format("woff2"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff") format("woff"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.ttf") format("truetype");
@@ -126,6 +133,113 @@ img {
 	color: #000;
 }
 
+.btn {
+	display: block;
+	background-color: #ff6b08;
+	font-size: 0.6875rem;
+	font-family: "Acrom", sans-serif;
+	font-weight: 900;
+	padding: 0.8125rem 1.375rem;
+	color: #ffff;
+	border: 1px solid #ff6b08;
+	border-radius: 0.125rem;
+	text-transform: uppercase;
+}
+
+* {
+	color: #ffffff;
+}
+
+.wrapper {
+	background-color: #ffffff;
+}
+
+.wrapper--header {
+	background-color: #181c27;
+	background-image: url(../img/bg-logo.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.title--header {
+	color: #ffffff;
+	font-family: "Acrom", sans-serif;
+	font-size: 1.25rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	max-width: 50.625%;
+	margin: auto;
+}
+
+.header {
+	padding-bottom: 1.625rem;
+}
+
+.header__menu {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.6875rem;
+}
+
+.header__title {
+	margin-top: 1.125rem;
+}
+
+.header__start {
+	margin-top: 1.75rem;
+	max-width: 87.5%;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.header__start::before {
+	display: inline-block;
+	content: "<";
+	color: #16ebfe;
+	font-size: 0.9375rem;
+	vertical-align: middle;
+	margin-right: 0.625rem;
+}
+
+.header__start::after {
+	display: inline-block;
+	content: "/>";
+	color: #16ebfe;
+	font-size: 0.9375rem;
+	vertical-align: middle;
+	margin-left: 0.625rem;
+}
+
+.header__open {
+	margin: 6.75rem auto 0;
+}
+
+.header__subtitle {
+	max-width: 84.375%;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.header__text {
+	margin-top: 0.625rem;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 400;
+	text-align: left;
+	max-width: 89.0625%;
+}
+
+.btn--header {
+	display: block;
+	margin: auto;
+	margin-top: 1.625rem;
+}
+
 @media (min-width: 480px) {
 
 .blue {
@@ -177,6 +291,10 @@ img {
 	line-height: 1.25rem;
 }
 
+.btn {
+	padding: 1.25rem 2.0625rem;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -226,6 +344,10 @@ img {
 	font-size: 1.6825rem;
 }
 
+.btn {
+	padding: 0.5625rem 0.875rem;
+}
+
 }
 
 @media (min-width: 960px) {
@@ -271,6 +393,10 @@ img {
 .comments {
 	font-size: 1.05125rem;
 	line-height: 1.5625rem;
+}
+
+.btn {
+	padding: 0.625rem 1rem;
 }
 
 }
@@ -369,6 +495,10 @@ img {
 
 .title {
 	font-size: 2.25rem;
+}
+
+.btn {
+	padding: 0.625rem 1.3125rem;
 }
 
 }
