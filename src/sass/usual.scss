@@ -1,6 +1,6 @@
 
 .usual {
-  padding: rem(40) 0;
+  padding: rem(30) 0;
   margin: auto;
 
 
@@ -13,6 +13,10 @@
     justify-content: space-between;
   }
 
+  &__span {
+    display: block;
+  }
+
 
   &__container {
     //display: flex;
@@ -22,9 +26,9 @@
 
   }
 
-  &__caption {
-    flex-basis: 60%;
-  }
+  //&__caption {
+  //  flex-basis: 60%;
+  //}
 
 
   &__name {
@@ -34,7 +38,8 @@
     color: $black;
     font-size: rem(5);
     font-weight: 900;
-    text-align: center;
+    text-align: left;
+    width: inherit;
     //width: 40%;
     //line-height: rem(24);
   }
@@ -85,11 +90,11 @@
     margin: 0 auto rem(26);
   }
 
-
-
   &__text {
     font-family: $acrom;
     font-size: rem(4);
+    //padding: 0 rem(2);
+    flex-basis: 60%;
   }
 
 }
@@ -98,7 +103,7 @@
 
   .usual {
 
-    padding: rem(50);
+    padding: rem(40);
 
     &__body {
       margin: rem(34)auto 0;
@@ -106,12 +111,12 @@
     }
     &__title {
       font-size: rem(18);
-      width: 75%;
+      width: 60%;
     }
 
 
     &__blank {
-      width: 80%;
+      width: 67%;
       margin: auto;
     }
 
@@ -129,6 +134,7 @@
 
     &__name {
       font-size: rem(6);
+      width: 70%;
     }
 
     &__text {
@@ -143,11 +149,16 @@
 
   .usual {
     display: flex;
+    padding: rem(50) rem(30);
 
     &__title-container {
       flex-basis: 40%;
       display: flex;
       flex-direction: column;
+    }
+
+    &__title {
+      width: 80%;
     }
 
     &__body {
@@ -157,7 +168,7 @@
 
     &__blank {
       font-size: rem(10);
-      width: 45%;
+      width: 42%;
       margin: auto;
     }
 
@@ -190,12 +201,16 @@
 
 @media (min-width: 960px) {
   .usual {
-
+    padding: rem(70) rem(40);
 
     &__body {
 
       margin: 0;
       padding: rem(30);
+    }
+
+    &__title {
+      width: 80%;
     }
 
     &__blank {
@@ -229,10 +244,14 @@
 
 @media (min-width: 1200px) {
   .usual {
-
+    padding: rem(60) rem(30);
     &__body {
 
       flex-basis: 70%;
+    }
+
+    &__title {
+      width: 85%;
     }
 
     &__container {
@@ -273,17 +292,21 @@
 @media (min-width: 1440px){
   .usual {
     width: 100%;
-    padding: rem(50) 0;
+    padding: rem(75) 0;
 
     &__body {
       flex-basis: 55%;
+    }
+
+    &__title {
+      width: 80%;
     }
 
 
     &__blank {
       font-size: rem(12);
       font-weight: 700;
-      width: 51%;
+      width: 55%;
     }
     //  &:before {
     //    margin: 0;
@@ -306,7 +329,7 @@
 
     &__name {
       font-size: rem(10);
-      width: 65%;
+      width: 90%;
       margin: rem(10)  auto;
     }
 
