@@ -1,14 +1,16 @@
-@import 'var';
+@import "var";
 
-@import 'container';
+@import "container";
 
 @import "fonts";
 
-@import 'blue';
-
-@import 'black';
+@import "black";
 
 @import "blank";
+
+@import "blue";
+
+@import "btn";
 
 @import "text";
 
@@ -16,8 +18,8 @@
 
 @import "comments";
 
-@import "btn";
-
 @import "counter";
 
 @import "video-courses";
+
+@import "title-counter";
