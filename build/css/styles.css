@@ -184,6 +184,10 @@ a {
 	flex-direction: column;
 }
 
+.facts__box-left {
+	margin: 0 auto 1.6875rem;
+}
+
 .facts__title {
 	text-align: center;
 	margin: 0 0 1.625rem;
@@ -191,7 +195,7 @@ a {
 
 .facts__blank {
 	width: 60.3125%;
-	margin: 0 auto 1.6875rem;
+	margin-left: 3.75rem;
 }
 
 .facts__item {
@@ -231,9 +235,13 @@ a {
 	position: relative;
 }
 
+.number__img {
+	margin: auto;
+}
+
 .number__foto {
 	display: block;
-	margin-bottom: 1.5rem;
+	margin: 0 auto 1.5rem;
 }
 
 .number__descant {
@@ -255,16 +263,30 @@ a {
 }
 
 .number__blank {
-	margin: 0 0 2rem 4rem;
+	width: 12.5rem;
+	margin: 0 0 2rem 4.125rem;
+}
+
+.number__list {
+	width: 93%;
+	margin: auto;
+}
+
+.number__item {
+	margin: 0 auto 1.25rem;
+}
+
+.number__item:last-child {
+	margin: 0;
+}
+
+.number__counter {
+	margin: 0 0 0.875rem;
 }
 
 @media (min-width: 480px) {
 
 .black {
-	font-size: 0.75rem;
-}
-
-.blank {
 	font-size: 0.75rem;
 }
 
@@ -311,9 +333,13 @@ a {
 	margin: 0 0 2.625rem;
 }
 
+.facts__box-left {
+	margin: 0 auto 2.25rem;
+}
+
 .facts__blank {
 	width: 63.84%;
-	margin: 0 auto 2.25rem;
+	margin-left: 7.75rem;
 }
 
 .facts__item > .text {
@@ -325,7 +351,7 @@ a {
 }
 
 .number {
-	padding: 4.5rem;
+	padding: 0 0 4.5rem;
 }
 
 .number__foto {
@@ -350,13 +376,22 @@ a {
 	margin: 0 auto 1.125rem;
 }
 
+.number__blank {
+	width: 15.625rem;
+	margin: 0 0 3rem 4.125rem;
+}
+
+.number__item {
+	margin: 0 auto 2rem;
+}
+
+.number__counter {
+	margin: 0 0 1.375rem;
+}
+
 }
 
 @media (min-width: 768px) {
-
-.blank {
-	font-size: 0.875rem;
-}
 
 .blank:before {
 	width: 1.875rem;
@@ -382,10 +417,11 @@ a {
 	flex-basis: 65.89%;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: space-evenly;
 }
 
 .facts__box-left {
-	flex-basis: 28.22%;
+	flex-basis: 30%;
 }
 
 .facts__item--order {
@@ -399,7 +435,7 @@ a {
 .facts__item {
 	position: relative;
 	flex-basis: 35%;
-	margin: 0 9.16% 1.375rem 0;
+	margin: 0 0 1.375rem;
 }
 
 .facts__item:before {
@@ -410,12 +446,12 @@ a {
 	margin-bottom: 0;
 }
 
-.facts__item:nth-child(2n) {
-	margin-right: 0;
-}
-
 .facts__item > .text {
 	margin: 0.875rem 0 0;
+}
+
+.facts__item:nth-last-child(3) {
+	margin: 0 0 1.375rem;
 }
 
 .facts__graph {
@@ -430,12 +466,16 @@ a {
 	margin: 0 0 1.4375rem;
 }
 
-.facts__blank {
+.facts__box-left {
 	margin: 0 auto;
 }
 
+.facts__blank {
+	margin-left: 4.1875rem;
+}
+
 .number {
-	padding: 5.875rem;
+	padding: 0 0 5.875rem;
 	display: flex;
 }
 
@@ -455,7 +495,7 @@ a {
 }
 
 .number__box-right {
-	flex-basis: 43.625%;
+	flex-basis: 47%;
 }
 
 .number__box {
@@ -467,11 +507,27 @@ a {
 }
 
 .number__title {
+	width: 15rem;
 	margin: 0 auto 1.375rem;
+	text-align: left;
+	line-height: 3rem;
 }
 
 .number__blank {
-	margin: 0 0 2rem 4rem;
+	width: 12.75rem;
+	margin: 0 0 3rem 5.25rem;
+}
+
+.number__list {
+	width: 64%;
+}
+
+.number__item {
+	margin: 0 auto 1.25rem;
+}
+
+.number__counter {
+	margin: 0 0 0.5625rem;
 }
 
 }
@@ -479,7 +535,7 @@ a {
 @media (min-width: 960px) {
 
 .blank {
-	font-size: 1rem;
+	font-size: 0.75rem;
 }
 
 .blank:before {
@@ -527,7 +583,7 @@ a {
 }
 
 .number {
-	padding: 7.375rem;
+	padding: 0 0 7.375rem;
 }
 
 .number__foto {
@@ -540,21 +596,28 @@ a {
 	line-height: 1.375rem;
 }
 
-.number__text--black {
-	font-size: 0.75rem;
+.number__title {
+	width: 18.75rem;
+	line-height: 3.625rem;
+	margin: 0 auto 1.75rem;
 }
 
-.number__title {
-	margin: 0 auto 1.75rem;
+.number__blank {
+	width: 16.25rem;
+	margin: 0 0 3rem 4.75rem;
+}
+
+.number__item {
+	margin: 0 auto 1.5625rem;
+}
+
+.number__counter {
+	margin: 0 0 0.875rem;
 }
 
 }
 
 @media (min-width: 1200px) {
-
-.blank {
-	font-size: 1.125rem;
-}
 
 .blank:before {
 	top: 0.5625rem;
@@ -570,7 +633,7 @@ a {
 }
 
 .number {
-	padding: 7.875rem;
+	padding: 0 0 7.875rem;
 }
 
 .number__foto {
@@ -583,12 +646,13 @@ a {
 	line-height: 1.1875rem;
 }
 
-.number__text--black {
-	font-size: 0.625rem;
+.number__title {
+	line-height: 3.375rem;
+	margin: 0 auto 1.5rem;
 }
 
-.number__title {
-	margin: 0 auto 1.5rem;
+.number__counter {
+	margin: 0 0 0.75rem;
 }
 
 }
@@ -603,10 +667,6 @@ a {
 }
 
 @media (min-width: 1440px) {
-
-.blank {
-	font-size: 1.25rem;
-}
 
 .btn {
 	padding: 0.625rem 1.3125rem;
@@ -629,7 +689,7 @@ a {
 }
 
 .number {
-	padding: 9.375rem;
+	padding: 0 0 9.375rem;
 }
 
 .number__foto {
@@ -642,12 +702,18 @@ a {
 	line-height: 1.375rem;
 }
 
-.number__text--black {
-	font-size: 0.75rem;
+.number__title {
+	width: 20rem;
+	line-height: 4rem;
+	margin: 0 auto 1.75rem;
 }
 
-.number__title {
-	margin: 0 auto 1.75rem;
+.number__item {
+	margin: 0 auto 1.875rem;
+}
+
+.number__counter {
+	margin: 0 0 0.875rem;
 }
 
 }

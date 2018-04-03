@@ -49,8 +49,9 @@
     <section class="number">
       <div class="number__box-left">
           <picture class='number__foto'>
-              <source srcset='img/Layer 427.jpg 1x, img/Layer 427@2x.jpg 2x'>
-              <img src="img/Layer 427.jpg" alt="Layer">
+            <source media="(min-width: 768px)" srcset='img/Layer 427.jpg 1x, img/Layer 427@2x.jpg 2x',
+                    media="(min-width: 320px)" srcset='img/Layer 42.jpg 1x, img/Layer 42@2x.jpg 2x'>
+            <img src="img/Layer 427.jpg" alt="Layer" class='number__img'>
           </picture>
           <div class="number__box">
             <h2 class="title number__descant"><span class="title--white"> За IT сытое и стабильное будущее</span></h2>
@@ -63,20 +64,20 @@
       <div class="number__box-right">
         <h2 class="title text--center number__title"><span class="title--white">[ при этом Кроме цифр_ ]</span></h2>
         <p class="blank number__blank">У web-разработчиков есть и другие  преимущества, которые тебе понравятся</p>
-        <ul class="number__item">
-          <li class="number__link">
+        <ul class="number__list">
+          <li class="number__item">
             <h3 class="counter number__counter">работаешь в удобное время</h3>
             <p class="text">Обычно перед разработчиком ставят задачу  и срок, а когда делать работу - решаешь ты;</p>
           </li>
-          <li class="number__link">
+          <li class="number__item">
             <h3 class="counter number__counter">можешь сам выбирать работодателя</h3>
             <p class="text">Ты можешь пойти работать в крупную компанию, или наоборот в молодой стартап;</p>
           </li>
-          <li class="number__link">
+          <li class="number__item">
             <h3 class="counter number__counter">огромная перспектива для роста и развития</h3>
             <p class="text">С возможностью перейти на работу в международную компанию, переехать в другой город или страну;</p>
           </li>
-          <li class="number__link">
+          <li class="number__item">
             <h3 class="counter number__counter">получить статус успешного человека</h3>
             <p class="text">Который сделал свою жизнь жизнью мечты, добился успеха, обеспечивает себя и свою семью.</p>
           </li>
