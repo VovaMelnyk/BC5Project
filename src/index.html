@@ -9,16 +9,32 @@
   <link rel="stylesheet" href="css/styles.min.css">
 </head>
 <body>
-<div class="wrapper wrapper--header">
+<div class="wrapper wrapper--img">
   <div class="container">
     <header class="header">
       <div class="header__menu">
-        <img src="img/logo.png" alt="logo" class="header__logo">
-        <img src="img/burg_menu.png" alt="menu" class="header__menulinks">
-      </div>
+          <picture class="header__logo">
+            <source media="(min-width: 1440px)" srcset="img/logo-1440.png 1440w">  
+            <source media="(min-width: 1200px)" srcset="img/logo-1200.png 1200w">
+            <source media="(min-width: 960px)" srcset="img/logo-960.png 960w">
+            <source media="(min-width: 768px)" srcset="img/logo-768.png 768w">
+            <source media="(min-width: 480px)" srcset="img/logo-480.png 480w">
+            <img src="img/logo-320.png" alt="logo">
+          </picture>
+          <picture class="header__menulinks">
+            <source media="(min-width: 1440px)" srcset="img/menu-1440.png 1440w">  
+            <source media="(min-width: 1200px)" srcset="img/menu-1200.png 1200w">
+            <source media="(min-width: 960px)" srcset="img/menu-960.png 960w">
+            <source media="(min-width: 768px)" srcset="img/menu-768.png 768w">
+            <source media="(min-width: 480px)" srcset="img/menu-480.png 480w">
+            <img src="img/menu-320.png" alt="menu">
+          </picture>
+        </div>
       <div class="header__container">
         <div class="header__title">
-          <h1 class="title title--header">[пошаговый видео курс_]</h1>
+          <h1 class="title title--header">[пошаговый
+            <span class="header__video"> видео</span>
+            <span class="header__course"> курс</span>_]</h1>
             <p class="header__start"> &#171; старт в карьере web-разработчика с 0&#187; для тех, кто давно хотел зарабатывать больше работая в it, но не знал, где реализовать себя</p>
         </div>
         <div class="header__open">
