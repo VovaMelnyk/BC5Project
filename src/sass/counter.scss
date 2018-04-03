@@ -1,9 +1,11 @@
+
 .counter {
   font-family: $acrom;
-  font-size: rem(9);
-  // font-weight: bold;
-  text-transform: capitalize;
-  counter-reset: qwerty;
+  font-size: rem(10);
+  font-weight: 700;
+  text-transform: uppercase;
+  position: relative;
+
   &:before {
     position: absolute;
     content: "";
