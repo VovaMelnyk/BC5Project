@@ -1,0 +1,30 @@
+.wrapper--footer {
+  background-color: $header-footer;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.info__list {
+  display: flex;
+}
+
+.thumbnail {
+  height: rem(25);
+}
+
+.wrapfoot-extra {
+  background-color: $footer;
+
+  &__contact-headline {
+    color: $white;
+  }
+
+  &__call {
+    display: block;
+    background-color: green;
+  }
+
+}
+
