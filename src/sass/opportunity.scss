@@ -1,0 +1,205 @@
+.opportunity {
+  padding: 2rem 0;
+  counter-reset: trophy;
+
+  &__header-left {
+    margin-bottom: 1rem;
+  }
+
+  &__header-right {
+    margin-bottom: 8rem;
+  }
+
+  &__blank {
+    width: 78%;
+    margin: 1rem auto 0;
+  }
+
+  &__right {
+
+    &-one {
+      text-transform: uppercase;
+      font-weight: 900;
+      font-family: $acrom;
+      font-size: rem(16);
+    }
+    &-two {
+      margin: 1rem 0;
+    }
+  }
+}
+
+.trophy {
+  position: relative;
+  margin-bottom: 2rem;
+  display: flex;
+
+  &:first-child {
+    margin-bottom: 5rem;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &::after {
+    counter-increment: trophy;
+    content: "0" counter(trophy) "_";
+    color: rgba(144, 144, 144, 0.4);
+    position: absolute;
+    top: 1rem;
+    right: 3rem;
+    transform: rotate(-90deg);
+    font-family: $acrom;
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  &__before {
+
+    &-go {
+      position: relative;
+
+      &::before {
+        content: "[Go for IT]";
+        display: block;
+        font-family: $acrom;
+        font-size: rem(10);
+        background-color: $black;
+        color: $white;
+        top: -3rem;
+        left: 0;
+        position: absolute;
+      }
+    }
+
+    &-community {
+      position: relative;
+
+      &::before {
+        content: "[Это признано IT-сообществом]";
+        display: block;
+        font-family: $acrom;
+        font-size: rem(10);
+        background-color: $black;
+        color: $white;
+        top: -3rem;
+        left: 0;
+        position: absolute;
+      }
+    }
+  }
+  &__title {
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+    font-size: rem(12);
+    font-family: $acrom;
+    text-transform: uppercase;
+  }
+
+  &__description {
+    flex-basis: 80%;
+  }
+
+  &__img-globus {
+    position: absolute;
+    right: 0;
+    top: -3rem;
+    z-index: -1;
+  }
+}
+
+@media (min-width: 480px) {
+  .opportunity {
+
+    &__header-right {
+      margin-bottom: 6rem;
+    }
+  }
+
+  .trophy {
+    &::after {
+      top: -3rem;
+      right: 4rem;
+    }
+    &__img-globus {
+      right: 2.5rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .opportunity {
+
+    &__header {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    &__header-left {
+      flex-basis: 49%;
+    }
+
+    &__header-right {
+      margin-bottom: 0;
+      flex-basis: 49%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &__blank {
+      margin-left: 3rem;
+    }
+
+    &__right {
+      &-one {
+        flex-basis: 50%;
+        font-size: rem(16);
+      }
+      &-two {
+        flex-basis: 50%;
+        line-height: rem(20);
+        margin: 0;
+      }
+      &-three {
+        margin-top: 0.5rem;
+      }
+    }
+    &__trophies {
+      margin-top: 5rem;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .trophy {
+    flex-basis: 21%;
+
+    &::after {
+      top: 1rem;
+      right: -2.6rem;
+    }
+    &__before {
+
+      &-go {
+        &::before {
+          font-size: 0.575rem;
+        }
+      }
+      &-community {
+        &::before {
+          font-size: 0.575rem;
+        }
+      }
+    }
+    &__title {
+      font-size: rem(14);
+    }
+    &__description {
+      flex-basis: 100%;
+    }
+    &__img-globus {
+      right: -0.5rem;
+    }
+  }
+}
