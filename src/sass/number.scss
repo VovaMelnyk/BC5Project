@@ -1,0 +1,198 @@
+
+.number {
+    margin: 0 0 rem(38);
+    &__counter {
+        position: relative;
+    }
+    &__img {
+        margin: auto;
+    }
+    &__foto {
+        display: block;
+        margin: 0 auto rem(24);
+        // margin-bottom: rem(24);
+    }
+    &__descant {
+        width: rem(178);
+        margin: 0 auto rem(20);
+        line-height: rem(24);
+    }
+    &__title {
+        margin: 0 auto rem(12);
+    }
+    &__text--black{
+        margin: 0 auto rem(10);
+    }
+    &__box-left {
+        margin: 0 auto rem(32);
+    }
+    &__blank {
+        width: rem(200);
+        margin: 0 0 rem(32) rem(66);
+    }
+    &__list {
+        width: 93%;
+        margin: auto;
+    }
+    &__item {
+        margin: 0 auto rem(20);
+        &:last-child {
+            margin: 0;
+        }
+    }
+    &__counter {
+        margin: 0 0 rem(14);
+    }
+}
+@media (min-width: 480px) {
+    .number {
+        margin: 0 0 rem(72);
+        &__foto {
+            margin-bottom: rem(34);
+        }
+        &__descant {
+            width: rem(256);
+            margin: 0 auto rem(30);
+            line-height: rem(40);
+        }
+        &__text--black{
+            margin: 0 auto rem(12);
+        }
+        &__box-left {
+            margin: 0 auto rem(48);
+        }
+        &__title {
+            margin: 0 auto rem(18);
+        }
+        &__blank {
+            width: rem(250);
+            margin: 0 0 rem(48) rem(66);
+        }
+        &__list {
+        }
+        &__item {
+            margin: 0 auto rem(32);
+        }
+        &__counter {
+            margin: 0 0 rem(22);
+        }
+    }
+}
+@media (min-width: 768px) {
+    .number {
+        margin: 0 0 rem(94);
+        display: flex;
+        &__descant {
+            width: rem(76);
+            font-size: rem(9);
+            line-height: rem(17);
+        }
+        &__text--black{
+            margin: 0 auto rem(12);
+        }
+        &__box-left {
+            flex-basis: 45.97%;
+            margin: 0 8.4375% 0 0;
+        }
+        &__box-right {
+            flex-basis: 47%;
+        }
+        &__box {
+            display: flex;
+        }
+        &__descant-text {
+            flex-basis: 60%;
+        }
+        &__title {
+            width: rem(240);
+            margin: 0 auto rem(22);
+            text-align: left;
+            line-height: rem(48);
+        }
+        &__blank {
+            width: rem(204);
+            margin: 0 0 rem(48) rem(84);
+        }
+        &__list {
+            width: 64%;
+        }
+        &__item {
+            margin: 0 auto rem(20);
+        }
+        &__counter {
+            margin: 0 0 rem(9);
+        }
+    }
+}
+@media (min-width: 960px) {
+    .number {
+        margin: 0 0 rem(118);
+        &__foto {
+            margin-bottom: rem(42);
+        }
+        &__descant {
+            width: rem(98);
+            font-size: rem(12);
+            line-height: rem(22);
+        }
+        &__title {
+            width: rem(300);
+            line-height: rem(58);
+            margin: 0 auto rem(28);
+        }
+        &__blank { 
+            width: rem(260);
+            margin: 0 0 rem(48) rem(76);
+        }
+        &__item {
+            margin: 0 auto rem(25);
+        }
+        &__counter {
+            margin: 0 0 rem(14);
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .number {
+        margin: 0 0 rem(126);
+        &__foto {
+            margin-bottom: rem(38);
+        }
+        &__descant {
+            width: rem(98);
+            font-size: rem(10);
+            line-height: rem(19);
+            }
+        &__title {
+            line-height: rem(54);
+            margin: 0 auto rem(24);
+        }
+        &__counter {
+            margin: 0 0 rem(12);
+        }
+    }
+}
+@media (min-width: 1440px) {
+    .number {
+        margin: 0 0 rem(150);
+        &__foto {
+            margin-bottom: rem(45);
+        }
+        &__descant {
+            width: rem(98);
+            font-size: rem(12);
+            line-height: rem(22);
+        }
+        &__title {
+            width: rem(320);
+            line-height: rem(64);
+            margin: 0 auto rem(28);
+        }
+        &__item {
+            margin: 0 auto rem(30);
+        }
+        &__counter {
+            margin: 0 0 rem(14);
+        }
+    }
+}
