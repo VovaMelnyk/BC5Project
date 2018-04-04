@@ -1,0 +1,250 @@
+
+.usual {
+  margin: 0 auto rem(30);
+
+  &__body {
+    margin: rem(20) 0 0;
+    padding: rem(10) rem(20);
+    background-color: $white;
+    box-shadow: 0px 5px 9px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__span {
+    display: block;
+  }
+
+  &__container {
+    text-align: center;
+    flex-basis: 30%;
+  }
+
+  &__name {
+    font-family: $acrom;
+    margin: rem(10) 0 0;
+    text-transform: uppercase;
+    color: $black;
+    font-size: rem(5);
+    font-weight: 900;
+    text-align: left;
+    width: inherit;
+  }
+
+
+  &__blank {
+    width: 70%;
+    margin: auto;
+    &:before {
+      width: rem(20);
+      height: rem(3);
+    }
+  }
+
+  &__black {
+    text-transform: none;
+  }
+
+
+
+
+  &__title {
+    font-size: rem(12);
+    text-transform: uppercase;
+    width: 50%;
+    margin: 0 auto rem(26);
+  }
+
+  &__text {
+    font-family: $acrom;
+    font-size: rem(4);
+    flex-basis: 60%;
+  }
+
+}
+
+@media (min-width: 480px) {
+
+  .usual {
+
+    margin: 0 0 rem(40);
+
+    &__body {
+      margin: rem(34)auto 0;
+      width: rem(340);
+    }
+
+    &__title {
+      font-size: rem(18);
+      width: 60%;
+    }
+
+    &__blank {
+      width: 67%;
+      margin: auto;
+    }
+
+    &__name {
+      font-size: rem(6);
+      width: 70%;
+    }
+
+    &__text {
+      font-size: rem(6);
+    }
+
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  .usual {
+    display: flex;
+    margin: 0 0 rem(50);
+
+    &__title-container {
+      flex-basis: 40%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__title {
+      width: 80%;
+    }
+
+    &__body {
+      flex-basis: 60%;
+      margin: 0;
+    }
+
+    &__blank {
+      font-size: rem(10);
+      width: 47%;
+      margin: auto;
+    }
+
+    &__name {
+      font-size: rem(8);
+    }
+
+    &__text {
+      font-size: rem(9);
+    }
+
+  }
+
+}
+
+
+@media (min-width: 960px) {
+  .usual {
+    margin: 0 0 rem(70);
+
+    &__body {
+      margin: 0;
+      padding: rem(30);
+    }
+
+    &__title {
+      width: 80%;
+    }
+
+    &__blank {
+      font-size: rem(12);
+      width: 40%;
+    }
+
+    &__name {
+      font-size: rem(10);
+    }
+
+    &__text {
+      font-size: rem(10);
+    }
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .usual {
+    margin: 0 0 rem(60);
+    &__body {
+
+      flex-basis: 70%;
+    }
+
+    &__title {
+      width: 85%;
+    }
+
+    &__container {
+
+      flex-basis: 30%;
+    }
+
+    &__title-container {
+      flex-basis: 43%;
+    }
+    &__blank {
+
+      font-size: rem(10);
+      width: 44%;
+    }
+
+    &__name {
+
+      font-size: rem(9);
+    }
+
+    &__text {
+
+      font-size: rem(9);
+      line-height: rem(14);
+    }
+
+  }
+
+}
+
+@media (min-width: 1440px){
+  .usual {
+    width: 100%;
+    margin: 0 0 rem(75);
+
+    &__body {
+      flex-basis: 55%;
+    }
+
+    &__title {
+      width: 80%;
+    }
+
+
+    &__blank {
+      font-size: rem(12);
+      font-weight: 700;
+      width: 55%;
+    }
+
+    &__container {
+      flex-basis: 35%;
+    }
+
+    &__img {
+      width: 100%;
+    }
+
+    &__name {
+      font-size: rem(10);
+      width: 90%;
+      margin: rem(10)  auto;
+    }
+
+    &__text {
+      font-size: rem(10);
+    }
+
+  }
+
+}
