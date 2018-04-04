@@ -1,103 +1,22 @@
 .text {
   font-family: $acrom;
-  font-size: rem(9);
+  font-size: rem(10);
   color: $black;
 
   &--black {
     font-weight: 700;
   }
 
-
   &--orange {
     color: $orange;
-    font-size: rem(10);
+  }
 
-    &--center {
-      text-align: center;
-    }
-
-    &--before:before {
-      display: inline-block;
-      content:"/";
-      font-size: rem(18);
-      margin-right: rem(8);
-    }
+  &--center {
+    text-align: center;
   }
 }
-
 @media (min-width: 480px) {
   .text {
-    font-size: rem(13);
-
-    &--orange {
-      font-size: rem(14);
-
-      &--before:before {
-        display: inline-block;
-        content:"/";
-        font-size: rem(21);
-      }
-
-    }
+    font-size: rem(12);
   }
-}
-
-@media (min-width: 768px) {
-  .text {
-    font-size: rem(8);
-
-    &--orange {
-      font-size: rem(9);
-
-      &--before:before {
-        display: inline-block;
-        content:"/";
-        font-size: rem(16);
-        margin-right: rem(20);
-      }
-    }
-
-  }
-
-}
-
-
-@media (min-width: 960px) {
-  .text {
-    font-size: rem(10);
-
-    &--orange {
-      font-size: rem(12);
-
-    }
-
-
-  }
-}
-
-
-@media (min-width: 1200px) {
-  .text {
-    font-size: rem(9);
-
-    &--orange {
-      font-size: rem(10);
-
-    }
-
-  }
-
-}
-
-@media (min-width: 1440px) {
-  .text {
-    font-size: rem(11);
-
-    &--orange {
-      font-size: rem(12);
-
-    }
-
-  }
-
 }
