@@ -1,6 +1,5 @@
 .video-courses {
   padding: rem(14) 0 rem(30);
-  text-align: left;
 
   &__header {
     margin: 0 auto rem(15);
@@ -13,6 +12,9 @@
 
   &__title {
     margin: 0 0 rem(10) 0;
+  }
+  &__blank {
+    margin-left: rem(30);
   }
 
   &__img {
@@ -58,21 +60,23 @@
   }
 
   &__text {
+    position: relative;
+    padding: 0 rem(50);
 
     &:before {
-      display: inline-block;
-      margin-right: rem(10);
+      position: absolute;
+      display: block;
       content: "";
       width: rem(2);
-      height: rem(14);
+      height: rem(22);
       background-color: #000000;
-      transform: rotate(45deg);
+      transform: rotate(30deg);
+      top: rem(1.8);
+      left: rem(40);
     }
   }
 
   &__footer {
-    padding: 0 rem(50);
-
     .btn {
       margin: rem(15) auto 0;
     }
@@ -80,7 +84,7 @@
 }
 
 .video-step {
-  &__tittle-counter {
+  &__title-counter {
     margin: 0 0 rem(10) 0;
   }
 }
@@ -96,8 +100,11 @@
       padding: 0 rem(100) 0;
     }
 
-    .title {
+    &__title {
       margin: 0 0 rem(15) 0;
+    }
+    &__blank {
+      margin-left: rem(30);
     }
 
     &__main {
@@ -109,74 +116,62 @@
       margin: 0 0 rem(36) 0;
     }
 
-    &__container {
-      counter-reset: scroll-counter;
-    }
     &__video-step {
       margin: 0 0 rem(29) 0;
-      position: relative;
-      counter-increment: scroll-counter;
-
-      &__tittle-counter {
-        margin: 0 0 rem(15) 0;
-      }
-
-      &:last-child {
-        margin: 0;
-      }
 
       &:before {
-        position: absolute;
-        transform: rotate(-90deg);
         left: rem(-45);
         top: rem(19);
-        content: "[00" counter(scroll-counter) "]";
         width: rem(43);
         height: rem(12);
-        background-color: #ff6b08;
-        color: #ffffff;
-        text-align: center;
-        font-family: $acrom;
         font-size: rem(11);
-        font-weight: 700;
       }
     }
-    &__footer {
-      padding: 0 rem(80);
 
+    &__footer {
+      padding-left: 2.3rem;
       .btn {
         margin: rem(36) auto 0;
       }
+    }
+  }
+  .video-step {
+    &__title-counter {
+      margin: 0 0 rem(15) 0;
     }
   }
 }
 
 @media (min-width: 768px) {
   .video-courses {
+    padding: 0 rem(64) 0 rem(64);
+
     &__header {
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-between;
       align-items: center;
       margin: 0 0 rem(60);
-      padding: 0 rem(64) 0 rem(64);
     }
 
     &__box {
-      flex-basis: prc(315, 768);
+      flex-basis: 48%;
       margin: 0;
       padding: 0;
     }
 
     &__pic {
-      margin: 0;
+      flex-basis: prc(274, 604);
     }
 
     &__img {
       margin: 0;
     }
+    &__blank {
+      margin-left: rem(45);
+    }
 
-    .title {
+    &__title {
       margin: 0 0 rem(27) 0;
     }
 
@@ -184,79 +179,176 @@
       display: flex;
       justify-content: space-between;
       margin: 0 auto rem(36);
-      padding: 0 rem(64);
-    }
-
-    &__comments {
-      flex-basis: prc(132, 768);
-      margin: 0;
+      padding: 0;
     }
 
     &__container {
-      flex-basis: prc(480, 768);
+      flex-basis: 68%;
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
-      counter-reset: scroll-counter;
 
     }
+
+    &__comments {
+      flex-basis: 25%;
+      margin: 0;
+    }
+
     &__video-step {
-      flex-basis: 30%;
+      flex-basis: 27%;
       margin: 0 0 rem(26) 0;
-      position: relative;
-      counter-increment: scroll-counter;
 
       &:nth-child(1n + 4) {
         margin: 0;
       }
 
-      &__tittle-counter {
-        margin: 0 0 rem(11) 0;
-      }
-
-      &:last-child {
-        margin: 0;
-      }
-
+    }
+    &__text {
+      flex-basis: 60%;
+      padding: 0;
       &:before {
-        position: absolute;
-        transform: rotate(-90deg);
-        left: rem(-45);
-        top: rem(19);
-        content: "[00" counter(scroll-counter) "]";
-        width: rem(43);
-        height: rem(12);
-        background-color: #ff6b08;
-        color: #ffffff;
-        text-align: center;
-        font-family: $acrom;
-        font-size: rem(11);
-        font-weight: 700;
+
+        top: 0.3125rem;
+        left: -1.8rem;
       }
     }
-
     &__footer {
+      padding: 0;
       display: flex;
       flex-direction: row-reverse;
-      justify-content: space-between;
-      padding: 0 rem(64);
-
+      align-items: center;
+      justify-content: flex-end;
       .btn {
-        margin: 0;
+        margin: 0 rem(60) 0 0;
       }
     }
-
-    &__text {
-      // flex-basis: prc(340, 768);
+  }
+  .video-step {
+    &__title-counter {
+      margin: 0 0 rem(10) 0;
     }
   }
 }
 
 @media (min-width: 960px) {
+  .video-courses {
+    padding: 0;
+
+    &__header {
+
+      margin: 0 0 rem(68);
+    }
+
+    &__box {
+      flex-basis: 47%;
+
+    }
+
+    &__pic {
+      flex-basis: prc(308, 684);
+    }
+
+    &__img {
+      margin: 0;
+    }
+    &__blank {
+      margin-left: rem(45);
+    }
+
+    &__title {
+      margin: 0 0 rem(33) 0;
+    }
+
+    &__main {
+      margin: 0 auto rem(40);
+    }
+
+    &__video-step {
+      flex-basis: 27%;
+      margin: 0 0 rem(26) 0;
+
+    }
+
+    &__text {
+      flex-basis: 45%;
+
+    }
+    &__footer {
+
+    }
+  }
+  .video-step {
+    &__title-counter {
+      margin: 0 0 rem(12) 0;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
+  .video-courses {
+
+    &__header {
+
+      margin: 0 0 rem(76);
+    }
+
+    &__pic {
+      flex-basis: prc(346, 823);
+    }
+
+    &__title {
+      margin: 0 0 rem(35) 0;
+    }
+
+    &__main {
+
+      margin: 0 auto rem(45);
+    }
+
+    &__video-step {
+      flex-basis: 27%;
+      margin: 0 0 rem(33) 0;
+
+    }
+
+  }
+
 }
 
 @media (min-width: 1440px) {
+  .video-courses {
+
+    &__pic {
+      flex-basis: prc(369, 823);
+    }
+
+    &__title {
+      margin: 0 0 rem(38) 0;
+    }
+
+    &__main {
+      margin: 0 auto rem(50);
+    }
+
+    &__video-step {
+      flex-basis: 27%;
+      margin: 0 0 rem(52) 0;
+
+    }
+
+  }
+  .video-step {
+    &__title-counter {
+      margin: 0 0 rem(14) 0;
+    }
+  }
+
 }
+
+
+
+
+
+
+
