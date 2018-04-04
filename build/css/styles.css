@@ -299,6 +299,130 @@ a {
 	padding: 0 3.75rem;
 }
 
+.web-career {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+}
+
+.web-career__align-center {
+	width: 80%;
+	display: block;
+	margin: 0 auto 1.1rem;
+	padding: 0 1.625rem;
+}
+
+.web-career__career {
+	margin-bottom: 1.1rem;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.web-career__career:last-child {
+	margin-bottom: 0;
+}
+
+.web {
+	text-transform: uppercase;
+	width: 92%;
+	display: block;
+	margin: 0 auto 1rem;
+	font-weight: 900;
+}
+
+.title--career {
+	text-align: left;
+}
+
+.title .span-web-career {
+	display: block;
+}
+
+.text--web-career {
+	display: block;
+	margin: auto;
+}
+
+.text--bold {
+	font-weight: 700;
+}
+
+.four-steps {
+	padding: 2rem 3.75rem;
+	counter-reset: after-course;
+}
+
+.four-steps__title {
+	margin: 0 0 1rem;
+}
+
+.four-steps__blank {
+	margin: 0 0 2rem;
+}
+
+.steps__item {
+	margin: 0 0 1.5625rem;
+}
+
+.counter--num {
+	position: relative;
+	margin-bottom: 0.4375rem;
+}
+
+.counter--num::after {
+	counter-increment: after-course;
+	content: "0" counter(after-course) ".";
+	position: absolute;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.66938rem;
+	font-weight: 900;
+	line-height: 100%;
+	top: 0;
+	left: -1.5625rem;
+}
+
+.counter--num::before {
+	position: absolute;
+	top: 0.75rem;
+	left: -0.8125rem;
+	margin: 0;
+	background-color: #16ebfe;
+}
+
+.text--orange {
+	position: relative;
+}
+
+.text--orange:before {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 0.125rem;
+	height: 1.375rem;
+	background-color: #000000;
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	top: 0.1125rem;
+	left: -1.125rem;
+}
+
+.record-course {
+	padding: 3.5rem 0;
+}
+
+.record-course__info {
+	padding: 2rem 3rem;
+}
+
+.record-course__blank {
+	margin: 2rem 0 1rem;
+}
+
+.record-course__comments {
+	margin: 0 0 0.625rem;
+}
+
 @media (min-width: 480px) {
 
 .black {
@@ -414,6 +538,43 @@ a {
 
 .for-hand__text {
 	padding: 0 6.25rem;
+}
+
+.web-img {
+	display: block;
+	margin: auto;
+}
+
+.web-career__align-center {
+	width: 80%;
+	display: block;
+	margin: 0 auto 1.1rem;
+}
+
+.text--bold {
+	max-width: 79%;
+}
+
+.text--web-center {
+	width: 75%;
+}
+
+.-web {
+	width: 71%;
+}
+
+.four-steps {
+	padding: 3.375rem 7.5rem;
+}
+
+.counter--num::before {
+	top: 1.03125rem;
+}
+
+.counter--num::after {
+	font-size: 1rem;
+	left: -2.0625rem;
+	top: 0.0625rem;
 }
 
 }
@@ -566,6 +727,64 @@ a {
 	padding: 0;
 }
 
+.web-career {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.web-career__career {
+	width: 48%;
+}
+
+.web-career__career--reverse {
+	display: flex;
+	flex-direction: column;
+}
+
+.web {
+	width: 100%;
+}
+
+.four-steps {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.375rem 4.0625rem;
+}
+
+.four-steps__main {
+	flex-basis: 45%;
+}
+
+.steps {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.steps__item {
+	flex-basis: 45%;
+}
+
+.record-course {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.record-course__info {
+	padding: 0;
+	flex-basis: 40%;
+}
+
+.record-course__course-img {
+	width: 45%;
+}
+
+.record-course__blank {
+	margin: 1rem 0 1.25rem 3.125rem;
+}
+
 }
 
 @media (min-width: 960px) {
@@ -575,7 +794,7 @@ a {
 }
 
 .blank:before {
-	top: 0.4375rem;
+	top: 2rem;
 }
 
 .btn {
@@ -679,6 +898,38 @@ a {
 	margin: 0 0 1.125rem 0;
 }
 
+.blank:before {
+	top: 1rem;
+}
+
+.four-steps {
+	padding: 70px 0 50px;
+}
+
+.four-steps__main {
+	flex-basis: 41%;
+}
+
+.steps__item {
+	flex-basis: 40%;
+}
+
+.counter--num {
+	margin-bottom: 0.875rem;
+}
+
+.counter--num::before {
+	top: 1.6875rem;
+	left: -1.8125rem;
+	width: 0.5625rem;
+	height: 0.5625rem;
+}
+
+.counter--num::after {
+	font-size: 1.31438rem;
+	left: -3.3125rem;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -743,6 +994,10 @@ a {
 
 .for-hand__comments {
 	margin: 0 0 1.3125rem 0;
+}
+
+.web-career__align-center {
+	width: 100%;
 }
 
 }
@@ -813,6 +1068,18 @@ a {
 
 .for-hand__comments {
 	margin: 0 0 1.3125rem 0;
+}
+
+.counter--num::before {
+	top: 1.6875rem;
+	left: -1.9375rem;
+	width: 0.625rem;
+	height: 0.625rem;
+}
+
+.counter--num::after {
+	font-size: 1.40625rem;
+	left: -3.625rem;
 }
 
 }
