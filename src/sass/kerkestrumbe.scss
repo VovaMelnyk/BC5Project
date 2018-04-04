@@ -1,14 +1,160 @@
-.title {
-  width: 47%;
-  margin: auto;
+.four-steps {
+  padding: rem(32) rem(60);
+  counter-reset:  after-course;
+
+  &__title {
+    margin: 0 0 rem(16);
+  }
+
+  &__blank {
+    margin: 0 0 rem(32);
+  }
 }
 
-.four-steps{
-  text-align: left;
+.steps {
+
+  &__item {
+    margin: 0 0 rem(25);
+  }
 }
-.steps{
-  margin-top: rem(60);
+
+.counter--num {
+  position: relative;
+  margin-bottom: rem(7);
+
+  &::after {
+    counter-increment: after-course;
+    content: "0" counter(after-course) ".";
+    position: absolute;
+    font-family: $acrom;
+    font-size: rem(10.71);
+    font-weight: 900;
+    line-height: 100%;
+    top: 0;
+    left: rem(-25);
+
+  }
+
+  &::before {
+    position: absolute;
+    top: rem(12);
+    left: rem(-13);
+    margin: 0;
+    background-color: $blue;
+  }
 }
 .text--orange{
-  margin-top: rem(42);
+  position: relative;
+  //padding: 0 rem(50);
+
+  &:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: rem(2);
+    height: rem(22);
+    background-color: #000000 ;
+    transform: rotate(30deg);
+    top: rem(1.8);
+    left: rem(-18);
+  }
+}
+
+
+@media (min-width: 480px) {
+
+  .four-steps {
+    padding: rem(54) rem(120);
+  }
+
+  .counter--num {
+
+    &::before {
+      top: rem(16.5);
+    }
+
+    &::after {
+      font-size: rem(16);
+      left: rem(-33);
+      top: rem(1);
+    }
+  }
+}
+
+@media(min-width: 768px) {
+
+  .four-steps {
+    display: flex;
+    justify-content: space-between;
+    padding: rem(54) rem(65);
+
+
+    &__main {
+      flex-basis: 45%
+    }
+  }
+  .steps{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    &__item{
+      flex-basis: 45%;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+
+  .blank:before {
+    top: 1rem;
+  }
+  .four-steps{
+    padding: 70px 0 50px;
+
+    &__main{
+      flex-basis: 41%;
+    }
+  }
+
+  .steps{
+
+    &__item{
+      flex-basis: 40%;
+    }
+  }
+
+  .counter--num {
+    margin-bottom: rem(14);
+
+    &::before {
+      top: rem(27);
+      left: rem(-29);
+      width: rem(9);
+      height: rem(9);
+    }
+
+    &::after {
+      font-size: rem(21.03);
+      left: rem(-53);
+
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .counter--num {
+
+    &::before {
+      top: rem(27);
+      left: rem(-31);
+      width: rem(10);
+      height: rem(10);
+    }
+
+    &::after {
+      font-size: rem(22.5);
+      left: rem(-58);
+    }
+  }
 }
