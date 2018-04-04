@@ -203,6 +203,23 @@ a {
 
 .earn__picture {
 	display: block;
+	position: relative;
+}
+
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	text-transform: uppercase;
+	font-size: 4.0625rem;
+	font-weight: 700;
+	color: rgba(0, 0, 0, 0.051);
+	font-family: "Acrom", sans-serif;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	position: absolute;
+	z-index: -1;
+	top: 18.625rem;
+	left: -3.125rem;
 }
 
 .earn__img {
@@ -428,6 +445,14 @@ a {
 	padding: 0;
 }
 
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	font-size: 6.25rem;
+	top: 22.5rem;
+	left: -1.875rem;
+}
+
 .earn__coment {
 	font-size: 0.875rem;
 }
@@ -546,6 +571,14 @@ a {
 	flex-basis: 40%;
 }
 
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	font-size: 8.75rem;
+	top: 20rem;
+	left: -5rem;
+}
+
 .earn__box-right {
 	flex-basis: 40%;
 	margin: 0;
@@ -566,26 +599,22 @@ a {
 	line-height: 2.875rem;
 }
 
-.earn__bottom {
-	padding: 0 2rem;
-}
-
 .earn__comment {
 	font-size: 1.0625rem;
 	margin-bottom: 1.3125rem;
-	padding: 0 0.625rem;
 }
 
 .earn__body {
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 .earn__txt {
 	font-size: 0.5625rem;
 	flex-basis: 22%;
+	margin: 0 0 1.25rem;
 }
 
 .earn__txt:before {
@@ -597,6 +626,7 @@ a {
 	flex-basis: 26%;
 	margin: 0.875rem 0 0 auto;
 	text-align: left;
+	font-weight: 700;
 }
 
 .earn__txt:nth-last-child(-n+5) {
@@ -787,6 +817,15 @@ a {
 	font-size: 1.3125rem;
 }
 
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	font-size: 11rem;
+	font-weight: 900;
+	top: 21.875rem;
+	left: -6.875rem;
+}
+
 .earn__txt {
 	font-size: 0.6875rem;
 }
@@ -804,7 +843,7 @@ a {
 }
 
 .facts__item {
-	margin: 0 9.09% 1.5625rem 0;
+	margin: 0 0 1.5625rem 0;
 }
 
 .facts__sub-title {
@@ -878,19 +917,26 @@ a {
 .earn__comment {
 	flex-basis: 25%;
 	font-size: 1.125rem;
+	margin: 0;
 }
 
 .earn__body {
-	flex-basis: 70%;
+	flex-basis: 80%;
+}
+
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	left: -7.5rem;
 }
 
 .earn__txt {
 	font-size: 0.625rem;
-	flex-basis: 33%;
+	flex-basis: 28%;
 }
 
 .earn__txt--orange {
-	margin: auto;
+	margin: 0;
 	font-size: 0.625rem;
 }
 
@@ -947,7 +993,8 @@ a {
 }
 
 .earn {
-	padding: 9.375rem 0;
+	padding: 9.375rem 0 0;
+	margin: 0 0 9.375rem;
 }
 
 .earn__title {
@@ -962,6 +1009,12 @@ a {
 	font-size: 1.375rem;
 }
 
+.earn__picture:after {
+	display: block;
+	content: 'you';
+	font-size: 11.6875rem;
+}
+
 .earn__txt {
 	font-size: 0.75rem;
 	flex-basis: 30%;
@@ -969,7 +1022,6 @@ a {
 
 .earn__txt--orange {
 	font-size: 0.75rem;
-	margin: auto 0;
 	padding: 0.9375rem 0 0;
 }
 
@@ -986,7 +1038,7 @@ a {
 }
 
 .facts__item {
-	margin: 0 9.09% 1.6875rem 0;
+	margin: 0 0 1.6875rem 0;
 }
 
 .number {
