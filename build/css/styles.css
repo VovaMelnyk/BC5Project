@@ -176,7 +176,8 @@ a {
 }
 
 .earn {
-	padding: 2.375rem 0 3.25rem;
+	padding: 2.375rem 0 0;
+	margin: 0 0 3.25rem;
 }
 
 .earn__box-top {
@@ -208,8 +209,55 @@ a {
 	margin: auto;
 }
 
+.earn__bottom {
+	padding: 1rem 0;
+}
+
+.earn__comment {
+	font-family: "Acrom", sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	font-size: 0.5625rem;
+	font-weight: 700;
+	text-align: left;
+	margin: 0 0 0.9375rem;
+}
+
+.earn__body {
+	padding: 0 1.5rem;
+}
+
+.earn__txt {
+	position: relative;
+	margin-bottom: 0.625rem;
+	font-size: 9px;
+}
+
+.earn__txt--orange {
+	font-size: 0.5625rem;
+	font-weight: 500;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+
+.earn__txt:before {
+	position: absolute;
+	content: "";
+	width: 0.3125rem;
+	height: 0.3125rem;
+	background-color: #000;
+	top: 0.3125rem;
+	left: -0.625rem;
+}
+
+.earn__span {
+	font-weight: 700;
+	color: #000;
+}
+
 .facts {
-	padding-bottom: 2.1875rem;
+	margin: 0 0 2.1875rem;
 }
 
 .facts__box-right {
@@ -261,7 +309,7 @@ a {
 }
 
 .number {
-	padding: 0 0 2.375rem;
+	margin: 0 0 2.375rem;
 }
 
 .number__counter {
@@ -359,7 +407,8 @@ a {
 }
 
 .earn {
-	padding: 3.4375rem 0 5rem;
+	padding: 3.4375rem 0 0;
+	margin: 0 0 5rem;
 }
 
 .earn__box-top {
@@ -375,8 +424,32 @@ a {
 	margin: auto;
 }
 
+.earn__bottom {
+	padding: 0;
+}
+
+.earn__coment {
+	font-size: 0.875rem;
+}
+
+.earn__body {
+	padding: 0 2rem;
+}
+
+.earn__txt {
+	font-size: 0.875rem;
+}
+
+.earn__txt:nth-last-child(2) {
+	margin-bottom: 1.25rem;
+}
+
+.earn__txt--orange {
+	font-size: 0.875rem;
+}
+
 .facts {
-	padding-bottom: 3.125rem;
+	margin: 0 0 3.125rem;
 }
 
 .facts__title {
@@ -401,7 +474,7 @@ a {
 }
 
 .number {
-	padding: 0 0 4.5rem;
+	margin: 0 0 4.5rem;
 }
 
 .number__foto {
@@ -458,7 +531,8 @@ a {
 }
 
 .earn {
-	padding: 7rem 0 3.5625rem;
+	padding: 7rem 0 0;
+	margin: 0 0 3.5625rem;
 }
 
 .earn__box-top {
@@ -492,8 +566,45 @@ a {
 	line-height: 2.875rem;
 }
 
+.earn__bottom {
+	padding: 0 2rem;
+}
+
+.earn__comment {
+	font-size: 1.0625rem;
+	margin-bottom: 1.3125rem;
+	padding: 0 0.625rem;
+}
+
+.earn__body {
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.earn__txt {
+	font-size: 0.5625rem;
+	flex-basis: 22%;
+}
+
+.earn__txt:before {
+	display: none;
+}
+
+.earn__txt--orange {
+	font-size: 0.5625rem;
+	flex-basis: 26%;
+	margin: 0.875rem 0 0 auto;
+	text-align: left;
+}
+
+.earn__txt:nth-last-child(-n+5) {
+	margin-bottom: 0;
+}
+
 .facts {
-	padding-bottom: 6.25rem;
+	margin: 0 0 6.25rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -560,7 +671,7 @@ a {
 }
 
 .number {
-	padding: 0 0 5.875rem;
+	margin: 0 0 5.875rem;
 	display: flex;
 }
 
@@ -652,7 +763,8 @@ a {
 }
 
 .earn {
-	padding: 8.75rem 0 4.375rem;
+	padding: 8.75rem 0 0;
+	margin: 0 0 4.375rem;
 }
 
 .earn__box-top {
@@ -671,8 +783,20 @@ a {
 	line-height: 3.5625rem;
 }
 
+.earn__comment {
+	font-size: 1.3125rem;
+}
+
+.earn__txt {
+	font-size: 0.6875rem;
+}
+
+.earn__txt--orange {
+	font-size: 0.6875rem;
+}
+
 .facts {
-	padding-bottom: 7.8125rem;
+	margin: 0 0 7.8125rem;
 }
 
 .facts__title {
@@ -688,7 +812,7 @@ a {
 }
 
 .number {
-	padding: 0 0 7.375rem;
+	margin: 0 0 7.375rem;
 }
 
 .number__foto {
@@ -738,15 +862,48 @@ a {
 }
 
 .earn {
-	padding: 7.8125rem 0;
+	padding: 7.8125rem 0 0;
+	margin: 0 0 7.8125rem;
 }
 
 .earn__box-top {
 	margin: 0 0 4.375rem;
 }
 
+.earn__bottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.earn__comment {
+	flex-basis: 25%;
+	font-size: 1.125rem;
+}
+
+.earn__body {
+	flex-basis: 70%;
+}
+
+.earn__txt {
+	font-size: 0.625rem;
+	flex-basis: 33%;
+}
+
+.earn__txt--orange {
+	margin: auto;
+	font-size: 0.625rem;
+}
+
+.earn__txt:nth-child(-n+6) {
+	margin-bottom: 1.5rem;
+}
+
+.earn__txt:nth-child(3n+4) {
+	padding: 0.3125rem 0 0;
+}
+
 .number {
-	padding: 0 0 7.875rem;
+	margin: 0 0 7.875rem;
 }
 
 .number__foto {
@@ -797,8 +954,31 @@ a {
 	line-height: 4.1875rem;
 }
 
+.earn__body {
+	flex-basis: 80%;
+}
+
+.earn__comment {
+	font-size: 1.375rem;
+}
+
+.earn__txt {
+	font-size: 0.75rem;
+	flex-basis: 30%;
+}
+
+.earn__txt--orange {
+	font-size: 0.75rem;
+	margin: auto 0;
+	padding: 0.9375rem 0 0;
+}
+
+.earn__txt:nth-child(-n+6) {
+	margin-bottom: 1.75rem;
+}
+
 .facts {
-	padding-bottom: 10rem;
+	margin: 0 0 10rem;
 }
 
 .facts__title {
@@ -810,7 +990,7 @@ a {
 }
 
 .number {
-	padding: 0 0 9.375rem;
+	margin: 0 0 9.375rem;
 }
 
 .number__foto {

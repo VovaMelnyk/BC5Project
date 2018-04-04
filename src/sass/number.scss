@@ -1,6 +1,6 @@
 
 .number {
-    padding: 0 0 rem(38);
+    margin: 0 0 rem(38);
     &__counter {
         position: relative;
     }
@@ -46,7 +46,7 @@
 }
 @media (min-width: 480px) {
     .number {
-        padding: 0 0 rem(72);
+        margin: 0 0 rem(72);
         &__foto {
             margin-bottom: rem(34);
         }
@@ -80,7 +80,7 @@
 }
 @media (min-width: 768px) {
     .number {
-        padding: 0 0 rem(94);
+        margin: 0 0 rem(94);
         display: flex;
         &__descant {
             width: rem(76);
@@ -126,7 +126,7 @@
 }
 @media (min-width: 960px) {
     .number {
-        padding: 0 0 rem(118);
+        margin: 0 0 rem(118);
         &__foto {
             margin-bottom: rem(42);
         }
@@ -154,7 +154,7 @@
 }
 @media (min-width: 1200px) {
     .number {
-        padding: 0 0 rem(126);
+        margin: 0 0 rem(126);
         &__foto {
             margin-bottom: rem(38);
         }
@@ -174,7 +174,7 @@
 }
 @media (min-width: 1440px) {
     .number {
-        padding: 0 0 rem(150);
+        margin: 0 0 rem(150);
         &__foto {
             margin-bottom: rem(45);
         }

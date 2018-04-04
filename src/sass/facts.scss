@@ -1,6 +1,6 @@
 
 .facts {
-    padding-bottom: rem(35);
+    margin: 0 0 rem(35);
     &__box-right {
         display: flex;
         flex-direction: column;
@@ -50,7 +50,7 @@
 }
 @media (min-width: 480px) {
     .facts {
-        padding-bottom: rem(50);
+        margin: 0 0 rem(50);
         &__title {
             margin: 0 0 rem(42);
         }
@@ -81,7 +81,7 @@
 }
 @media (min-width: 768px) {
     .facts {
-        padding-bottom: rem(100);
+        margin: 0 0 rem(100);
         display: flex;
         justify-content: space-between;
         &__box-right {
@@ -136,7 +136,7 @@
 }
 @media (min-width: 960px) {
     .facts {
-        padding-bottom: rem(125);
+        margin: 0 0 rem(125);
         &__title {
             margin: 0 0 rem(28);
         }
@@ -151,8 +151,7 @@
 }
 @media (min-width: 1440px) {
     .facts {
-        padding-bottom: rem(160);
-
+        margin: 0 0 rem(160);
         &__title {
             margin: 0 0 rem(34);
         }
