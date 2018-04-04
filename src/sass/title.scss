@@ -1,11 +1,11 @@
 .title {
   font-family: $acrom;
-  font-size: rem(14);
+  font-size: rem(12);
   font-weight: 900;
   color: $black;
   text-transform: uppercase;
-
   &--white {
+    font-family: $acrom;
     color: $white;
     background-color: $black;
   }

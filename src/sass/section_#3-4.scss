@@ -1,0 +1,277 @@
+/*
+@media (min-width: 320px) {
+  .bonus {
+    padding-top: rem(50);
+    padding-bottom: rem(50);
+  }
+
+  .box {
+    &__first {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+
+    &__second {
+
+      &:last-child {
+        margin-bottom: rem(0);
+      }
+    }
+
+    &--text {
+      width: prc(200,320);
+      margin: auto;
+    }
+
+    &__inform {
+      margin: auto;
+      width: prc(200,320);
+      margin-bottom: rem(30);
+    }
+
+    &__img {
+      margin-bottom: rem(20);
+    }
+
+    &--img2 {
+      display: none;
+    }
+
+    &__right {
+      margin: auto;
+      counter-reset: scroll-counter;
+      padding: rem(0) rem(70);
+    }
+  }
+
+  .title {
+    &--caption {
+      text-align: center;
+      font-size: rem(12);
+    }
+
+    &--price {
+      margin-bottom: rem(0);
+      font-size: rem(9);
+    }
+
+    &--big-price {
+      font-size: rem(25);
+    }
+
+    &--grn {
+      font-size: rem(13);
+    }
+
+    &--plus {
+      font-size: rem(12);
+      text-transform: uppercase;
+      width: rem(180);
+      margin: auto;
+    }
+  }
+
+  .text {
+    &--price {
+      font-size: rem(8);
+      margin-top: rem(0);
+      text-transform: capitalize;
+    }
+
+    &--second {
+      margin-top: rem(5);
+      margin-bottom: rem(0);
+    }
+  }
+
+  .blank {
+
+    &--words {
+      width: 76%;
+      margin: auto;
+      margin-top: rem(15);
+      margin-bottom: rem(17);
+      position: relative;
+      font-size: rem(9);
+      left: 0px;
+    }
+
+    &:before {
+      position: absolute;
+      left: rem(-21);
+      top: rem(6);
+    }
+  }
+
+  .black {
+    &--bgcb-title {
+      display: block;
+      text-align: left;
+      width: rem(75);
+      margin-top: rem(3);
+
+      &:first-child {
+        width: rem(105);
+      }
+
+      &--three {
+        width: rem(80);
+      }
+
+    }
+
+    &--price {
+      font-size: rem(8);
+      text-transform: lowercase;
+    }
+  }
+
+  .scroll {
+    counter-increment: scroll-counter;
+    position: relative;
+    margin: auto;
+    margin-top: rem(20);
+    !*width: rem(175);*!
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+      &:before {
+        position: absolute;
+        transform: rotate(-90deg);
+        left: rem(-30);
+        top: rem(17);
+        content: "[0"counter(scroll-counter)"]";
+        width: rem(30);
+        height: rem(10);
+        background-color: #ff6b08;
+        color: #ffffff;
+        text-align: center;
+        font-family: $acrom;
+        font-size: rem(9);
+        font-weight: 700;
+    }
+  }
+
+  .price {
+    display: flex;
+    width: rem(195);
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: auto;
+    margin-top: rem(32);
+
+    &--blue {
+      display: block;
+      margin-top: rem(3);
+    }
+
+    &__numeral {
+      position: relative;
+      bottom: rem(-8);
+
+      &:before {
+        display: block;
+        position: absolute;
+        content: "1 300 грн";
+        text-decoration: line-through;
+        font-size: rem(12);
+        font-family: $acrom;
+        top: rem(-10)
+      }
+    }
+  }
+
+  .plus {
+    counter-reset: plus-counter;
+    margin-bottom: rem(20);
+
+    &__inform {
+      width: rem(153);
+      margin: auto;
+      position: relative;
+      counter-increment: plus-counter;
+
+      &:after {
+        font-family: $acrom;
+        font-size: rem(17);
+        font-weight: 900;
+        content: "0"counter(plus-counter)".";
+        position: absolute;
+        left: rem(-39);
+        bottom: rem(24.6);
+      }
+    }
+  }
+
+  .client-info {
+    margin: auto;
+    padding: rem(40) rem(0);
+    width: prc(246,320);
+    -webkit-box-shadow: 0px 13px 95px -12px rgba(0,0,0,0.52);
+    -moz-box-shadow: 0px 13px 95px -12px rgba(0,0,0,0.52);
+    box-shadow: 0 12px 42px -12px rgba(0,0,0,0.52);
+  }
+
+  .form {
+    display: block;
+    width: prc(250,320);
+    margin: auto;
+  }
+
+  .input {
+    display: block;
+    border: 0;
+    border-bottom: rem(1.2) solid #f2f2f2;
+    width: prc(250,250);
+    margin-bottom: rem(0);
+    text-align: left;
+    font-size: rem(7);
+    font-family: $acrom;
+    font-weight: 700;
+    color: #000000;
+    padding: rem(10) rem(0);
+  }
+
+  .label {
+    font-family: $acrom;
+    font-size: rem(7);
+    color: #a3a3a3;
+  }
+
+  .btn {
+    &--submit {
+      width: rem(114);
+      font-size: rem(6);
+      padding: rem(8) rem(14);
+      margin-left: 0;
+      margin-top: rem(20);
+    }
+  }
+}
+
+
+@media (min-width: 480px) {
+  .box {
+
+    &--text {
+      width: prc(300,480);
+    }
+
+    &__inform {
+      width: prc(300,480);
+    }
+  }
+
+  .black {
+
+    &--bgcb-title{
+      width: rem(96.6 );
+      &:first-child {
+        width: rem(137);
+      }
+    }
+  }
+}
+*/
