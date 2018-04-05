@@ -85,13 +85,14 @@
         display: flex;
         justify-content: space-between;
         &__box-right {
-            flex-basis: 65.89%;
+            flex-basis: 76%;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
         &__box-left {
-            flex-basis: 31%;
+            flex-basis: 29%;
+            margin: 0;
         }
         &__item--order {
             order: 0;
@@ -122,14 +123,11 @@
             position: absolute;
             z-index: -1;
             bottom: -10%;
-            right: -74%;
+            right: -20%;
         }
         &__title {
             margin: 0 0 rem(23);
 
-        }
-        &__box-left {
-            margin: 0 auto;
         }
         &__blank {
             margin-left: rem(67);
@@ -148,7 +146,9 @@
         &__sub-title {
             margin-bottom: rem(15);
         }
-
+        &__graph {
+            right: -40%;
+        }
     }
 }
 @media (min-width: 1440px) {

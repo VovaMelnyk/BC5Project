@@ -111,6 +111,7 @@
 
     &__title {
       width: 80%;
+      margin: 0 0 rem(50);
     }
 
     &__body {
@@ -121,7 +122,7 @@
     &__blank {
       font-size: rem(10);
       width: 47%;
-      margin: auto;
+      margin: 0 auto;
     }
 
     &__name {
@@ -176,6 +177,7 @@
 
     &__title {
       width: 85%;
+      margin-bottom: rem(64);
     }
 
     &__container {
@@ -184,7 +186,7 @@
     }
 
     &__title-container {
-      flex-basis: 43%;
+      flex-basis: 42%;
     }
     &__blank {
 
@@ -218,6 +220,7 @@
 
     &__title {
       width: 80%;
+      margin-bottom: rem(80);
     }
 
 
