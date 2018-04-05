@@ -2,7 +2,7 @@
   counter-reset: trophy;
   margin-bottom: 1.875rem;
 
-  &__header{
+  &__header {
     margin-bottom: 6rem;
   }
 
@@ -118,7 +118,7 @@
   }
 
   .trophy {
-justify-content: space-around;
+    justify-content: space-around;
     &::after {
       top: -3rem;
       right: 4rem;
@@ -131,6 +131,7 @@ justify-content: space-around;
 
 @media (min-width: 768px) {
   .opportunity {
+    margin-bottom: 2.875rem;
 
     &__header {
       display: flex;
@@ -174,7 +175,12 @@ justify-content: space-around;
     }
   }
   .trophy {
+    margin: 0;
     flex-basis: 21%;
+
+    &:first-child {
+      margin-bottom: 0;
+    }
 
     &::after {
       top: 1rem;
