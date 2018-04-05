@@ -81,10 +81,9 @@
 
 @media (min-width: 480px) {
   .after-course {
-    padding: rem(24) 0 rem(48);
 
     &__info {
-      width: prc(295, 480);
+      width: 75%;
     }
 
     &__body {
@@ -95,7 +94,7 @@
       margin-bottom: rem(30);
 
       &--btn {
-        margin-top: rem(50);
+        margin: 0 auto 0;
       }
 
       & > .counter--numb {
