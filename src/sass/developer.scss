@@ -9,7 +9,6 @@
     width: 80%;
     display: block;
     margin: 0 auto 1.1rem;
-    padding: 0 rem(26);
   }
 
   &__career{
@@ -49,10 +48,7 @@
   }
 }
 @media (min-width: 480px) {
-  .web-img {
-    display: block;
-    margin: auto;
-  }
+
   .web-career {
 
     &__align-center {

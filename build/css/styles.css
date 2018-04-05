@@ -593,7 +593,6 @@ a {
 }
 
 .opportunity {
-	padding: 2rem 0;
 	counter-reset: trophy;
 	margin-bottom: 1.875rem;
 }
@@ -835,7 +834,6 @@ a {
 	width: 80%;
 	display: block;
 	margin: 0 auto 1.1rem;
-	padding: 0 1.625rem;
 }
 
 .web-career__career {
@@ -962,6 +960,7 @@ a {
 
 .people__span {
 	display: block;
+	margin-bottom: 0.75rem;
 }
 
 .people__black {
@@ -1902,6 +1901,10 @@ a {
 	margin-bottom: 6rem;
 }
 
+.trophy {
+	justify-content: space-around;
+}
+
 .trophy::after {
 	top: -3rem;
 	right: 4rem;
@@ -1917,7 +1920,7 @@ a {
 
 .video-courses__box {
 	margin: 0 0 1.4375rem 0;
-	padding: 0 6.25rem 0;
+	text-align: center;
 }
 
 .video-courses__title {
@@ -1930,7 +1933,6 @@ a {
 
 .video-courses__main {
 	margin: 0 auto 2.25rem;
-	padding: 0 6.25rem;
 }
 
 .video-courses__comments {
@@ -1949,10 +1951,6 @@ a {
 	font-size: 0.6875rem;
 }
 
-.video-courses__footer {
-	padding-left: 2.3rem;
-}
-
 .video-courses__footer .btn {
 	margin: 2.25rem auto 0;
 }
@@ -1967,7 +1965,7 @@ a {
 
 .for-hand__header {
 	margin: 0 auto 1.5rem;
-	padding: 0 6.25rem;
+	padding: 0 3.25rem;
 }
 
 .for-hand__title {
@@ -1976,16 +1974,6 @@ a {
 
 .for-hand__comments {
 	margin: 2.4375rem 0 0.9375rem 0;
-	padding: 0 6.25rem;
-}
-
-.for-hand__text {
-	padding: 0 6.25rem;
-}
-
-.web-img {
-	display: block;
-	margin: auto;
 }
 
 .web-career__align-center {
@@ -2007,7 +1995,7 @@ a {
 }
 
 .four-steps {
-	padding: 3.375rem 7.5rem;
+	padding: 0 2.47rem;
 }
 
 .counter--num::before {
@@ -2020,12 +2008,8 @@ a {
 	top: 0.0625rem;
 }
 
-.people {
-	padding: 2.1875rem 3.125rem;
-}
-
 .people__title {
-	width: 80%;
+	width: 77%;
 }
 
 .people__blank {
@@ -2040,6 +2024,10 @@ a {
 
 .people__body--second {
 	width: 80%;
+}
+
+.people__span {
+	margin-bottom: 0.75rem;
 }
 
 .people__text {
@@ -3019,7 +3007,7 @@ a {
 }
 
 .people__span {
-	margin-bottom: 1rem;
+	margin-bottom: 0.9375rem;
 }
 
 .people__picture {
