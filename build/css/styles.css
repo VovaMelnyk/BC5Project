@@ -1755,7 +1755,7 @@ a {
 }
 
 .earn__body {
-	padding: 0 2rem;
+	padding: 0 1rem;
 }
 
 .earn__txt {
@@ -1876,7 +1876,7 @@ a {
 
 .warning__list-item {
 	margin: 0 auto 1.125rem;
-	width: 65%;
+	width: 88%;
 }
 
 .warning__list-item:last-child {
@@ -3647,6 +3647,10 @@ a {
 	margin: 0 0 7.8125rem;
 }
 
+.facts__box-left {
+	flex-basis: 30%;
+}
+
 .facts__title {
 	margin: 0 0 1.75rem;
 }
@@ -3711,7 +3715,7 @@ a {
 
 .usual__blank {
 	font-size: 0.75rem;
-	width: 40%;
+	width: 76%;
 }
 
 .usual__name {
@@ -4215,7 +4219,7 @@ a {
 
 .usual__blank {
 	font-size: 0.625rem;
-	width: 44%;
+	width: 74%;
 }
 
 .usual__name {
@@ -4597,6 +4601,10 @@ a {
 	margin: 0 0 10rem;
 }
 
+.facts__box-left {
+	flex-basis: 33%;
+}
+
 .facts__title {
 	margin: 0 0 2.125rem;
 }
@@ -4650,7 +4658,7 @@ a {
 .usual__blank {
 	font-size: 0.75rem;
 	font-weight: 700;
-	width: 55%;
+	width: 75%;
 }
 
 .usual__container {

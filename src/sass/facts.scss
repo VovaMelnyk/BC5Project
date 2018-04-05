@@ -137,6 +137,9 @@
 @media (min-width: 960px) {
     .facts {
         margin: 0 0 rem(125);
+        &__box-left {
+            flex-basis: 30%;
+        }
         &__title {
             margin: 0 0 rem(28);
         }
@@ -154,6 +157,9 @@
 @media (min-width: 1440px) {
     .facts {
         margin: 0 0 rem(160);
+        &__box-left {
+            flex-basis: 33%;
+        }
         &__title {
             margin: 0 0 rem(34);
         }
