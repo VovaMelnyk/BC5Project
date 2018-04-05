@@ -403,6 +403,7 @@ a {
 	font-family: "Acrom", sans-serif;
 	font-size: 0.4375rem;
 	color: #a3a3a3;
+	display: block;
 }
 
 .form__input {
@@ -1355,6 +1356,20 @@ a {
 .client-info__form {
 	margin: 0;
 	padding: 0 2.25rem;
+}
+
+.form__label {
+	font-size: 0.75rem;
+	margin-top: 0.9375rem;
+}
+
+.form__input {
+	font-size: 0.75rem;
+}
+
+.form__btn {
+	font-size: 0.75rem;
+	width: 12.7rem;
 }
 
 .counter__title--size {
