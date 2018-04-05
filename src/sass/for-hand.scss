@@ -1,9 +1,9 @@
 .for-hand {
-  //padding: rem(14) 0 rem(30);
+  padding: 0 1.4rem;
+  margin-bottom: 1.875rem;
 
   &__header {
     margin: 0 auto rem(15);
-    padding: 0 rem(60);
   }
 
   &__title {
@@ -17,11 +17,6 @@
   }
   &__comments {
     margin: rem(26) 0 rem(10) 0;
-    padding: 0 rem(60);
-  }
-  &__text {
-    padding: 0 rem(60);
-
   }
 }
 

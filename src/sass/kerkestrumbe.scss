@@ -1,6 +1,7 @@
-.four-steps {
-  padding: rem(32) rem(60);
+    .four-steps {
+  padding: 0 rem(28);
   counter-reset:  after-course;
+  margin-bottom: 1.875rem;
 
   &__title {
     margin: 0 0 rem(16);
