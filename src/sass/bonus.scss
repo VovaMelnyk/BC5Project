@@ -297,6 +297,16 @@
         bottom: 2.1375rem;
       }
     }
+
+    &__plus {
+      flex-basis: 45%;
+    }
+  }
+
+  .client-info {
+    &__form {
+      flex-basis: 40%;
+    }
   }
 
   .pdf {

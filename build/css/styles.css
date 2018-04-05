@@ -3753,7 +3753,7 @@ a {
 }
 
 .for-hand__header {
-	flex-basis: 32.49%;
+	flex-basis: 34%;
 }
 
 .for-hand__title {
@@ -3781,7 +3781,7 @@ a {
 }
 
 .four-steps {
-	padding: 70px 0 50px;
+	padding: 0;
 }
 
 .four-steps__main {
@@ -3873,6 +3873,14 @@ a {
 	bottom: 2.1375rem;
 }
 
+.bonus__plus {
+	flex-basis: 45%;
+}
+
+.client-info__form {
+	flex-basis: 40%;
+}
+
 .pdf {
 	margin-right: 2.75rem;
 }
@@ -3946,6 +3954,10 @@ a {
 	height: 0.1875rem;
 }
 
+.important__info {
+	flex-basis: 39%;
+}
+
 .important__value {
 	flex-basis: 40%;
 }
@@ -3960,6 +3972,10 @@ a {
 
 .slogan__text {
 	padding-left: 3.9375rem;
+}
+
+.action__postscrip {
+	flex-basis: 39%;
 }
 
 }

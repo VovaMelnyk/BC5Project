@@ -189,6 +189,10 @@
 }
 
 @media (min-width: 960px){
+  .important__info {
+    flex-basis: 39%;
+  }
+
   .important__value {
     flex-basis: 40%;
   }
