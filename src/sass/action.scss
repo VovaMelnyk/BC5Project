@@ -138,6 +138,12 @@
   .slogan__text {
     padding-left: rem(63);
   }
+
+  .action {
+    &__postscrip {
+      flex-basis: 39%;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
