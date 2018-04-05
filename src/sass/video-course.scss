@@ -1,6 +1,6 @@
 
   .video {
-    padding: rem(20) 0 rem(20);
+    margin-bottom: 1.875rem;
     &__box {
       &--box1 {
         display: flex;
@@ -8,8 +8,8 @@
       }
 
       &--box2 {
-        padding-top: rem(20);
-        padding-bottom: rem(30);
+        margin-top: rem(20);
+        margin-bottom: rem(30);
       }
     }
 
@@ -64,12 +64,8 @@
       margin-top: rem(10);
     }
 
-    &__comments {
-      margin-left: rem(20);
-    }
-
     &__right {
-      margin: rem(20) 0 0;
+      margin: rem(20) rem(22) 0;
       counter-reset: scroll-counter;
     }
 
@@ -81,7 +77,6 @@
   .scroll {
     position: relative;
     counter-increment: scroll-counter;
-    margin: 0 rem(50) rem(20);
 
     &:nth-child(5) {
       margin-bottom: rem(50);
@@ -113,7 +108,7 @@
   }
 
   .price {
-    margin: 0 rem(50) 0;
+    margin: 0 0 3.125rem;
     display: flex;
     justify-content: space-between;
 

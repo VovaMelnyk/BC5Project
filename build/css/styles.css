@@ -1004,7 +1004,7 @@ a {
 }
 
 .video {
-	padding: 1.25rem 0 1.25rem;
+	margin-bottom: 1.875rem;
 }
 
 .video__box--box1 {
@@ -1013,8 +1013,8 @@ a {
 }
 
 .video__box--box2 {
-	padding-top: 1.25rem;
-	padding-bottom: 1.875rem;
+	margin-top: 1.25rem;
+	margin-bottom: 1.875rem;
 }
 
 .video__inform {
@@ -1067,12 +1067,8 @@ a {
 	margin-top: 0.625rem;
 }
 
-.video__comments {
-	margin-left: 1.25rem;
-}
-
 .video__right {
-	margin: 1.25rem 0 0;
+	margin: 1.25rem 1.375rem 0;
 	counter-reset: scroll-counter;
 }
 
@@ -1083,7 +1079,6 @@ a {
 .scroll {
 	position: relative;
 	counter-increment: scroll-counter;
-	margin: 0 3.125rem 1.25rem;
 }
 
 .scroll:nth-child(5) {
@@ -1114,7 +1109,7 @@ a {
 }
 
 .price {
-	margin: 0 3.125rem 0;
+	margin: 0 0 3.125rem;
 	display: flex;
 	justify-content: space-between;
 }
@@ -1148,8 +1143,7 @@ a {
 }
 
 .bonus__plus {
-	margin-left: 3.125rem;
-	margin-bottom: 1.25rem;
+	margin: 0 2.125rem 1.25rem;
 }
 
 .bonus__blank {
@@ -1254,11 +1248,11 @@ a {
 }
 
 .after-course {
-	padding: 1rem 0 2rem;
+	margin-bottom: 1.875rem;
 }
 
 .after-course__info {
-	width: 60.9375%;
+	width: 79.9375%;
 	margin: auto;
 }
 
@@ -1333,7 +1327,8 @@ a {
 }
 
 .just-now {
-	padding: 0.625rem 0 1.8125rem;
+	padding: 0.625rem 0 0;
+	margin-bottom: 1.875rem;
 }
 
 .just-now__img {
@@ -1362,10 +1357,6 @@ a {
 	margin-bottom: 2.375rem;
 }
 
-.just-now__info {
-	padding: 0 2.125rem;
-}
-
 .just-now__info > .title {
 	text-align: center;
 	margin: 0.9375rem 0;
@@ -1377,6 +1368,7 @@ a {
 
 .just-now__info > .text {
 	position: relative;
+	margin: 0 1rem;
 }
 
 .just-now__info > .text--orange::before {
@@ -1430,10 +1422,6 @@ a {
 	transform: rotate(-90deg);
 }
 
-.just-now__main {
-	padding: 0 1.6875rem;
-}
-
 .important {
 	padding: 2.5rem 0;
 }
@@ -1471,12 +1459,8 @@ a {
 .offer__text3:before {
 	position: absolute;
 	content: "";
-	border: 0.0625rem solid #000000;
-	width: 1.2rem;
-	top: 0.8rem;
-	left: -1.5625rem;
-	-webkit-transform: rotate(-60deg);
-	transform: rotate(-60deg);
+	top: 0.1rem;
+	left: -0.7625rem;
 }
 
 .offer__btn {
@@ -1564,12 +1548,11 @@ a {
 }
 
 .action {
-	padding: 1.5625rem 0;
+	padding: 1.5625rem 1rem;
 }
 
 .action__slogan {
 	margin: 0 0 3rem;
-	padding: 0 4.6rem;
 }
 
 .slogan__title {
@@ -1612,10 +1595,6 @@ a {
 	text-align: right;
 }
 
-.postscrip {
-	padding: 0 2.75rem;
-}
-
 .postscrip__chois {
 	position: relative;
 }
@@ -1629,6 +1608,10 @@ a {
 	font-size: 0.84375rem;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.text--orange--close:before {
+	display: none;
 }
 
 @media (min-width: 480px) {
