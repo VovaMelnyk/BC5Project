@@ -87,7 +87,8 @@
   .four-steps {
     display: flex;
     justify-content: space-between;
-    padding: rem(54) rem(65);
+    padding: 0;
+    margin-bottom: 2.875rem;
 
 
     &__main {

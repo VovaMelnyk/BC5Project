@@ -1,29 +1,30 @@
 .record-course {
   margin-bottom: 1.875rem;
 
+  &__info {
+    padding: 0 1.7rem;
+    margin: 0 0 2rem;
+  }
 
-&__info {
-  padding: 0 1.7rem;
-  margin: 0 0 2rem;
-}
+  &__blank {
+    margin: rem(32) 0 rem(16);
+  }
 
-&__blank {
-  margin: rem(32) 0 rem(16);
-}
-
-&__comments {
-  margin: 0 0 rem(10);
-}
+  &__comments {
+    margin: 0 0 rem(10);
+  }
 }
 
 @media (min-width: 768px) {
   .record-course {
+    margin-bottom: 2.875rem;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 
     &__info {
       padding: 0;
+      margin:0;
       flex-basis: 40%;
     }
     &__course-img {
