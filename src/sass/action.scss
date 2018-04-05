@@ -1,7 +1,7 @@
 
-.action{
+/*.action{
   padding: 1.5625rem 1rem;
-}
+}*/
 
 .action__slogan{
   margin: 0 0 rem(48);
@@ -75,16 +75,12 @@
 }
 
 @media (min-width: 480px) {
-  .postscrip{
-    padding: 0 5.5rem;
+  .action {
+    padding: 0 2.5rem;
   }
 
   .slogan__btn{
     padding: rem(8) rem(42);
-  }
-
-  .action__slogan{
-    padding: 0 rem(112);
   }
 }
 

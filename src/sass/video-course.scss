@@ -143,10 +143,9 @@
   @media (min-width: 480px) {
 
     .video {
-      padding: rem(30) 0 rem(58);
       &__box {
         &--box2 {
-          padding-top: rem(30);
+          margin-top: 2rem;
         }
       }
 
@@ -164,10 +163,6 @@
         &:before {
           left: 0.125rem;
         }
-      }
-
-      &__shell {
-        margin: 0 rem(86.338) rem(30);
       }
 
       &__about {
@@ -199,13 +194,11 @@
       }
 
       &__right {
-        margin-top: 1.25rem;
+        margin: 1.25rem 4rem 0;
       }
     }
 
     .scroll {
-      margin: 0 7.125rem 0;
-
       &:before {
         width: 3.125rem;
         height: .625rem;
@@ -216,8 +209,6 @@
     }
 
     .price {
-      margin: 0 4.725rem 0;
-
       &__numeral {
         bottom: rem(1);
 

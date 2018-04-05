@@ -1218,8 +1218,6 @@ a {
 
 .client-info__form {
 	display: block;
-	width: 64%;
-	margin: auto;
 }
 
 .form__label {
@@ -1426,10 +1424,11 @@ a {
 }
 
 .important {
-	padding: 2.5rem 0;
+	margin-bottom: 1.875rem;
 }
 
 .important__info {
+	padding: 0 2.2rem;
 	margin: 0 0 0.9375rem;
 }
 
@@ -1441,7 +1440,6 @@ a {
 .info__offer {
 	font-size: 0.625rem;
 	font-family: Acrom, sans-serif;
-	padding: 0 2.2rem 0;
 }
 
 .text--white {
@@ -1550,9 +1548,9 @@ a {
 	background-color: #16EBFE;
 }
 
-.action {
-	padding: 1.5625rem 1rem;
-}
+/*.action{
+  padding: 1.5625rem 1rem;
+}*/
 
 .action__slogan {
 	margin: 0 0 3rem;
@@ -2008,12 +2006,11 @@ a {
 	font-size: 0.875rem;
 }
 
-.video {
-	padding: 1.875rem 0 3.625rem; /*стили для текста с чёрным фоном и белым шрифтом*/
+.video { /*стили для текста с чёрным фоном и белым шрифтом*/
 }
 
 .video__box--box2 {
-	padding-top: 1.875rem;
+	margin-top: 2rem;
 }
 
 .video__inform {
@@ -2030,10 +2027,6 @@ a {
 
 .video__blank:before {
 	left: 0.125rem;
-}
-
-.video__shell {
-	margin: 0 5.39612rem 1.875rem;
 }
 
 .video__about {
@@ -2063,11 +2056,7 @@ a {
 }
 
 .video__right {
-	margin-top: 1.25rem;
-}
-
-.scroll {
-	margin: 0 7.125rem 0;
+	margin: 1.25rem 4rem 0;
 }
 
 .scroll:before {
@@ -2076,10 +2065,6 @@ a {
 	font-size: .75rem;
 	left: -2.9rem;
 	top: 1.4375rem;
-}
-
-.price {
-	margin: 0 4.725rem 0;
 }
 
 .price__numeral {
@@ -2100,14 +2085,13 @@ a {
 	font-size: 2.3125rem;
 }
 
-.bonus__plus {
-	margin-left: 5.325rem;
-	margin-bottom: 2.125rem;
+.bonus {
+	padding: 0 4rem 0;
+	margin-bottom: 1.875rem;
 }
 
-.bonus__blank {
-	padding-left: 3.1125rem;
-	padding-right: 7.925rem;
+.bonus__plus {
+	margin-bottom: 2.125rem;
 }
 
 .bonus__blank:before {
@@ -2117,11 +2101,6 @@ a {
 .bonus__blank--bot {
 	margin-bottom: 3.75rem;
 	margin-top: 1.0625rem;
-}
-
-.pdf {
-	margin-left: 2.0625rem;
-	margin-right: 5.375rem;
 }
 
 .pdf__title--counter { /*padding-right: 5.375rem;
@@ -2138,36 +2117,14 @@ a {
 	left: -1.225rem;
 }
 
-/*  .title {
-    &__counter {
-      padding-right: 5.375rem;
-      padding-left: 7.1625rem;
-
-      &:after {
-        left: 5rem;
-        bottom: 3.2375rem;
-      }
-
-      &:before {
-        top: 1.575rem;
-        left: 6.175rem;
-      }
-    }
-  }*/
-
 .counter__title--size {
 	font-size: 0.875rem;
 }
 
 .client-info {
-	padding: 3.75rem 0rem;
-	align-self: flex-start;
-}
-
-.client-info__form {
 	width: 100%;
-	padding-right: 4.0625rem;
-	padding-left: 4.0625rem;
+	padding: 3.75rem 4.06rem;
+	align-self: flex-start;
 }
 
 .client-info__input {
@@ -2175,16 +2132,13 @@ a {
 }
 
 .form__btn {
+	margin: 1.25rem auto 0;
 	padding: 0.65rem 2.065rem;
 	width: 10rem;
 }
 
-.after-course {
-	padding: 1.5rem 0 3rem;
-}
-
 .after-course__info {
-	width: 61.45833%;
+	width: 75%;
 }
 
 .after-course__body {
@@ -2196,7 +2150,7 @@ a {
 }
 
 .after-course__part--btn {
-	margin-top: 3.125rem;
+	margin: 0 auto 0;
 }
 
 .after-course__part > .counter--numb::before {
@@ -2230,20 +2184,11 @@ a {
 }
 
 .just-now__info {
-	padding: 0 3.6875rem;
+	padding: 0 1.6875rem;
 }
 
 .just-now__info > .title {
-	margin: 1.4375rem auto;
-	width: 88.78788%;
-}
-
-.just-now__info > .blank {
-	margin: 0 2.5625rem;
-}
-
-.just-now__main {
-	padding: 0 3rem;
+	margin: 1.375rem 0;
 }
 
 .just-now__body {
@@ -2264,10 +2209,6 @@ a {
 	font-size: 0.75rem;
 	top: 1.5rem;
 	left: -2.625rem;
-}
-
-.info__offer {
-	padding: 0 4.2rem 0;
 }
 
 .offer__btn {
@@ -2300,16 +2241,12 @@ a {
 	padding: 0.5rem 2.625rem;
 }
 
-.postscrip {
-	padding: 0 5.5rem;
+.action {
+	padding: 0 2.5rem;
 }
 
 .slogan__btn {
 	padding: 0.5rem 2.625rem;
-}
-
-.action__slogan {
-	padding: 0 7rem;
 }
 
 }
