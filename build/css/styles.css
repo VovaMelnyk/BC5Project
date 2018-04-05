@@ -571,7 +571,7 @@ a {
 
 .warning__list-item {
 	margin: 0 auto 0.3125rem;
-	width: 82%;
+	width: 93%;
 }
 
 .warning__list-item:last-child {
@@ -702,7 +702,7 @@ a {
 }
 
 .video-courses {
-	margin-bottom: 1.875rem;
+	padding: 0.875rem 0 1.875rem;
 }
 
 .video-courses__header {
@@ -710,7 +710,7 @@ a {
 }
 
 .video-courses__box {
-	padding: 0 1.75rem;
+	padding: 0 3.75rem;
 	margin: 0 0 0.9375rem 0;
 }
 
@@ -728,7 +728,7 @@ a {
 
 .video-courses__main {
 	margin: 0 auto 2.125rem;
-	padding: 0 1.75rem;
+	padding: 0 3.75rem;
 }
 
 .video-courses__comments {
@@ -768,6 +768,7 @@ a {
 
 .video-courses__text {
 	position: relative;
+	padding: 0 3.125rem;
 }
 
 .video-courses__text:before {
@@ -781,11 +782,6 @@ a {
 	transform: rotate(30deg);
 	top: 0.1125rem;
 	left: 2.5rem;
-}
-
-.video-courses__footer {
-	width: 83%;
-	margin: auto;
 }
 
 .video-courses__footer .btn {
@@ -4137,7 +4133,7 @@ a {
 
 .header__subtitle {
 	max-width: 71.42857%;
-	font-size: 0.70312rem;
+	font-size: 0.70313rem;
 }
 
 .header__text {
@@ -4587,7 +4583,7 @@ a {
 
 .btn--header {
 	margin: 2.1875rem 0 0 3.125rem;
-	font-size: 0.51562rem;
+	font-size: 0.51563rem;
 	padding: 0.9375rem 1.5625rem;
 }
 
