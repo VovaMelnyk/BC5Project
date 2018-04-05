@@ -1,0 +1,161 @@
+
+.action{
+  padding: rem(25) 0;
+}
+
+.action__slogan{
+  margin: 0 0 rem(48);
+  padding: 0 rem(73.6);
+}
+
+.slogan__title{
+  margin: 0 auto .9375rem;
+}
+
+.slogan__text{
+  position: relative;
+  padding-left: rem(23);
+  margin: 0 0 1rem;
+}
+
+.slogan__text:before{
+  position: absolute;
+  content: "";
+  border: rem(1) solid #000000;
+  width: rem(11.2);
+  top: rem(6.4);
+  left: rem(3);
+}
+
+.chois__text{
+  margin: 0 0 1rem;
+}
+
+.chois__text:last-child{
+  margin: 0;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.slogan__btn {
+  margin: auto;
+  padding: .3125rem 0.2rem;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.postscrip{
+  padding: 0 rem(44);
+}
+
+.postscrip__chois{
+  position: relative;
+}
+
+.postscrip__chois:before{
+  top: -20px;
+  left: 0;
+  position: absolute;
+  content: "p.s.:";
+  font-family: Acrom, sans-serif;
+  font-size: rem(13.5);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@media (min-width: 480px) {
+  .postscrip{
+    padding: 0 5.5rem;
+  }
+
+  .slogan__btn{
+    padding: rem(8) rem(42);
+  }
+
+  .action__slogan{
+    padding: 0 rem(112);
+  }
+}
+
+@media (min-width: 768px) {
+  .action {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .action__slogan {
+    margin: 0;
+    padding: 0;
+    flex-basis: 35%;
+  }
+
+  .action__postscrip {
+    flex-basis: 30%;
+    padding: 0;
+  }
+
+  .postscrip__chois:before {
+    top: 0;
+    left: -60px;
+    font-size: rem(20);
+  }
+
+  .slogan__title {
+    margin: 0 auto rem(40);
+  }
+
+  .slogan__text {
+    margin: 0 0 rem(40);
+    padding-left: rem(50);
+  }
+
+  .slogan__text:before{
+    border: rem(2) solid #000000;
+    width: rem(24);
+    top: rem(6.4);
+    left: rem(3);
+  }
+
+
+  .slogan__btn {
+    padding: rem(10) rem(30);
+  }
+}
+
+@media (min-width: 960px){
+  .slogan__btn{
+    padding: rem(10) rem(37);
+  }
+
+  .slogan__text {
+    padding-left: rem(63);
+  }
+}
+
+@media (min-width: 1200px) {
+  .important{
+    justify-content: space-between;
+  }
+
+  .action {
+    justify-content: space-between;
+  }
+
+  .slogan__text:before {
+    border: rem(2) solid #000000;
+    width: rem(24);
+    top: rem(6.4);
+    left: rem(3);
+  }
+}
+
+@media (min-width: 1440px){
+  .chois__text{
+    margin: 0 0 rem(22);
+  }
+}
+
