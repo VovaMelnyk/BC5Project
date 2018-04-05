@@ -1,5 +1,6 @@
 .just-now {
-  padding: rem(10) 0 rem(29);
+    padding: rem(10) 0 0;
+    margin-bottom: 1.875rem;
 
   &__img {
     display: block;
@@ -27,8 +28,6 @@
   }
 
   &__info {
-    padding: 0 rem(34);
-
     & > .title {
       text-align: center;
       margin: rem(15) 0;
@@ -40,6 +39,7 @@
 
     & > .text {
       position: relative;
+      margin: 0 1rem;
     }
 
     & > .text--orange {
@@ -93,10 +93,6 @@
       transform: rotate(-90deg);
     }
 
-  }
-
-  &__main {
-    padding: 0 rem(27);
   }
 }
 
