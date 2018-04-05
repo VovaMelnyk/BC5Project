@@ -25,7 +25,11 @@
 
     &__header {
       margin: 0 auto rem(24);
-      padding: 0 rem(100);
+      padding: 0 3.25rem;
+    }
+
+    &__info{
+
     }
 
     &__title {
@@ -34,10 +38,8 @@
 
     &__comments {
       margin: rem(39) 0 rem(15) 0;
-      padding: 0 rem(100);
     }
     &__text {
-      padding: 0 rem(100);
 
     }
   }
