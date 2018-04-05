@@ -120,12 +120,13 @@
 
 @media (min-width: 768px) {
   .after-course {
-    padding: rem(55) 0;
+    padding: 0;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2.875rem;
 
     &__info {
-      padding: rem(20) 0 0;
+      padding: 0;
       width: 0;
       flex-basis: 55%;
       margin: 0;
