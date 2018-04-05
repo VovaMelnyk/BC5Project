@@ -98,7 +98,7 @@
 
     &__box {
       margin: 0 0 rem(23) 0;
-      padding: 0 rem(100) 0;
+      text-align: center;
     }
 
     &__title {
@@ -110,7 +110,6 @@
 
     &__main {
       margin: 0 auto rem(36);
-      padding: 0 rem(100);
     }
 
     &__comments {
@@ -130,7 +129,6 @@
     }
 
     &__footer {
-      padding-left: 2.3rem;
       .btn {
         margin: rem(36) auto 0;
       }

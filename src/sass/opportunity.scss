@@ -1,5 +1,4 @@
 .opportunity {
-  padding: 2rem 0;
   counter-reset: trophy;
   margin-bottom: 1.875rem;
 
@@ -119,6 +118,7 @@
   }
 
   .trophy {
+justify-content: space-around;
     &::after {
       top: -3rem;
       right: 4rem;
