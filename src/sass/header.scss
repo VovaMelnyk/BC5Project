@@ -20,14 +20,14 @@
     }
 }
 .header {
-    padding-bottom: rem(26);
+    padding:  rem(11) 0 rem(26);
+
     &__menu {
         display: flex;
         justify-content: space-between;
-        padding-top: rem(11);
     }
     &__container {
-        padding-top: rem(18);
+        margin: rem(18) 0 0;
     }
     &__start {
         margin: rem(28) auto 0;
@@ -104,12 +104,10 @@
         }
     }
     .header {
-        padding-bottom: rem(38);
-        &__menu {
-            padding-top: rem(15);
-        }
+        padding: rem(15) 0 rem(38);
+
         &__container {
-            padding-top: rem(26);
+            margin: rem(26) 0 0;
         }
         &__start {
             margin-top: rem(42);
@@ -162,17 +160,15 @@
         }
     }
     .header {
-        padding-bottom: rem(95);
-        &__menu {
-            padding-top: rem(20);
-        }
+        padding: rem(20) 0 rem(95);
+
         &__container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             flex-basis: rem(640);
-            padding-top: rem(50);
+            margin: rem(50) 0 0;
         }
         &__title {
             flex-basis: 30%;
@@ -254,17 +250,15 @@
         }
     }
     .header {
-        padding-bottom: rem(120);
-        &__menu {
-            padding-top: rem(25);
-        }
+        padding: rem(25) 0 rem(120);
+
         &__container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             flex-basis: rem(800);
-            padding-top: rem(65);
+            margin: rem(65) 0 0;
         }
         &__title {
             flex-basis: 30%;
@@ -346,17 +340,15 @@
         }
     }
     .header {
-        padding-bottom: rem(120);
-        &__menu {
-            padding-top: rem(24);
-        }
+        padding: rem(24) 0 rem(120);
+
         &__container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             flex-basis: rem(714);
-            padding-top: rem(60);
+            margin: rem(60) 0 0;
         }
         &__title {
             flex-basis: 30%;
@@ -438,17 +430,15 @@
         }
     }
     .header {
-        padding-bottom: rem(128);
-        &__menu {
-            padding-top: rem(28);
-        }
+        padding-bottom: rem(28) 0 rem(128);
+
         &__container {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             align-items: flex-start;
             flex-basis: rem(855);
-            padding-top: rem(70);
+            margin: rem(70) 0 0;
         }
         &__title {
             flex-basis: 30%;
