@@ -1,11 +1,11 @@
 .video-courses {
-  padding: rem(14) 0 rem(30);
+  margin-bottom: 1.875rem;
 
   &__header {
     margin: 0 auto rem(15);
   }
   &__box {
-    padding: 0 rem(60);
+    padding: 0 1.75rem;
     margin: 0 0 rem(15) 0;
 
   }
@@ -23,7 +23,7 @@
 
   &__main {
     margin: 0 auto rem(34);
-    padding: 0 rem(60);
+    padding: 0 1.75rem;
   }
 
   &__comments {
@@ -61,7 +61,6 @@
 
   &__text {
     position: relative;
-    padding: 0 rem(50);
 
     &:before {
       position: absolute;
@@ -77,6 +76,8 @@
   }
 
   &__footer {
+    width: 83%;
+    margin: auto;
     .btn {
       margin: rem(15) auto 0;
     }
