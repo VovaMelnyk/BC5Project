@@ -10,6 +10,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 ul {
@@ -30,7 +31,6 @@ $footer: #202020;
 $white: #ffffff;
 
 @function rem($px) {
-
   $result: $px/16;
 
   @return #{$result}rem;
@@ -38,8 +38,9 @@ $white: #ffffff;
 
 @function prc($element, $container) {
   $result: $element / $container * 100%;
+
   @return $result;
 }
 
-$acrom: 'Acrom', sans-serif;
-$gilroy: 'Gilroy', sans-serif;
+$acrom: "Acrom", sans-serif;
+$gilroy: "Gilroy", sans-serif;

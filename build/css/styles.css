@@ -8,6 +8,7 @@ img {
 	display: block;
 	max-width: 100%;
 	height: auto;
+	margin: auto;
 }
 
 ul {
@@ -26,42 +27,42 @@ a {
 }
 
 @font-face {
-	font-family: 'Acrom';
+	font-family: "Acrom";
 	src: url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff2") format("woff2"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.woff") format("woff"), url("../fonts/Acrom-W00-Regular/Acrom-W00-Regular.ttf") format("truetype");
 	font-weight: 400;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Acrom';
+	font-family: "Acrom";
 	src: url("../fonts/Acrom-W00-ExtraBold/Acrom-W00-ExtraBold.woff2") format("woff2"), url("../fonts/Acrom-W00-ExtraBold/Acrom-W00-ExtraBold.woff") format("woff"), url("../fonts/Acrom-W00-ExtraBold/Acrom-W00-ExtraBold.ttf") format("truetype");
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Acrom';
+	font-family: "Acrom";
 	src: url("../fonts/Acrom-Medium/Acrom-Medium.woff2") format("woff2"), url("../fonts/Acrom-Medium/Acrom-Medium.woff") format("woff"), url("../fonts/Acrom-Medium/Acrom-Medium.ttf") format("truetype");
 	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Acrom';
+	font-family: "Acrom";
 	src: url("../fonts/Acrom-Bold/Acrom-Bold.woff2") format("woff2"), url("../fonts/Acrom-Bold/Acrom-Bold.woff") format("woff"), url("../fonts/Acrom-Bold/Acrom-Bold.ttf") format("truetype");
 	font-weight: 800;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Gilroy';
+	font-family: "Gilroy";
 	src: url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf") format("truetype");
 	font-weight: 900;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: 'Gilroy';
+	font-family: "Gilroy";
 	src: url("../fonts/Gilroy-Light/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light/Gilroy-Light.ttf") format("truetype");
 	font-weight: 300;
 	font-style: normal;
@@ -154,19 +155,6 @@ a {
 	font-size: 0.625rem;
 	line-height: 0.8125rem;
 	color: #000;
-	text-transform: uppercase;
-}
-
-.btn {
-	display: block;
-	background-color: #ff6b08;
-	font-size: 0.6875rem;
-	font-family: "Acrom", sans-serif;
-	font-weight: 900;
-	padding: 0.8125rem 1.375rem;
-	color: #ffff;
-	border: 1px solid #ff6b08;
-	border-radius: 0.125rem;
 	text-transform: uppercase;
 }
 
@@ -602,6 +590,420 @@ a {
 	font-weight: 400;
 }
 
+.opportunity {
+	padding: 2rem 0;
+	counter-reset: trophy;
+}
+
+.opportunity__header-left {
+	margin-bottom: 1rem;
+}
+
+.opportunity__header-right {
+	margin-bottom: 8rem;
+}
+
+.opportunity__blank {
+	width: 78%;
+	margin: 1rem auto 0;
+}
+
+.opportunity__right-one {
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: "Acrom", sans-serif;
+	font-size: 1rem;
+}
+
+.opportunity__right-two {
+	margin: 1rem 0;
+}
+
+.trophy {
+	position: relative;
+	margin-bottom: 2rem;
+	display: flex;
+}
+
+.trophy:first-child {
+	margin-bottom: 5rem;
+}
+
+.trophy:last-child {
+	margin-bottom: 0;
+}
+
+.trophy::after {
+	counter-increment: trophy;
+	content: "0" counter(trophy) "_";
+	color: rgba(144, 144, 144, 0.4);
+	position: absolute;
+	top: 1rem;
+	right: 3rem;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	font-family: "Acrom", sans-serif;
+	font-size: 3rem;
+	font-weight: 900;
+}
+
+.trophy__before-go {
+	position: relative;
+}
+
+.trophy__before-go::before {
+	content: "[Go for IT]";
+	display: block;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.625rem;
+	background-color: #000;
+	color: #ffffff;
+	top: -3rem;
+	left: 0;
+	position: absolute;
+}
+
+.trophy__before-community {
+	position: relative;
+}
+
+.trophy__before-community::before {
+	content: "[Это признано IT-сообществом]";
+	display: block;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.625rem;
+	background-color: #000;
+	color: #ffffff;
+	top: -3rem;
+	left: 0;
+	position: absolute;
+}
+
+.trophy__title {
+	margin-bottom: 0.5rem;
+	font-weight: 900;
+	font-size: 0.75rem;
+	font-family: "Acrom", sans-serif;
+	text-transform: uppercase;
+}
+
+.trophy__description {
+	flex-basis: 80%;
+}
+
+.trophy__img-globus {
+	position: absolute;
+	right: 0;
+	top: -3rem;
+	z-index: -1;
+}
+
+.video-courses {
+	padding: 0.875rem 0 1.875rem;
+}
+
+.video-courses__header {
+	margin: 0 auto 0.9375rem;
+}
+
+.video-courses__box {
+	padding: 0 3.75rem;
+	margin: 0 0 0.9375rem 0;
+}
+
+.video-courses__title {
+	margin: 0 0 0.625rem 0;
+}
+
+.video-courses__blank {
+	margin-left: 1.875rem;
+}
+
+.video-courses__img {
+	margin: auto;
+}
+
+.video-courses__main {
+	margin: 0 auto 2.125rem;
+	padding: 0 3.75rem;
+}
+
+.video-courses__comments {
+	margin: 0 0 1.5rem 0;
+}
+
+.video-courses__container {
+	counter-reset: scroll-counter;
+}
+
+.video-courses__video-step {
+	margin: 0 0 1.1875rem 0;
+	position: relative;
+	counter-increment: scroll-counter;
+}
+
+.video-courses__video-step:last-child {
+	margin: 0;
+}
+
+.video-courses__video-step:before {
+	position: absolute;
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	left: -1.875rem;
+	top: 0.8125rem;
+	content: "[00" counter(scroll-counter) "]";
+	width: 1.875rem;
+	height: 0.625rem;
+	background-color: #ff6b08;
+	color: #ffffff;
+	text-align: center;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.5625rem;
+	font-weight: 700;
+}
+
+.video-courses__text {
+	position: relative;
+	padding: 0 3.125rem;
+}
+
+.video-courses__text:before {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 0.125rem;
+	height: 1.375rem;
+	background-color: #000000;
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	top: 0.1125rem;
+	left: 2.5rem;
+}
+
+.video-courses__footer .btn {
+	margin: 0.9375rem auto 0;
+}
+
+.video-step__title-counter {
+	margin: 0 0 0.625rem 0;
+}
+
+.title-counter {
+	font-family: "Acrom", sans-serif;
+	font-size: 0.625rem;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.for-hand__header {
+	margin: 0 auto 0.9375rem;
+	padding: 0 3.75rem;
+}
+
+.for-hand__title {
+	margin: 0 0 0.875rem 0;
+}
+
+.for-hand__blank {
+	margin-left: 1.875rem;
+}
+
+.for-hand__img {
+	margin: auto;
+}
+
+.for-hand__comments {
+	margin: 1.625rem 0 0.625rem 0;
+	padding: 0 3.75rem;
+}
+
+.for-hand__text {
+	padding: 0 3.75rem;
+}
+
+.web-career {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	justify-content: center;
+}
+
+.web-career__align-center {
+	width: 80%;
+	display: block;
+	margin: 0 auto 1.1rem;
+	padding: 0 1.625rem;
+}
+
+.web-career__career {
+	margin-bottom: 1.1rem;
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.web-career__career:last-child {
+	margin-bottom: 0;
+}
+
+.web {
+	text-transform: uppercase;
+	width: 92%;
+	display: block;
+	margin: 0 auto 1rem;
+	font-weight: 900;
+}
+
+.title--career {
+	text-align: left;
+}
+
+.title .span-web-career {
+	display: block;
+}
+
+.text--web-career {
+	display: block;
+	margin: auto;
+}
+
+.text--bold {
+	font-weight: 700;
+}
+
+.four-steps {
+	padding: 2rem 3.75rem;
+	counter-reset: after-course;
+}
+
+.four-steps__title {
+	margin: 0 0 1rem;
+}
+
+.four-steps__blank {
+	margin: 0 0 2rem;
+}
+
+.steps__item {
+	margin: 0 0 1.5625rem;
+}
+
+.counter--num {
+	position: relative;
+	margin-bottom: 0.4375rem;
+}
+
+.counter--num::after {
+	counter-increment: after-course;
+	content: "0" counter(after-course) ".";
+	position: absolute;
+	font-family: "Acrom", sans-serif;
+	font-size: 0.66938rem;
+	font-weight: 900;
+	line-height: 100%;
+	top: 0;
+	left: -1.5625rem;
+}
+
+.counter--num::before {
+	position: absolute;
+	top: 0.75rem;
+	left: -0.8125rem;
+	margin: 0;
+	background-color: #16ebfe;
+}
+
+.text--orange {
+	position: relative;
+}
+
+.text--orange:before {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 0.125rem;
+	height: 1.375rem;
+	background-color: #000000;
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
+	top: 0.1125rem;
+	left: -1.125rem;
+}
+
+.record-course {
+	padding: 3.5rem 0;
+}
+
+.record-course__info {
+	padding: 2rem 3rem;
+}
+
+.record-course__blank {
+	margin: 2rem 0 1rem;
+}
+
+.record-course__comments {
+	margin: 0 0 0.625rem;
+}
+
+.people {
+	padding: 1.625rem 0;
+}
+
+.people__title {
+	font-size: 0.75rem;
+	margin: 0 auto 0.625rem;
+	width: 50%;
+}
+
+.people__span {
+	display: block;
+}
+
+.people__black {
+	line-height: 1rem;
+}
+
+.people__blank {
+	font-size: 0.5625rem;
+	font-weight: 700;
+	margin: 0 auto 1.25rem;
+	width: 50%;
+}
+
+.people__blank:before {
+	width: 1.25rem;
+	height: 0.125rem;
+}
+
+.people__picture {
+	display: block;
+	margin: 0 auto 0.6875rem;
+}
+
+.people__img {
+	margin: auto;
+}
+
+.people__body {
+	font-size: 0.5625rem;
+	width: 30%;
+	margin: 0 0 0.75rem;
+}
+
+.people__body--second {
+	width: 60%;
+}
+
+.people__article {
+	margin-bottom: 0.75rem;
+}
+
+.people__bottom {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
 @media (min-width: 480px) {
 
 .black {
@@ -633,10 +1035,6 @@ a {
 .comments {
 	font-size: 0.84375rem;
 	line-height: 1.25rem;
-}
-
-.btn {
-	padding: 1.25rem 2.0625rem;
 }
 
 .counter {
@@ -868,6 +1266,154 @@ a {
 	margin-bottom: 0;
 }
 
+.opportunity__header-right {
+	margin-bottom: 6rem;
+}
+
+.trophy::after {
+	top: -3rem;
+	right: 4rem;
+}
+
+.trophy__img-globus {
+	right: 2.5rem;
+}
+
+.video-courses__header {
+	margin: 0 auto 1.4375rem;
+}
+
+.video-courses__box {
+	margin: 0 0 1.4375rem 0;
+	padding: 0 6.25rem 0;
+}
+
+.video-courses__title {
+	margin: 0 0 0.9375rem 0;
+}
+
+.video-courses__blank {
+	margin-left: 1.875rem;
+}
+
+.video-courses__main {
+	margin: 0 auto 2.25rem;
+	padding: 0 6.25rem;
+}
+
+.video-courses__comments {
+	margin: 0 0 2.25rem 0;
+}
+
+.video-courses__video-step {
+	margin: 0 0 1.8125rem 0;
+}
+
+.video-courses__video-step:before {
+	left: -2.8125rem;
+	top: 1.1875rem;
+	width: 2.6875rem;
+	height: 0.75rem;
+	font-size: 0.6875rem;
+}
+
+.video-courses__footer {
+	padding-left: 2.3rem;
+}
+
+.video-courses__footer .btn {
+	margin: 2.25rem auto 0;
+}
+
+.video-step__title-counter {
+	margin: 0 0 0.9375rem 0;
+}
+
+.counter {
+	font-size: 0.75rem;
+}
+
+.for-hand__header {
+	margin: 0 auto 1.5rem;
+	padding: 0 6.25rem;
+}
+
+.for-hand__title {
+	margin: 0 0 1.3125rem 0;
+}
+
+.for-hand__comments {
+	margin: 2.4375rem 0 0.9375rem 0;
+	padding: 0 6.25rem;
+}
+
+.for-hand__text {
+	padding: 0 6.25rem;
+}
+
+.web-img {
+	display: block;
+	margin: auto;
+}
+
+.web-career__align-center {
+	width: 80%;
+	display: block;
+	margin: 0 auto 1.1rem;
+}
+
+.text--bold {
+	max-width: 79%;
+}
+
+.text--web-center {
+	width: 75%;
+}
+
+.-web {
+	width: 71%;
+}
+
+.four-steps {
+	padding: 3.375rem 7.5rem;
+}
+
+.counter--num::before {
+	top: 1.03125rem;
+}
+
+.counter--num::after {
+	font-size: 1rem;
+	left: -2.0625rem;
+	top: 0.0625rem;
+}
+
+.people {
+	padding: 2.1875rem 3.125rem;
+}
+
+.people__title {
+	width: 80%;
+}
+
+.people__blank {
+	font-size: 0.875rem;
+	width: 63%;
+}
+
+.people__black {
+	font-size: 0.875rem;
+	line-height: 1.5rem;
+}
+
+.people__body--second {
+	width: 80%;
+}
+
+.people__text {
+	font-size: 0.875rem;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -884,10 +1430,6 @@ a {
 
 .title {
 	font-size: 1.6875rem;
-}
-
-.btn {
-	padding: 0.5625rem 0.875rem;
 }
 
 .wrapper--img {
@@ -1265,6 +1807,340 @@ a {
 	margin: 0 0 0.625rem;
 }
 
+.opportunity__header {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.opportunity__header-left {
+	flex-basis: 49%;
+}
+
+.opportunity__header-right {
+	margin-bottom: 0;
+	flex-basis: 49%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.opportunity__blank {
+	margin-left: 3rem;
+}
+
+.opportunity__right-one {
+	flex-basis: 50%;
+	font-size: 1rem;
+}
+
+.opportunity__right-two {
+	flex-basis: 50%;
+	line-height: 1.25rem;
+	margin: 0;
+}
+
+.opportunity__right-three {
+	margin-top: 0.5rem;
+}
+
+.opportunity__trophies {
+	margin-top: 5rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.trophy {
+	flex-basis: 21%;
+}
+
+.trophy::after {
+	top: 1rem;
+	right: -2.6rem;
+}
+
+.trophy__before-go::before {
+	font-size: 0.575rem;
+}
+
+.trophy__before-community::before {
+	font-size: 0.575rem;
+}
+
+.trophy__title {
+	font-size: 0.875rem;
+}
+
+.trophy__description {
+	flex-basis: 100%;
+}
+
+.trophy__img-globus {
+	right: -0.5rem;
+}
+
+.video-courses {
+	padding: 0 4rem 0 4rem;
+}
+
+.video-courses__header {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 0 3.75rem;
+}
+
+.video-courses__box {
+	flex-basis: 48%;
+	margin: 0;
+	padding: 0;
+}
+
+.video-courses__pic {
+	flex-basis: 45.36424%;
+}
+
+.video-courses__img {
+	margin: 0;
+}
+
+.video-courses__blank {
+	margin-left: 2.8125rem;
+}
+
+.video-courses__title {
+	margin: 0 0 1.6875rem 0;
+}
+
+.video-courses__main {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto 2.25rem;
+	padding: 0;
+}
+
+.video-courses__container {
+	flex-basis: 68%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.video-courses__comments {
+	flex-basis: 25%;
+	margin: 0;
+}
+
+.video-courses__video-step {
+	flex-basis: 27%;
+	margin: 0 0 1.625rem 0;
+}
+
+.video-courses__video-step:nth-child(1n + 4) {
+	margin: 0;
+}
+
+.video-courses__text {
+	flex-basis: 60%;
+	padding: 0;
+}
+
+.video-courses__text:before {
+	top: 0.3125rem;
+	left: -1.8rem;
+}
+
+.video-courses__footer {
+	padding: 0;
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.video-courses__footer .btn {
+	margin: 0 3.75rem 0 0;
+}
+
+.video-step__title-counter {
+	margin: 0 0 0.625rem 0;
+}
+
+.for-hand {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.for-hand__header {
+	flex-basis: 32.49%;
+	margin: 0;
+	padding: 0;
+}
+
+.for-hand__title {
+	margin: 0 0 1.6875rem 0;
+}
+
+.for-hand__blank {
+	margin-left: 2.85rem;
+}
+
+.for-hand__img {
+	margin: 0;
+}
+
+.for-hand__pic {
+	flex-basis: 24.85%;
+}
+
+.for-hand__info {
+	flex-basis: 18.6%;
+}
+
+.for-hand__comments {
+	margin: 0 0 1.0625rem 0;
+	padding: 0;
+}
+
+.for-hand__text {
+	padding: 0;
+}
+
+.web-career {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.web-career__career {
+	width: 48%;
+}
+
+.web-career__career--reverse {
+	display: flex;
+	flex-direction: column;
+}
+
+.web {
+	width: 100%;
+}
+
+.four-steps {
+	display: flex;
+	justify-content: space-between;
+	padding: 3.375rem 4.0625rem;
+}
+
+.four-steps__main {
+	flex-basis: 45%;
+}
+
+.steps {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.steps__item {
+	flex-basis: 45%;
+}
+
+.record-course {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.record-course__info {
+	padding: 0;
+	flex-basis: 40%;
+}
+
+.record-course__course-img {
+	width: 45%;
+}
+
+.record-course__blank {
+	margin: 1rem 0 1.25rem 3.125rem;
+}
+
+.people {
+	padding: 3.5rem 0rem;
+}
+
+.people__top {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1.25rem;
+}
+
+.people__container {
+	flex-basis: 45%;
+}
+
+.people__container--second {
+	flex-basis: 50%;
+}
+
+.people__span {
+	margin-bottom: 1rem;
+}
+
+.people__picture {
+	flex-basis: 50%;
+	margin: 0;
+}
+
+.people__picture--second {
+	flex-basis: 45%;
+}
+
+.people__bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.people__body {
+	flex-basis: 26%;
+	margin-bottom: 0;
+}
+
+.people__body--second {
+	flex-basis: 30%;
+}
+
+.people__title {
+	font-size: 1.6875rem;
+	line-height: 1.625rem;
+	width: 56%;
+}
+
+.people__title--span {
+	display: block;
+}
+
+.people__blank {
+	font-size: 0.5625rem;
+	width: 55%;
+	margin: 0 auto 0;
+}
+
+.people__black {
+	font-size: 0.5625rem;
+	line-height: 1rem;
+}
+
+.people__article {
+	display: flex;
+	justify-content: space-between;
+}
+
+.people__text {
+	flex-basis: 60%;
+	font-size: 0.5625rem;
+}
+
 }
 
 @media (min-width: 960px) {
@@ -1274,7 +2150,7 @@ a {
 }
 
 .blank:before {
-	top: 0.4375rem;
+	top: 2rem;
 }
 
 .btn {
@@ -1288,10 +2164,6 @@ a {
 .comments {
 	font-size: 1.05125rem;
 	line-height: 1.5625rem;
-}
-
-.btn {
-	padding: 0.625rem 1rem;
 }
 
 .counter {
@@ -1549,6 +2421,128 @@ a {
 	font-weight: 900;
 }
 
+.video-courses {
+	padding: 0;
+}
+
+.video-courses__header {
+	margin: 0 0 4.25rem;
+}
+
+.video-courses__box {
+	flex-basis: 47%;
+}
+
+.video-courses__pic {
+	flex-basis: 45.02924%;
+}
+
+.video-courses__img {
+	margin: 0;
+}
+
+.video-courses__blank {
+	margin-left: 2.8125rem;
+}
+
+.video-courses__title {
+	margin: 0 0 2.0625rem 0;
+}
+
+.video-courses__main {
+	margin: 0 auto 2.5rem;
+}
+
+.video-courses__video-step {
+	flex-basis: 27%;
+	margin: 0 0 1.625rem 0;
+}
+
+.video-courses__text {
+	flex-basis: 45%;
+}
+
+.video-step__title-counter {
+	margin: 0 0 0.75rem 0;
+}
+
+.counter {
+	font-size: 0.75rem;
+}
+
+.for-hand {
+	justify-content: space-between;
+}
+
+.for-hand__header {
+	flex-basis: 32.49%;
+}
+
+.for-hand__title {
+	margin: 0 0 1.9375rem 0;
+}
+
+.for-hand__blank {
+	margin-left: 2.85rem;
+}
+
+.for-hand__pic {
+	flex-basis: 24.85%;
+}
+
+.for-hand__info {
+	flex-basis: 18.6%;
+}
+
+.for-hand__comments {
+	margin: 0 0 1.125rem 0;
+}
+
+.blank:before {
+	top: 1rem;
+}
+
+.four-steps {
+	padding: 70px 0 50px;
+}
+
+.four-steps__main {
+	flex-basis: 41%;
+}
+
+.steps__item {
+	flex-basis: 40%;
+}
+
+.counter--num {
+	margin-bottom: 0.875rem;
+}
+
+.counter--num::before {
+	top: 1.6875rem;
+	left: -1.8125rem;
+	width: 0.5625rem;
+	height: 0.5625rem;
+}
+
+.counter--num::after {
+	font-size: 1.31438rem;
+	left: -3.3125rem;
+}
+
+.people__title {
+	width: 80%;
+	line-height: 2.625rem;
+}
+
+.people__blank {
+	width: 80%;
+}
+
+.people__text {
+	font-size: 0.625rem;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -1645,7 +2639,7 @@ a {
 
 .header__subtitle {
 	max-width: 71.42857%;
-	font-size: 0.70312rem;
+	font-size: 0.70313rem;
 }
 
 .header__text {
@@ -1807,6 +2801,55 @@ a {
 	font-weight: 900;
 }
 
+.video-courses__header {
+	margin: 0 0 4.75rem;
+}
+
+.video-courses__pic {
+	flex-basis: 42.04131%;
+}
+
+.video-courses__title {
+	margin: 0 0 2.1875rem 0;
+}
+
+.video-courses__main {
+	margin: 0 auto 2.8125rem;
+}
+
+.video-courses__video-step {
+	flex-basis: 27%;
+	margin: 0 0 2.0625rem 0;
+}
+
+.for-hand__header {
+	flex-basis: 32.49%;
+}
+
+.for-hand__title {
+	margin: 0 0 2.125rem 0;
+}
+
+.for-hand__blank {
+	margin-left: 2.85rem;
+}
+
+.for-hand__pic {
+	flex-basis: 24.85%;
+}
+
+.for-hand__info {
+	flex-basis: 18.6%;
+}
+
+.for-hand__comments {
+	margin: 0 0 1.3125rem 0;
+}
+
+.web-career__align-center {
+	width: 100%;
+}
+
 }
 
 @media (min-width: 1400px) {
@@ -1826,10 +2869,6 @@ a {
 
 .title {
 	font-size: 2.25rem;
-}
-
-.btn {
-	padding: 0.625rem 1.3125rem;
 }
 
 .wrapper--img {
@@ -1922,7 +2961,7 @@ a {
 
 .btn--header {
 	margin: 2.1875rem 0 0 3.125rem;
-	font-size: 0.51562rem;
+	font-size: 0.51563rem;
 	padding: 0.9375rem 1.5625rem;
 }
 
@@ -2070,6 +3109,63 @@ a {
 .warning__blank {
 	font-size: 0.75rem;
 	width: 69%;
+}
+
+.video-courses__pic {
+	flex-basis: 44.83597%;
+}
+
+.video-courses__title {
+	margin: 0 0 2.375rem 0;
+}
+
+.video-courses__main {
+	margin: 0 auto 3.125rem;
+}
+
+.video-courses__video-step {
+	flex-basis: 27%;
+	margin: 0 0 3.25rem 0;
+}
+
+.video-step__title-counter {
+	margin: 0 0 0.875rem 0;
+}
+
+.for-hand__header {
+	flex-basis: 32.49%;
+}
+
+.for-hand__title {
+	margin: 0 0 2.3125rem 0;
+}
+
+.for-hand__blank {
+	margin-left: 2.85rem;
+}
+
+.for-hand__pic {
+	flex-basis: 24.85%;
+}
+
+.for-hand__info {
+	flex-basis: 18.6%;
+}
+
+.for-hand__comments {
+	margin: 0 0 1.3125rem 0;
+}
+
+.counter--num::before {
+	top: 1.6875rem;
+	left: -1.9375rem;
+	width: 0.625rem;
+	height: 0.625rem;
+}
+
+.counter--num::after {
+	font-size: 1.40625rem;
+	left: -3.625rem;
 }
 
 }
