@@ -9,34 +9,47 @@
 
       &--box2 {
         padding-top: rem(20);
+        padding-bottom: rem(30);
       }
     }
 
     &__inform {
-      margin-bottom: rem(30);
+      margin: 0 rem(50) rem(30);
     }
 
     &__title {
-      text-align: center;
       margin-bottom: rem(12.5);
     }
 
     &__blank {
-      padding: 0 rem(60) 0;
+      padding: 0 0 0 rem(24);
 
       &:before {
-        left: rem(42);
+        left: 0.025rem;
+
       }
     }
 
+    &__shell {
+      margin: 0 rem(50) 0;
+    }
+
     &__about {
-      padding: 0 rem(45) rem(30);
+      margin-bottom: rem(30);
+
+      &:last-of-type {
+        margin-bottom: rem(0);
+      }
     }
 
     &__black {
       display: block;
       margin-bottom: rem(2);
       width: rem(70);
+
+      &--tren {
+        width: 3.25rem;
+      }
 
       &:first-child {
         width: rem(105);
@@ -52,12 +65,11 @@
     }
 
     &__comments {
-      text-align: center;
-      margin: auto;
+      margin-left: rem(20);
     }
 
     &__right {
-      padding-top: rem(20);
+      margin: rem(20) 0 0;
       counter-reset: scroll-counter;
     }
 
@@ -69,8 +81,7 @@
   .scroll {
     position: relative;
     counter-increment: scroll-counter;
-    margin: 0 0 rem(20);
-    padding: 0 rem(60);
+    margin: 0 rem(50) rem(20);
 
     &:nth-child(5) {
       margin-bottom: rem(50);
@@ -79,9 +90,9 @@
     &:before {
       position: absolute;
       transform: rotate(-90deg);
-      left: rem(32);
-      top: rem(20);
-      content: "[0" counter(scroll-counter) "]";
+      left: -2rem;
+      top: 1.15rem;
+      content: "[00" counter(scroll-counter) "]";
       width: rem(34);
       height: rem(7);
       background-color: #ff6b08;
@@ -102,9 +113,9 @@
   }
 
   .price {
+    margin: 0 rem(50) 0;
     display: flex;
     justify-content: space-between;
-    padding: 0 rem(45);
 
     &__numeral {
       position: relative;
@@ -137,29 +148,42 @@
   @media (min-width: 480px) {
 
     .video {
-      padding: rem(30) 0 rem(30);
+      padding: rem(30) 0 rem(58);
       &__box {
         &--box2 {
           padding-top: rem(30);
         }
       }
 
-      &__blank {
-        padding: 0 rem(116) 0;
-
-        &:before {
-          left: rem(86.8);
-        }
-      }
-
       &__inform {
-        margin-bottom: rem(37);
+        margin: 0 rem(86.338) rem(37);
       }
 
       &__title {
         margin-bottom: rem(20);
       }
 
+      &__blank {
+        padding: 0 0 0 rem(35);
+
+        &:before {
+          left: 0.125rem;
+        }
+      }
+
+      &__shell {
+        margin: 0 rem(86.338) rem(30);
+      }
+
+      &__about {
+        margin-bottom: rem(30);
+
+        &:last-of-type {
+          margin-bottom: rem(0);
+        }
+      }
+
+      /*стили для текста с чёрным фоном и белым шрифтом*/
       &__black {
         display: block;
         margin-bottom: rem(2);
@@ -174,33 +198,30 @@
         }
       }
 
-      &__about {
-        padding: 0 rem(74) rem(30);
-      }
 
       &__comments {
-        padding: 0 rem(44);
+        margin: 0 rem(31) 0 rem(37) ;
       }
 
       &__right {
-        padding-top: rem(30);
+        margin-top: 1.25rem;
       }
     }
 
     .scroll {
-      padding: 0 rem(100);
+      margin: 0 7.125rem 0;
 
       &:before {
-        width: rem(45);
-        height: rem(12);
-        font-size: rem(14);
-        left: rem(64);
+        width: 3.125rem;
+        height: .625rem;
+        font-size: .75rem;
+        left: -2.9rem;
         top: rem(23);
       }
     }
 
     .price {
-      padding: 0 rem(80);
+      margin: 0 4.725rem 0;
 
       &__numeral {
         bottom: rem(1);
@@ -244,6 +265,10 @@
       }
     }
 
+    &__inform {
+      margin: 0 0.39612rem 2.3125rem;
+    }
+
     &__title {
       text-align: left;
       padding: 0 rem(50) 0;
@@ -272,6 +297,7 @@
       display: flex;
       flex-direction: column;
       justify-content: space-evenly;
+      margin: 0 0 1.875rem;
     }
 
     &__text {
@@ -283,7 +309,7 @@
     &__comments {
       margin: 0;
       padding: 0;
-      flex-basis: 96%;
+      flex-basis: 17%;
       text-align: left;
     }
 
@@ -292,19 +318,25 @@
       flex-wrap: wrap;
       padding: 0;
       justify-content: space-between;
+      flex-basis: 77%;
+      margin: 0;
     }
   }
 
   .scroll {
     flex-basis: 33%;
-    padding: 0;
+    margin: 0 0 rem(25) 0;
+
+    /*&:nth-child (4) {
+      margin-bottom: 0;
+    }*/
 
     &:before {
-      left: rem(-16);
-      width: rem(20);
-      height: rem(7);
-      font-size: rem(6);
-      top: rem(10.2);
+      left: -2.2rem;
+      width: 3.125rem;
+      height: .625rem;
+      font-size: .75rem;
+      top: 1.6375rem;
     }
   }
 
@@ -312,6 +344,7 @@
     padding: 0;
     flex-basis: prc(199,622);
     align-items: center;
+    margin: 0;
 
     &__numeral {
       bottom: rem(-10);
@@ -346,8 +379,12 @@
     }
 
     &__text {
-      padding-right: rem(40);
+      padding-right: rem(60);
     }
+  }
+
+  .scroll {
+    flex-basis: 31%;
   }
 
   .price {
@@ -377,6 +414,10 @@
       font-size: rem(17);
     }
   }
+
+  .client-info {
+    width: 40%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -388,7 +429,7 @@
     }
 
     &__comments {
-      flex-basis: 85%;
+      flex-basis: 17%;
     }
   }
 
