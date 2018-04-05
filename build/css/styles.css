@@ -2031,7 +2031,7 @@ a {
 }
 
 .people__span {
-	margin-bottom: 0.75rem;
+	margin-bottom: 0.9375rem;
 }
 
 .people__text {
@@ -2735,6 +2735,10 @@ a {
 	margin: 0 0 0.625rem;
 }
 
+.opportunity {
+	margin-bottom: 2.875rem;
+}
+
 .opportunity__header {
 	display: flex;
 	justify-content: space-between;
@@ -2778,7 +2782,12 @@ a {
 }
 
 .trophy {
+	margin: 0;
 	flex-basis: 21%;
+}
+
+.trophy:first-child {
+	margin-bottom: 0;
 }
 
 .trophy::after {
@@ -2807,7 +2816,8 @@ a {
 }
 
 .video-courses {
-	padding: 0 4rem 0 4rem;
+	padding: 0;
+	margin-bottom: 2.875rem;
 }
 
 .video-courses__header {
@@ -2819,7 +2829,7 @@ a {
 }
 
 .video-courses__box {
-	flex-basis: 48%;
+	flex-basis: 53%;
 	margin: 0;
 	padding: 0;
 }
@@ -2895,6 +2905,8 @@ a {
 }
 
 .for-hand {
+	padding: 0;
+	margin-bottom: 2.875rem;
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -2956,7 +2968,8 @@ a {
 .four-steps {
 	display: flex;
 	justify-content: space-between;
-	padding: 3.375rem 4.0625rem;
+	padding: 0;
+	margin-bottom: 2.875rem;
 }
 
 .four-steps__main {
@@ -2974,6 +2987,7 @@ a {
 }
 
 .record-course {
+	margin-bottom: 2.875rem;
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
@@ -2981,6 +2995,7 @@ a {
 
 .record-course__info {
 	padding: 0;
+	margin: 0;
 	flex-basis: 40%;
 }
 
@@ -2993,7 +3008,8 @@ a {
 }
 
 .people {
-	padding: 3.5rem 0rem;
+	padding: 0;
+	margin-bottom: 2.875rem;
 }
 
 .people__top {

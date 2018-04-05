@@ -143,7 +143,8 @@
 
 @media (min-width: 768px) {
   .video-courses {
-    padding: 0 rem(64) 0 rem(64);
+    padding: 0;
+    margin-bottom: 2.875rem;
 
     &__header {
       display: flex;
@@ -154,7 +155,7 @@
     }
 
     &__box {
-      flex-basis: 48%;
+      flex-basis: 53%;
       margin: 0;
       padding: 0;
     }
