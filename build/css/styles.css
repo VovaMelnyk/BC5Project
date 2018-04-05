@@ -2995,6 +2995,10 @@ a {
 	font-size: 0.5625rem;
 }
 
+.video {
+	margin-bottom: 2.875rem;
+}
+
 .video__box--box1 {
 	flex-direction: row;
 }
@@ -3111,14 +3115,16 @@ a {
 }
 
 .bonus {
+	padding: 0;
+	margin-bottom: 2.875rem;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .bonus__plus {
 	margin: 0;
-	width: 45%;
+	flex-basis: 40%;
 }
 
 .bonus__title {
@@ -3168,13 +3174,13 @@ a {
 }
 
 .client-info {
-	width: 45%;
+	flex-basis: 37%;
+	padding: 2rem 2.3rem;
 	margin: 0;
 }
 
 .client-info__form {
 	margin: 0;
-	padding: 0 2.25rem;
 }
 
 .form__label {
@@ -3188,7 +3194,7 @@ a {
 
 .form__btn {
 	font-size: 0.75rem;
-	width: 12.7rem;
+	width: 100%;
 }
 
 .counter__title--size {
@@ -3196,13 +3202,14 @@ a {
 }
 
 .after-course {
-	padding: 3.4375rem 0;
+	padding: 0;
 	display: flex;
 	justify-content: space-between;
+	margin-bottom: 2.875rem;
 }
 
 .after-course__info {
-	padding: 1.25rem 0 0;
+	padding: 0;
 	width: 0;
 	flex-basis: 55%;
 	margin: 0;
@@ -3263,9 +3270,13 @@ a {
 	display: block;
 }
 
+.just-now {
+	margin-bottom: 2.875rem;
+}
+
 .just-now__header {
 	display: flex;
-	width: 93.75%;
+	width: 100%;
 	margin: 0 auto 3.125rem;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -3344,6 +3355,7 @@ a {
 }
 
 .important {
+	margin-bottom: 2.875rem;
 	display: flex;
 	justify-content: space-around;
 	flex-direction: row-reverse;
@@ -3357,7 +3369,8 @@ a {
 }
 
 .important__info {
-	flex-basis: 33%;
+	padding: 00;
+	flex-basis: 37%;
 	margin: 0;
 }
 
@@ -3371,6 +3384,7 @@ a {
 }
 
 .action {
+	padding: 0;
 	display: flex;
 	justify-content: space-around;
 }
@@ -3382,7 +3396,7 @@ a {
 }
 
 .action__postscrip {
-	flex-basis: 30%;
+	flex-basis: 35%;
 	padding: 0;
 }
 

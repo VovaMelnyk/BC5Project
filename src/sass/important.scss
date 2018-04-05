@@ -159,6 +159,7 @@
 
 @media (min-width: 768px){
   .important{
+    margin-bottom: 2.875rem;
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -172,7 +173,8 @@
   }
 
   .important__info {
-    flex-basis: 33%;
+    padding: 00;
+    flex-basis: 37%;
     margin: 0;
   }
 

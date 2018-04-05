@@ -144,10 +144,11 @@
 
 @media (min-width: 768px) {
   .just-now {
+    margin-bottom: 2.875rem;
 
     &__header {
       display: flex;
-      width: prc(570, 608);
+      width: 100%;
       margin: 0 auto rem(50);
       justify-content: space-between;
       align-items: flex-start;
