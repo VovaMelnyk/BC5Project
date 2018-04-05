@@ -21,6 +21,14 @@ a {
   text-decoration: none;
 }
 
+input {
+  outline: none;
+}
+
+.main {
+  margin-bottom: 1.875rem;
+}
+
 $white: #fff;
 $blue: #16ebfe;
 $black: #000;
@@ -44,3 +52,10 @@ $white: #ffffff;
 
 $acrom: "Acrom", sans-serif;
 $gilroy: "Gilroy", sans-serif;
+
+
+@media (min-width: 768px) {
+  .main {
+    margin-bottom: 2.875rem;
+  }
+}

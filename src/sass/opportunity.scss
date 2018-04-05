@@ -210,3 +210,17 @@
     }
   }
 }
+
+@media (min-width: 1440px) {
+  .opportunity__header-left {
+    flex-basis: 53%;
+  }
+
+  .opportunity__header-right {
+    flex-basis: 45%;
+  }
+
+  .trophy:after {
+    top: 5rem;
+  }
+}
