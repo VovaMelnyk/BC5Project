@@ -181,7 +181,7 @@
 
   .btn--after-course {
     margin-top: rem(13);
-    font-size: rem(6.73);
+    font-size: rem(12);
     padding: rem(8.5) rem(12.2);
     letter-spacing: rem(1);
   }
@@ -235,12 +235,12 @@
 
   .btn--after-course {
     margin-top: rem(15);
-    font-size: rem(8.41);
+    font-size: rem(12);
     padding: rem(9) rem(8.8);
   }
 }
 
-@media (min-width: 1220px) {
+@media (min-width: 1200px) {
   .after-course {
     &__body {
       margin-top: rem(66);
@@ -262,7 +262,7 @@
 
   .btn--after-course {
     margin-top: rem(13);
-    font-size: rem(8.41);
+    font-size: rem(14);
     padding: rem(11) rem(17.8);
     letter-spacing: rem(1);
   }

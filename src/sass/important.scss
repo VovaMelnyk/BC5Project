@@ -218,6 +218,17 @@
   .slogan__text{
     margin: 0 0 20px;
   }
+
+  .offer {
+    &__btn {
+      font-size: rem(14);
+      margin-bottom: rem(5);
+    }
+  }
+
+  .blue {
+    font-size: rem(14);
+  }
 }
 
 @media (min-width: 1440px){
