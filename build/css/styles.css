@@ -2838,6 +2838,7 @@ input {
 
 .opportunity__blank {
 	margin-left: 3rem;
+	font-size: 0.75rem;
 }
 
 .opportunity__right-one {
@@ -2876,11 +2877,11 @@ input {
 }
 
 .trophy__before-go::before {
-	font-size: 0.575rem;
+	font-size: 0.75rem;
 }
 
 .trophy__before-community::before {
-	font-size: 0.575rem;
+	font-size: 0.75rem;
 }
 
 .trophy__title {
@@ -2924,6 +2925,7 @@ input {
 
 .video-courses__blank {
 	margin-left: 2.8125rem;
+	font-size: 0.75rem;
 }
 
 .video-courses__title {
@@ -2979,6 +2981,7 @@ input {
 
 .video-courses__footer .btn {
 	margin: 0 3.75rem 0 0;
+	font-size: 0.75rem;
 }
 
 .video-step__title-counter {
@@ -3004,6 +3007,7 @@ input {
 
 .for-hand__blank {
 	margin-left: 2.85rem;
+	font-size: 0.75rem;
 }
 
 .for-hand__img {
@@ -3197,6 +3201,7 @@ input {
 
 .video__blank {
 	padding: 0 4.25rem 0;
+	font-size: 0.75rem;
 }
 
 .video__blank:before {
@@ -3433,7 +3438,7 @@ input {
 
 .btn--after-course {
 	margin-top: 0.8125rem;
-	font-size: 0.42063rem;
+	font-size: 0.75rem;
 	padding: 0.53125rem 0.7625rem;
 	letter-spacing: 0.0625rem;
 }
@@ -3481,6 +3486,7 @@ input {
 
 .just-now__info > .blank {
 	margin: 0 0 0 2.8125rem;
+	font-size: 0.75rem;
 }
 
 .just-now__info > .text--orange {
@@ -4167,7 +4173,7 @@ input {
 
 .btn--after-course {
 	margin-top: 0.9375rem;
-	font-size: 0.52563rem;
+	font-size: 0.75rem;
 	padding: 0.5625rem 0.55rem;
 }
 
@@ -4262,6 +4268,10 @@ input {
 
 .blank:before {
 	top: 0.5625rem;
+}
+
+.text {
+	font-size: 0.875rem;
 }
 
 .title {
@@ -4510,6 +4520,19 @@ input {
 	font-weight: 900;
 }
 
+.opportunity__blank {
+	font-size: 0.875rem;
+}
+
+.trophy__before-go::before {
+	font-size: 0.875rem;
+}
+
+.video-courses__blank {
+	font-size: 0.875rem;
+	text-align: left;
+}
+
 .video-courses__header {
 	margin: 0 0 4.75rem;
 }
@@ -4531,6 +4554,10 @@ input {
 	margin: 0 0 2.0625rem 0;
 }
 
+.video-courses__footer .btn {
+	font-size: 0.875rem;
+}
+
 .for-hand__header {
 	flex-basis: 32.49%;
 }
@@ -4541,6 +4568,7 @@ input {
 
 .for-hand__blank {
 	margin-left: 2.85rem;
+	font-size: 0.875rem;
 }
 
 .for-hand__pic {
@@ -4565,6 +4593,10 @@ input {
 
 .video__comments {
 	flex-basis: 17%;
+}
+
+.video__blank {
+	font-size: 0.875rem;
 }
 
 .scroll {
@@ -4602,8 +4634,48 @@ input {
 	margin-right: 0rem;
 }
 
+.form__label {
+	font-size: 0.875rem;
+}
+
+.form__input {
+	font-size: 0.875rem;
+}
+
 .counter__title--size {
 	font-size: 0.9825rem;
+}
+
+.pdf__black--span {
+	font-size: 0.875rem;
+}
+
+.bonus__blank {
+	font-size: 0.875rem;
+}
+
+.after-course__body {
+	margin-top: 4.125rem;
+}
+
+.after-course__img {
+	width: 43%;
+}
+
+.after-course__part {
+	flex-basis: 42%;
+	margin-bottom: 2.1875rem;
+}
+
+.after-course__part--btn {
+	flex-basis: 45%;
+}
+
+.btn--after-course {
+	margin-top: 0.8125rem;
+	font-size: 0.875rem;
+	padding: 0.6875rem 1.1125rem;
+	letter-spacing: 0.0625rem;
 }
 
 .just-now {
@@ -4628,6 +4700,10 @@ input {
 	margin-bottom: 2.0625rem;
 }
 
+.just-now__info > .blank {
+	font-size: 0.875rem;
+}
+
 .important__info {
 	flex-basis: 40%;
 }
@@ -4644,6 +4720,15 @@ input {
 	margin: 0 0 20px;
 }
 
+.offer__btn {
+	font-size: 0.875rem;
+	margin-bottom: 0.3125rem;
+}
+
+.blue {
+	font-size: 0.875rem;
+}
+
 .important {
 	justify-content: space-between;
 }
@@ -4652,11 +4737,19 @@ input {
 	justify-content: space-between;
 }
 
+.slogan__text {
+	font-size: 0.875rem;
+}
+
 .slogan__text:before {
 	border: 0.125rem solid #000000;
 	width: 1.5rem;
 	top: 0.4rem;
 	left: 0.1875rem;
+}
+
+.slogan__btn {
+	font-size: 0.875rem;
 }
 
 .footer__top {
@@ -4689,34 +4782,6 @@ input {
 	display: flex;
 	justify-content: space-between;
 	flex-basis: 70%;
-}
-
-}
-
-@media (min-width: 1220px) {
-
-.after-course__body {
-	margin-top: 4.125rem;
-}
-
-.after-course__img {
-	width: 43%;
-}
-
-.after-course__part {
-	flex-basis: 42%;
-	margin-bottom: 2.1875rem;
-}
-
-.after-course__part--btn {
-	flex-basis: 45%;
-}
-
-.btn--after-course {
-	margin-top: 0.8125rem;
-	font-size: 0.52563rem;
-	padding: 0.6875rem 1.1125rem;
-	letter-spacing: 0.0625rem;
 }
 
 }

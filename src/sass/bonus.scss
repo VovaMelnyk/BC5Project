@@ -327,11 +327,35 @@
     margin-right: rem(0);
   }
 
+  .form {
+    &__label {
+      font-size: rem(14);
+    }
+
+    &__input {
+      font-size: rem(14);
+    }
+  }
+
   .counter {
     &__title {
       &--size {
         font-size: 0.9825rem;
       }
+    }
+  }
+
+  .pdf {
+    &__black {
+      &--span {
+        font-size: rem(14);
+      }
+    }
+  }
+
+  .bonus {
+    &__blank {
+      font-size: rem(14);
     }
   }
 }

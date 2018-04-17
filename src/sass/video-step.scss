@@ -169,6 +169,7 @@
     }
     &__blank {
       margin-left: rem(45);
+      font-size: rem(12);
     }
 
     &__title {
@@ -222,6 +223,7 @@
       justify-content: flex-end;
       .btn {
         margin: 0 rem(60) 0 0;
+        font-size: rem(12);
       }
     }
   }
@@ -237,13 +239,11 @@
     padding: 0;
 
     &__header {
-
       margin: 0 0 rem(68);
     }
 
     &__box {
       flex-basis: 47%;
-
     }
 
     &__pic {
@@ -275,9 +275,6 @@
       flex-basis: 45%;
 
     }
-    &__footer {
-
-    }
   }
   .video-step {
     &__title-counter {
@@ -289,8 +286,12 @@
 @media (min-width: 1200px) {
   .video-courses {
 
-    &__header {
+    &__blank {
+      font-size: rem(14);
+      text-align: left;
+    }
 
+    &__header {
       margin: 0 0 rem(76);
     }
 
@@ -311,6 +312,12 @@
       flex-basis: 27%;
       margin: 0 0 rem(33) 0;
 
+    }
+
+    &__footer {
+      .btn {
+        font-size: rem(14);
+      }
     }
 
   }

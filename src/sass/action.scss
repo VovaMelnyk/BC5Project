@@ -155,11 +155,21 @@
     justify-content: space-between;
   }
 
-  .slogan__text:before {
-    border: rem(2) solid #000000;
-    width: rem(24);
-    top: rem(6.4);
-    left: rem(3);
+  .slogan {
+    &__text {
+      font-size: rem(14);
+
+      &:before {
+        border: rem(2) solid #000000;
+        width: rem(24);
+        top: rem(6.4);
+        left: rem(3);
+      }
+    }
+
+    &__btn {
+      font-size: rem(14);
+    }
   }
 }
 

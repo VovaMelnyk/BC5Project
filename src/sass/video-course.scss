@@ -264,6 +264,7 @@
 
     &__blank {
       padding: 0 rem(68) 0;
+      font-size: rem(12);
 
       &:before {
         left: rem(32);
@@ -418,6 +419,10 @@
 
     &__comments {
       flex-basis: 17%;
+    }
+
+    &__blank {
+      font-size: rem(14);
     }
   }
 

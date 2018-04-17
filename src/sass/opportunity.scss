@@ -152,6 +152,7 @@
 
     &__blank {
       margin-left: 3rem;
+      font-size: rem(12);
     }
 
     &__right {
@@ -190,12 +191,12 @@
 
       &-go {
         &::before {
-          font-size: 0.575rem;
+          font-size: rem(12);
         }
       }
       &-community {
         &::before {
-          font-size: 0.575rem;
+          font-size: rem(12);
         }
       }
     }
@@ -207,6 +208,24 @@
     }
     &__img-globus {
       right: -0.5rem;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .opportunity {
+    &__blank {
+      font-size: rem(14);
+    }
+  }
+
+  .trophy {
+    &__before {
+      &-go{
+        &::before {
+          font-size: rem(14);
+        }
+      }
     }
   }
 }
