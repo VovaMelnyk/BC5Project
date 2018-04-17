@@ -29,6 +29,7 @@
     &__blank {
         width: rem(200);
         margin: 0 0 rem(32) rem(66);
+        font-size: rem(12);
     }
     &__list {
         width: 93%;
@@ -83,9 +84,9 @@
         margin: 0 0 rem(94);
         display: flex;
         &__descant {
-            width: rem(76);
-            font-size: rem(9);
-            line-height: rem(17);
+            width: rem(92);
+            font-size: rem(11);
+            line-height: rem(21);
         }
         &__text--black{
             margin: 0 auto rem(12);
@@ -159,9 +160,10 @@
             margin-bottom: rem(38);
         }
         &__descant {
-            width: rem(98);
-            font-size: rem(10);
-            line-height: rem(19);
+            width: rem(116);
+            font-size: rem(14);
+            line-height: rem(30);
+
             }
         &__title {
             line-height: rem(54);
@@ -169,6 +171,13 @@
         }
         &__counter {
             margin: 0 0 rem(12);
+            font-size: rem(14);
+        }
+        &__blank {
+            font-size: rem(14);
+        }
+        &__list {
+            width: 81%;
         }
     }
 }
@@ -179,9 +188,9 @@
             margin-bottom: rem(45);
         }
         &__descant {
-            width: rem(98);
-            font-size: rem(12);
-            line-height: rem(22);
+            width: rem(116);
+            font-size: rem(14);
+            line-height: rem(30);
         }
         &__title {
             width: rem(320);

@@ -6,10 +6,13 @@
         margin: 0 0 rem(46);
     }
     &__text {
-        margin: 0 0 rem(30);
+        margin: 0 0 rem(24);
+        font-size: 12px;
+        width: 83%;
     }
     &__blank {
         margin: 0 0 rem(12) rem(73);
+        text-transform: uppercase;
     }
     &__box-right {
         margin: 0 0 rem(30);
@@ -151,15 +154,20 @@
                 }
         }
     &__box-right {
-        flex-basis: 40%;
+        flex-basis: 44%;
         margin: 0;
         }
     &__text {
         text-align: left;
         margin: 0 0 rem(40);
+        font-size: 12px;
         }
     &__blank {
         margin: 0 0 rem(20) rem(46);
+        font-size: rem(12);
+
+        font-weight: 900;
+        width: 50%;
         }
     &__title {
         width: rem(300);
@@ -179,7 +187,7 @@
         }
 
     &__txt {
-        font-size: rem(9);
+        font-size: rem(12);
         flex-basis: 22%;
         margin: 0 0 rem(20);
 
@@ -188,8 +196,8 @@
             }
 
         &--orange {
-            font-size: rem(9);
-            flex-basis: 26%;
+            font-size: rem(12);
+            flex-basis: 36%;
             margin: rem(14) 0  0 auto;
             text-align: left;
             font-weight: 700;
@@ -211,9 +219,11 @@
         }
     &__text {
         margin: 0 0 rem(42);
+
         }
     &__blank {
         margin: 0 0 rem(22) rem(46);
+        width: 42%;
         }
     &__title {
         line-height: rem(57);
@@ -232,13 +242,7 @@
             left: rem(-110);
             }
         }
-    &__txt {
-        font-size: rem(11);
 
-        &--orange {
-            font-size: rem(11);
-            }
-        }
     }
 }
 @media (min-width: 1200px) {
@@ -271,14 +275,20 @@
             left: rem(-120);
             }
         }
-
+    &__text {
+        font-size: rem(14);
+    }
+    &__blank {
+        font-size: rem(14);
+    }
     &__txt {
-        font-size: rem(10);
+        font-size: rem(14);
         flex-basis: 28%;
 
         &--orange {
             margin: 0;
-            font-size: rem(10);
+            font-size: rem(12);
+            flex-basis: 27%;
             }
 
         &:nth-child(-n+6) {
@@ -315,7 +325,6 @@
             }
         }
     &__txt {
-        font-size: rem(12);
         flex-basis: 30%;
 
         &--orange {

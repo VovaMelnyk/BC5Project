@@ -198,7 +198,7 @@
         &__start {
             margin: rem(36) 0 0 rem(50);
             max-width: prc(335, 640);
-            font-size: rem(7.85);
+            font-size: rem(11);
             text-align: left;
             &::before {
                 font-size: rem(13.46);
@@ -215,12 +215,12 @@
             align-self: flex-start;
         }
         &__subtitle {
-            max-width: prc(460, 640);
-            font-size: rem(10);
+            max-width: prc(500, 640);
+            font-size: rem(11);
         }
         &__text {
             margin: rem(10) auto 0;
-            font-size: rem(9);
+            font-size: rem(11);
             max-width: prc(460, 640);
         }
     }
@@ -288,7 +288,6 @@
         &__start {
             margin: rem(48) 0 0 rem(50);
             max-width: prc(410, 800);
-            font-size: rem(9.81);
             text-align: left;
             &::before {
                 font-size: rem(16.82);
@@ -305,13 +304,12 @@
             align-self: flex-start;
         }
         &__subtitle {
-            max-width: prc(590, 800);
-            font-size: rem(12.62);
+            max-width: prc(520, 800);
+
         }
         &__text {
             margin: rem(10) auto 0;
-            font-size: rem(11.22);
-            max-width: prc(590, 800);
+            max-width: prc(550, 800);
         }
     }
     .btn {
@@ -378,7 +376,7 @@
         &__start {
             margin: rem(42) 0 0 rem(50);
             max-width: prc(370, 714);
-            font-size: rem(8.75);
+            font-size: rem(14);
             text-align: left;
             &::before {
                 font-size: rem(15);
@@ -396,11 +394,11 @@
         }
         &__subtitle {
             max-width: prc(510, 714);
-            font-size: rem(11.25);
+            font-size: rem(14);
         }
         &__text {
             margin: rem(10) auto 0;
-            font-size: rem(10);
+            font-size: rem(14);
             max-width: prc(510, 714);
         }
     }
@@ -468,7 +466,6 @@
         &__start {
             margin: rem(52) 0 0 rem(50);
             max-width: prc(450, 855);
-            font-size: rem(10.5);
             text-align: left;
             &::before {
                 font-size: rem(18);
@@ -486,11 +483,9 @@
         }
         &__subtitle {
             max-width: prc(620, 855);
-            font-size: rem(13.5);
         }
         &__text {
             margin: rem(10) auto 0;
-            font-size: rem(12);
             max-width: prc(620, 855);
         }
     }

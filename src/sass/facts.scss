@@ -123,7 +123,7 @@
             position: absolute;
             z-index: -1;
             bottom: -10%;
-            right: -20%;
+            right: -10%;
         }
         &__title {
             margin: 0 0 rem(23);
@@ -131,6 +131,8 @@
         }
         &__blank {
             margin-left: rem(67);
+            font-size: 0.725rem;
+            width: 68.8%;
         }
     }
 }
@@ -143,6 +145,9 @@
         &__title {
             margin: 0 0 rem(28);
         }
+        &__blank {
+            font-size: rem(14);
+        }
         &__item {
             margin: 0 0 rem(25) 0;
         }
@@ -150,8 +155,13 @@
             margin-bottom: rem(15);
         }
         &__graph {
-            right: -40%;
+            right: -30%;
         }
+    }
+}
+@media (min-width:1200px){
+    .blue--facts {
+        font-size: rem(14);
     }
 }
 @media (min-width: 1440px) {

@@ -155,14 +155,14 @@
     }
 
     &__blank {
-      font-size: rem(9);
-      width: 55%;
-      margin: 0 auto 0;
+      font-size: rem(12);
+      width: 56%;
+      margin-left: rem(112) ;
     }
 
     &__black {
-      font-size: rem(9);
-      line-height: rem(16);
+      font-size: rem(11);
+      line-height: rem(19);
     }
 
     &__article {
@@ -177,7 +177,7 @@
 
     &__text {
       flex-basis: 60%;
-      font-size: rem(9);
+      font-size: rem(12);
     }
 
   }
@@ -194,13 +194,25 @@
 
     &__blank {
       width: 80%;
+      margin-left: rem(88);
     }
 
-    &__text {
-      font-size: rem(10);
-    }
+
   }
 
 }
+@media (min-width: 1200px) {
+  .people {
 
+    &__blank {
+      font-size: rem(14);
+    }
+    &__black {
+      font-size: rem(14);
+    }
+    &__text {
+      font-size: rem(14);
+    }
+  }
+}
 

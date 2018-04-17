@@ -25,7 +25,7 @@
     margin: rem(10) 0 0;
     text-transform: uppercase;
     color: $black;
-    font-size: rem(5);
+    font-size: rem(9);
     font-weight: 900;
     text-align: left;
     width: inherit;
@@ -57,7 +57,7 @@
 
   &__text {
     font-family: $acrom;
-    font-size: rem(4);
+    font-size: rem(6);
     flex-basis: 60%;
   }
 
@@ -85,13 +85,9 @@
     }
 
     &__name {
-      font-size: rem(6);
       width: 70%;
     }
 
-    &__text {
-      font-size: rem(6);
-    }
 
   }
 
@@ -120,17 +116,17 @@
     }
 
     &__blank {
-      font-size: rem(10);
-      width: 47%;
+      font-size: rem(12);
+      width: 66%;
       margin: 0 auto;
     }
 
     &__name {
-      font-size: rem(8);
+      font-size: rem(12);
     }
 
     &__text {
-      font-size: rem(9);
+      font-size: rem(12);
     }
 
   }
@@ -152,17 +148,11 @@
     }
 
     &__blank {
-      font-size: rem(12);
       width: 76%;
     }
 
-    &__name {
-      font-size: rem(10);
-    }
 
-    &__text {
-      font-size: rem(10);
-    }
+
   }
 
 }
@@ -172,7 +162,7 @@
     margin: 0 0 rem(60);
     &__body {
 
-      flex-basis: 70%;
+      flex-basis: 80%;
     }
 
     &__title {
@@ -189,20 +179,19 @@
       flex-basis: 42%;
     }
     &__blank {
-
-      font-size: rem(10);
+      font-size: rem(14);
       width: 74%;
     }
 
     &__name {
 
-      font-size: rem(9);
+      font-size: rem(14);
     }
 
     &__text {
 
-      font-size: rem(9);
-      line-height: rem(14);
+      font-size: rem(14);
+      line-height: rem(16);
     }
 
   }
@@ -214,9 +203,7 @@
     width: 100%;
     margin: 0 0 rem(75);
 
-    &__body {
-      flex-basis: 55%;
-    }
+
 
     &__title {
       width: 80%;
@@ -225,7 +212,6 @@
 
 
     &__blank {
-      font-size: rem(12);
       font-weight: 700;
       width: 75%;
     }
@@ -239,14 +225,10 @@
     }
 
     &__name {
-      font-size: rem(10);
       width: 90%;
       margin: rem(10)  auto;
     }
 
-    &__text {
-      font-size: rem(10);
-    }
 
   }
 

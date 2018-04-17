@@ -96,6 +96,7 @@
     &__blank {
       width: 85%;
       margin: 0 0 0 auto;
+      font-size: rem(12);
     }
 
     &__list {
@@ -128,7 +129,6 @@
     }
 
     &__blank {
-      font-size: rem(12);
       font-weight: 700;
       text-align: justify;
       width: 75%;
@@ -164,14 +164,14 @@
     }
 
     &__list {
-      width: 90%;
+      width: 92%;
     }
     &__body {
       flex-basis: 41%;
     }
 
     &__blank {
-      font-size: rem(10);
+      font-size: rem(14);
       font-weight: 700;
     }
     &::before {
@@ -181,7 +181,9 @@
       width: rem(30);
       left: rem(-40);
     }
-
+    &__counter {
+      font-size: rem(14);
+    }
   &__title {
 
     &-container {
@@ -223,7 +225,6 @@
     }
 
     &__blank {
-      font-size: rem(12);
       width: 69%;
       }
 

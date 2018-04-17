@@ -94,6 +94,11 @@
     &__main {
       flex-basis: 45%
     }
+    &__blank {
+      margin: 0 0 2rem rem(48);
+      font-size: rem(12);
+      width: 54%;
+    }
   }
   .steps{
     display: flex;
@@ -143,7 +148,15 @@
     }
   }
 }
+@media(min-width: 1200px) {
+  .four-steps {
+    &__blank {
 
+      font-size: rem(14);
+      width: 56%;
+    }
+  }
+}
 @media (min-width: 1440px) {
   .counter--num {
 
