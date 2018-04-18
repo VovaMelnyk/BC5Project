@@ -363,6 +363,7 @@ input {
 .earn__txt--orange {
 	font-size: 0.5625rem;
 	font-weight: 500;
+	color: #ff6b08;
 	width: 60%;
 	margin: auto;
 	text-align: center;
@@ -2621,7 +2622,7 @@ input {
 }
 
 .facts__box-right {
-	flex-basis: 76%;
+	flex-basis: 70%;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
